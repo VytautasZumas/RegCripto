@@ -282,6 +282,8 @@ body {
   border-top: 1px solid var(--border);
 }
 .sidebar-info { font-size: var(--font-size-xs); color: var(--text-muted); line-height: 1.8; }
+.sidebar-autor { margin-top: 0.4rem; color: var(--text-secondary); }
+.sidebar-autor strong { color: var(--text-primary); }
 
 /* ---------- MAIN ---------- */
 #main {
@@ -1079,6 +1081,39 @@ body {
 
   [data-mode="aula"] #sidebar { transform: translateX(-100%); }
 }
+
+/* ---------- Rodapé ---------- */
+#site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1.25rem 2rem;
+  margin-left: var(--sidebar-width);
+  border-top: 1px solid var(--border);
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  transition: margin-left var(--transition-slow);
+}
+
+[data-mode="aula"] #site-footer { margin-left: 0; }
+
+@media (max-width: 768px) { #site-footer { margin-left: 0; } }
+
+#site-footer strong { color: var(--text-secondary); }
+
+.footer-sep { opacity: 0.4; }
+
+.footer-link {
+  display: inline-flex; align-items: center; gap: 4px;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.footer-link:hover { color: var(--accent); }
+
+@media print { #site-footer { display: none; } }
 
 /* ---------- Links oficiais ---------- */
 .links-oficiais {
