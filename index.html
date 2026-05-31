@@ -46,10 +46,10 @@
           </button>
         </div>
       </div>
-      <div class="logo">
+      <button id="logo-home" class="logo" title="Voltar à página inicial" aria-label="Página inicial">
         <span class="logo-icon">⚖</span>
         <span class="logo-text">RegCripto <span class="logo-badge">BR</span></span>
-      </div>
+      </button>
     </div>
 
     <div class="header-center">
@@ -103,6 +103,11 @@
 
   <!-- MAIN -->
   <main id="main">
+    <!-- HOME / Página inicial (preenchida por JS) -->
+    <section id="home-view" class="home-view hidden" aria-label="Página inicial"></section>
+
+    <!-- Wrapper do conteúdo de módulo -->
+    <div id="module-view">
     <!-- Cabeçalho do módulo -->
     <div id="module-header" class="module-header">
       <div class="module-meta">
@@ -147,6 +152,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
     </div>
+    </div><!-- /#module-view -->
   </main>
 
   <!-- TOOLTIP -->

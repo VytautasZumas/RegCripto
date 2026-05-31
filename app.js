@@ -34,8 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
   carregarEstado();
   inicializarUI();
   construirSidebar();
-  irParaModulo(estado.moduloAtual, false);
   registrarEventos();
+
+  // Home só na 1ª visita; depois abre no último módulo visto
+  const jaVisitou = localStorage.getItem('regcripto_visited') === '1';
+  if (jaVisitou) {
+    irParaModulo(estado.moduloAtual, false);
+  } else {
+    mostrarHome();
+  }
 });
 
 // ---------- Persistência ----------
@@ -129,10 +136,147 @@ function atualizarSidebar() {
   document.getElementById('progress-pct').textContent = pct + '%';
 }
 
+// ---------- Home / Página inicial ----------
+const CRONOGRAMA_HOME = [
+  { data: 'Dez 2022', evento: 'Lei 14.478', cor: 'lei' },
+  { data: 'Jun 2023', evento: 'Decreto 11.563 — BCB regula', cor: 'decreto' },
+  { data: 'Nov 2025', evento: 'Res. BCB 519/520/521', cor: 'bcb' },
+  { data: '2 Fev 2026', evento: 'Vigência do marco', cor: 'bcb' },
+  { data: '30 Out 2026', evento: 'Prazo p/ autorização', cor: 'bcb' },
+  { data: 'Fev 2028', evento: 'Travel Rule plena', cor: 'bcb' },
+];
+
+function renderizarHome() {
+  const cards = MODULOS_META.map(m => {
+    const done = estado.progresso[m.id] && estado.progresso[m.id].visto;
+    return `
+      <button class="home-module-card cor-${m.cor} ${done ? 'done' : ''}" data-id="${m.id}">
+        <div class="home-module-top">
+          <span class="home-module-icon">${m.icone}</span>
+          <span class="home-module-num">${m.id}</span>
+        </div>
+        <span class="home-module-title">${m.titulo}</span>
+      </button>`;
+  }).join('');
+
+  const tl = CRONOGRAMA_HOME.map(t => `
+    <div class="home-tl-item ${t.cor}">
+      <span class="home-tl-dot"></span>
+      <div class="home-tl-data">${t.data}</div>
+      <div class="home-tl-evento">${t.evento}</div>
+    </div>`).join('');
+
+  const view = document.getElementById('home-view');
+  view.innerHTML = `
+    <div class="home-hero">
+      <span class="home-hero-badge">⚖ Marco Regulatório 2025–2026</span>
+      <div class="home-hero-icon">🪙</div>
+      <h1>Regulação de <span class="gradient-text">Criptoativos</span><br>no Brasil</h1>
+      <p class="home-hero-tagline">
+        Do GAFI ao Banco Central: um guia interativo e prático sobre o marco regulatório
+        completo das Prestadoras de Serviços de Ativos Virtuais (PSAVs).
+      </p>
+      <button class="home-cta" id="home-comecar">
+        Começar pelo início
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+      <span class="home-cta-sub">11 módulos · quizzes · checklist PSAV · fontes oficiais</span>
+    </div>
+
+    <div class="home-section">
+      <div class="home-cards">
+        <div class="home-card">
+          <span class="home-card-icon">📘</span>
+          <h3>O que é</h3>
+          <p>Uma plataforma de estudo que traduz a linguagem jurídico-regulatória em texto objetivo e acessível — sem perder o rigor técnico. Cobre desde as recomendações internacionais do GAFI até as obrigações fiscais da Receita Federal.</p>
+        </div>
+        <div class="home-card">
+          <span class="home-card-icon">🎯</span>
+          <h3>Para quem é</h3>
+          <ul>
+            <li>PSAVs entrando ou se adequando à regulação</li>
+            <li>Profissionais de compliance e jurídico</li>
+            <li>Estudantes e participantes de aulas</li>
+            <li>Quem precisa de um baseline de conformidade</li>
+          </ul>
+        </div>
+        <div class="home-card">
+          <span class="home-card-icon">🧭</span>
+          <h3>Como navegar</h3>
+          <p>Use o menu <strong>☰</strong> para busca, checklist e progresso. O botão <strong>RegCripto</strong> no topo sempre traz você de volta aqui. Seu progresso fica salvo no navegador.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-section">
+      <h2 class="home-section-title">Dois modos de uso</h2>
+      <p class="home-section-sub">Alterne a qualquer momento no topo da tela</p>
+      <div class="home-modos">
+        <div class="home-modo">
+          <span class="home-modo-tag aula">🖥 Modo Aula</span>
+          <p>Tela limpa e ampliada, ideal para projetar durante a apresentação. O quiz mostra apenas acerto ou erro, mantendo o desafio para a turma.</p>
+        </div>
+        <div class="home-modo">
+          <span class="home-modo-tag estudo">📚 Modo Estudo</span>
+          <p>Barra lateral com todos os módulos e barra de progresso. O quiz revela o gabarito e a explicação completa após cada resposta. Perfeito para revisão.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-section">
+      <h2 class="home-section-title">Os 11 módulos</h2>
+      <p class="home-section-sub">Clique em qualquer um para ir direto ao conteúdo</p>
+      <div class="home-modules-grid">${cards}</div>
+    </div>
+
+    <div class="home-section">
+      <h2 class="home-section-title">Linha do tempo regulatória</h2>
+      <p class="home-section-sub">Da Lei 14.478 à conformidade plena</p>
+      <div class="home-timeline">${tl}</div>
+    </div>
+
+    <div class="home-section">
+      <div class="home-disclaimer">
+        <span class="home-disclaimer-icon">ℹ️</span>
+        <span>Material educativo elaborado com base nos textos oficiais das normas (BCB, RFB, Planalto, GAFI/OCDE). Não substitui assessoria jurídica especializada nem a leitura integral das normas. Vigência de referência: 2 de fevereiro de 2026.</span>
+      </div>
+    </div>
+  `;
+
+  // Eventos da home
+  view.querySelector('#home-comecar').addEventListener('click', () => irParaModulo(0));
+  view.querySelectorAll('.home-module-card').forEach(c => {
+    c.addEventListener('click', () => irParaModulo(parseInt(c.dataset.id)));
+  });
+}
+
+function mostrarHome() {
+  renderizarHome();
+  document.documentElement.setAttribute('data-view', 'home');
+  document.getElementById('home-view').classList.remove('hidden');
+  document.getElementById('module-view').classList.add('hidden');
+
+  // Limpa destaque de módulo ativo na sidebar
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+
+  // Fecha sidebar em mobile
+  if (window.innerWidth < 768) {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('overlay').classList.add('hidden');
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 // ---------- Navegação principal ----------
 async function irParaModulo(id, scroll = true) {
   id = Math.max(0, Math.min(MODULOS_META.length - 1, id));
   estado.moduloAtual = id;
+
+  // Marca a 1ª visita como concluída e sai da home
+  localStorage.setItem('regcripto_visited', '1');
+  document.documentElement.setAttribute('data-view', 'module');
+  document.getElementById('home-view').classList.add('hidden');
+  document.getElementById('module-view').classList.remove('hidden');
 
   // Marca como visto
   if (!estado.progresso[id]) estado.progresso[id] = { visto: false, quizFeito: false, acertos: 0, total: 0 };
@@ -659,6 +803,9 @@ function renderizarFavoritos() {
 
 // ---------- Eventos ----------
 function registrarEventos() {
+  // Logo → home
+  document.getElementById('logo-home').addEventListener('click', mostrarHome);
+
   // Tema
   document.getElementById('theme-toggle').addEventListener('click', () => {
     estado.tema = estado.tema === 'light' ? 'dark' : 'light';
