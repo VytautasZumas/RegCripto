@@ -1,0 +1,161 @@
+{
+  "id": 3,
+  "titulo": "Decreto 11.563/2023",
+  "subtitulo": "BCB como regulador único das Prestadoras de Serviços de Ativos Virtuais",
+  "norma": "Decreto nº 11.563/2023",
+  "vigencia": "Publicado 13 jun 2023 | Vigência 20 jun 2023",
+  "glossario": {
+    "BCB": "Banco Central do Brasil — designado como autoridade reguladora e supervisora das PSAVs pelo Decreto 11.563/2023",
+    "CVM": "Comissão de Valores Mobiliários — mantém competência sobre ativos virtuais com características de valor mobiliário",
+    "PROCON": "Órgão estadual de proteção ao consumidor — atua em conjunto com o SENACON em defesa dos usuários de PSAVs",
+    "Valor mobiliário": "Instrumento como ações, debêntures e security tokens — regulado pela CVM, não sujeito à exclusividade do BCB sobre PSAVs"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "O Decreto 11.563/2023 é o elo entre a Lei 14.478/2022 e as normas do BCB. Em apenas dois artigos centrais, ele resolveu a questão mais urgente do mercado: quem, afinal, regula as exchanges de criptoativos no Brasil? A resposta foi clara — o BCB. Mas com ressalvas importantes: a CVM mantém sua competência sobre tokens de valor mobiliário, e as autoridades de defesa do consumidor e de combate ao crime preservam suas atribuições.",
+      "normas": [
+        {
+          "texto": "Decreto 11.563/2023",
+          "cor": "decreto"
+        },
+        {
+          "texto": "Base para Res. BCB 519/520/521",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Vinculado à Lei 14.478/2022",
+          "cor": "lei"
+        }
+      ]
+    },
+    {
+      "id": "competencia",
+      "tipo": "duplo-painel",
+      "titulo": "BCB como Autoridade Reguladora (Art. 1º)",
+      "norma_diz": "Fica o Banco Central do Brasil autorizado a regulamentar e a supervisionar as prestadoras de serviços de ativos virtuais de que trata a Lei 14.478/2022. Cabe ao BCB: (a) autorizar o funcionamento das PSAVs; (b) estabelecer requisitos e procedimentos para autorização; (c) cancelar autorizações; (d) supervisionar e fiscalizar; (e) aplicar penalidades.",
+      "na_pratica": "Na prática: o BCB tem poderes de banco central sobre as exchanges. Pode autorizar, supervisionar, multar e cancelar licenças. Isso coloca o mercado brasileiro no mesmo patamar que os bancos: sujeito à fiscalização da autoridade monetária, com capacidade de intervenção em caso de irregularidade.",
+      "atencao": "O Decreto é de 2023, mas as normas operacionais (Res. 519/520/521) só foram publicadas em novembro/2025 — um hiato de 2 anos em que o mercado operou sem regulamentação infralegal completa. Durante esse período, aplicavam-se as disposições transitórias da Lei 14.478."
+    },
+    {
+      "id": "competencias",
+      "tipo": "tabela",
+      "titulo": "Distribuição de Competências",
+      "intro": "O Decreto preserva um ecossistema regulatório múltiplo. Entender quem faz o quê é essencial para a conformidade:",
+      "colunas": [
+        "Órgão",
+        "Competência",
+        "Excluído de"
+      ],
+      "linhas": [
+        [
+          "<strong>BCB</strong>",
+          "Regular e supervisionar PSAVs que prestam serviços com ativos virtuais (não-mobiliários). Autorizar funcionamento, fiscalizar, sancionar.",
+          "Ativos virtuais com característica de valor mobiliário — esses ficam com a CVM"
+        ],
+        [
+          "<strong>CVM</strong>",
+          "Emissão e negociação de ativos virtuais com característica de valor mobiliário (security tokens, tokens de renda fixa coletiva, etc.)",
+          "PSAVs que só operam com criptomoedas sem característica mobiliária"
+        ],
+        [
+          "<strong>COAF</strong>",
+          "Inteligência financeira: receber comunicações de operações suspeitas das PSAVs, analisar e repassar a autoridades investigativas",
+          "Supervisão e autorização de PSAVs — essa é do BCB"
+        ],
+        [
+          "<strong>PROCON / SENACON</strong>",
+          "Defesa do consumidor nas relações entre PSAVs e clientes pessoa física — CDC aplica-se integralmente",
+          "Regulação prudencial e de mercado — essa é do BCB"
+        ],
+        [
+          "<strong>MP / Polícia Federal</strong>",
+          "Investigação e repressão criminal: fraudes, lavagem de dinheiro, crimes financeiros no mercado de ativos virtuais",
+          "Regulação e supervisão do mercado — essas são do BCB e CVM"
+        ]
+      ]
+    },
+    {
+      "id": "transicao",
+      "tipo": "duplo-painel",
+      "titulo": "Período de Transição e o Art. 9º da Lei",
+      "norma_diz": "O Art. 9º da Lei 14.478/2022 prevê que as PSAVs em atividade na data de entrada em vigor da regulamentação podem continuar operando durante o período de adequação, observados os prazos e condições estabelecidos pela autoridade reguladora.",
+      "na_pratica": "Isso criou o 'período de tolerância' que a Res. BCB 520 implementou: PSAVs já em operação em 2/2/2026 têm 270 dias para protocolar o pedido de autorização (até ~30/10/2026). Durante esse período, podem operar, mas devem cumprir progressivamente os requisitos da Resolução.",
+      "atencao": "A Res. BCB 520, Art. 26 da Res. BCB 519 e Art. 88 da Res. BCB 520 detalham exatamente o que é o 'período de adequação': obrigações que começam imediatamente (PLD, segregação, saldo diário ao BCB) e aquelas com prazo estendido."
+    },
+    {
+      "id": "pratica",
+      "tipo": "fluxo",
+      "titulo": "Da Lei ao Decreto às Resoluções — Como Funciona",
+      "passos": [
+        {
+          "titulo": "Lei 14.478/2022 (Congresso Nacional)",
+          "desc": "Estabelece o marco legal: define ativo virtual, PSAV, obrigações gerais, delega regulação ao Executivo. É a lei de referência — tudo emana dela."
+        },
+        {
+          "titulo": "Decreto 11.563/2023 (Presidência da República)",
+          "desc": "Designa o BCB como autoridade reguladora e supervisora das PSAVs. Define a estrutura de competências (BCB/CVM/COAF/PROCON). Vigência: 20/06/2023."
+        },
+        {
+          "titulo": "Resolução BCB 519/2025 (BCB)",
+          "desc": "Detalha os processos de autorização: 10 requisitos, 9 eventos que exigem autorização prévia, 2 fases para empresas em operação. Vigência: 2/2/2026."
+        },
+        {
+          "titulo": "Resolução BCB 520/2025 (BCB)",
+          "desc": "Detalha a constituição e funcionamento: 3 modalidades, capital, denominação, governança, segregação, PLD, Travel Rule, custódia. Vigência: 2/2/2026."
+        },
+        {
+          "titulo": "Resolução BCB 521/2025 (BCB)",
+          "desc": "Integra ativos virtuais ao câmbio: 4 categorias de operações cambiais, limites por tipo de IF, reporte mensal, altera Res. 277/278/279. Vigência: 2/2/2026 e 4/5/2026."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "O Decreto 11.563/2023 designou qual órgão como responsável por regular e supervisionar as PSAVs no Brasil?",
+      "opcoes": [
+        "Comissão de Valores Mobiliários (CVM)",
+        "Conselho Monetário Nacional (CMN)",
+        "Banco Central do Brasil (BCB)",
+        "Receita Federal do Brasil (RFB)"
+      ],
+      "correta": 2,
+      "explicacao": "O Decreto 11.563/2023 (Art. 1º) autoriza expressamente o BCB a regulamentar e supervisionar as PSAVs, incluindo autorizar funcionamento, fiscalizar e aplicar penalidades."
+    },
+    {
+      "pergunta": "Segundo o Decreto 11.563/2023, a CVM mantém competência sobre:",
+      "opcoes": [
+        "Todas as PSAVs, em conjunto com o BCB",
+        "Ativos virtuais com característica de valor mobiliário (security tokens)",
+        "Apenas exchanges estrangeiras operando no Brasil",
+        "Nenhuma — a CVM não tem papel no mercado de ativos virtuais"
+      ],
+      "correta": 1,
+      "explicacao": "O Decreto preserva a competência da CVM sobre ativos virtuais que tenham característica de valor mobiliário (security tokens). A CVM e o BCB divulgaram notas conjuntas orientando como diferenciar os casos. A exclusividade do BCB é apenas para PSAVs que operem com ativos não-mobiliários."
+    },
+    {
+      "pergunta": "Uma PSAV em operação antes de 2 de fevereiro de 2026 pode continuar operando durante o período de adequação. Qual é o prazo para protocolar o pedido de autorização?",
+      "opcoes": [
+        "2 de fevereiro de 2026 (imediatamente na vigência da norma)",
+        "90 dias a partir da vigência",
+        "270 dias a partir da vigência da Res. BCB 520 (~30/10/2026)",
+        "365 dias a partir da vigência"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 88, inciso I da Res. BCB 520 estabelece 270 dias contados de 2/2/2026 para protocolar o pedido de autorização — o que resulta em aproximadamente 30 de outubro de 2026. Esse prazo tem base no Art. 9º da Lei 14.478/2022."
+    }
+  ],
+  "links": [
+    {
+      "label": "Decreto 11.563/2023 — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11563.htm"
+    },
+    {
+      "label": "BCB — Nota sobre competências BCB/CVM",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/ativosvirtuais"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": 2,
+  "titulo": "Lei 14.478/2022",
+  "subtitulo": "O Marco Legal dos Criptoativos no Brasil",
+  "norma": "Lei 14.478/2022",
+  "vigencia": "Publicada 21 dez 2022",
+  "glossario": {
+    "Ativo virtual": "Representação digital de valor que pode ser negociada ou transferida eletronicamente e utilizada para pagamento ou investimento — EXCETO moeda nacional, moeda estrangeira, e valores mobiliários (art. 3º)",
+    "PSAV": "Pessoa jurídica que executa, em nome de terceiros, ao menos um dos serviços de ativos virtuais (art. 5º)",
+    "Serviços de ativos virtuais": "Troca AV ↔ moeda nacional; troca AV ↔ moeda estrangeira; transferência de AV; custódia de AV; administração de AV (art. 5º, inc. I-V)",
+    "Pessoa obrigada": "Entidade sujeita às obrigações da Lei 9.613/1998 (PLD) — as PSAVs são expressamente incluídas (art. 11)",
+    "Valor mobiliário": "Instrumento regulado pela CVM (ações, debêntures, tokens de investimento coletivo etc.) — excluído da definição de ativo virtual para fins desta lei"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "A Lei 14.478, sancionada em 21 de dezembro de 2022, é o 'Marco Legal dos Criptoativos'. Ela criou o arcabouço legislativo mínimo: definiu ativo virtual, estabeleceu quem é PSAV, impôs obrigações gerais e delegou ao Poder Executivo a designação do regulador. Toda a regulamentação infralegal do BCB (Res. 519/520/521) emana dessa lei.",
+      "normas": [
+        {
+          "texto": "Lei 14.478/2022",
+          "cor": "lei"
+        },
+        {
+          "texto": "Base para Decreto 11.563/2023",
+          "cor": "decreto"
+        },
+        {
+          "texto": "Base para Res. BCB 519/520/521",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "ativo-virtual",
+      "tipo": "duplo-painel",
+      "titulo": "O que é Ativo Virtual? (Art. 3º)",
+      "norma_diz": "Ativo virtual é a representação digital de valor que pode ser negociada ou transferida por meios eletrônicos e utilizada para realização de pagamentos ou com propósito de investimento. NÃO são ativos virtuais para fins desta lei: (I) moeda nacional e moedas estrangeiras; (II) moeda eletrônica (do SPB); (III) instrumentos que provejam acesso a produtos ou serviços especificados; (IV) representações de ativos cujo emissor deve registrar na CVM.",
+      "na_pratica": "Bitcoin, Ethereum e a maioria das criptomoedas são ativos virtuais. Stablecoins atreladas ao dólar: são ativos virtuais sob o BCB (quando usadas para pagamento/investimento), mas podem ser valores mobiliários se estruturadas como investimento coletivo. Tokens de acesso a plataformas (utility tokens): podem ser excluídos. A linha não é sempre clara — a natureza do instrumento define quem regula.",
+      "atencao": "Se o ativo virtual tem características de valor mobiliário (retorno esperado de lucro de esforço de terceiros), a CVM tem jurisdição. BCB e CVM divulgaram nota conjunta em 2023 orientando como diferenciar os casos."
+    },
+    {
+      "id": "psav",
+      "tipo": "duplo-painel",
+      "titulo": "Quem é PSAV? (Art. 5º)",
+      "norma_diz": "Considera-se PSAV a pessoa jurídica que executa, em nome de terceiros, pelo menos um dos seguintes serviços: I - troca entre ativos virtuais e moeda nacional; II - troca entre ativos virtuais e moeda estrangeira; III - transferência de ativos virtuais; IV - custódia ou administração de ativos virtuais ou de instrumentos que possibilitem controle sobre ativos virtuais; V - participação e prestação de serviços financeiros relacionados à oferta de um emissor ou venda de ativos virtuais.",
+      "na_pratica": "Você é PSAV se: (a) opera como exchange (compra/venda de cripto por BRL ou USD); (b) custodia cripto de clientes; (c) faz transferências de cripto em nome de clientes; (d) participa de ofertas de tokens. Não importa o nome da empresa — o que importa é a atividade exercida em nome de terceiros.",
+      "atencao": "Operar em nome PRÓPRIO (trading proprietário, market-making por conta própria) NÃO torna você uma PSAV. A lei exige 'em nome de terceiros'. Mas a Res. BCB 520 impõe normas prudenciais para operações por conta própria das SPSAVs (Art. 13).",
+      "destaque": "Nota importante: A Res. BCB 520 (Art. 1º, §ú) define que uma PSAV funciona 'no país' se está constituída no Brasil E tem sede/administração em território nacional. PSAVs estrangeiras que atendam clientes brasileiros sem constituição local são irregulares e têm 270 dias para regularizar."
+    },
+    {
+      "id": "servicos",
+      "tipo": "lista",
+      "titulo": "Os 5 Serviços de Ativos Virtuais (Art. 5º)",
+      "itens": [
+        {
+          "num": "I",
+          "titulo": "Troca AV ↔ Moeda Nacional (BRL)",
+          "desc": "Compra/venda de Bitcoin, Ethereum etc. por Reais. É o serviço típico de uma exchange brasileira."
+        },
+        {
+          "num": "II",
+          "titulo": "Troca AV ↔ Moeda Estrangeira (USD, EUR…)",
+          "desc": "Compra/venda de cripto por moeda estrangeira. Quando envolve câmbio, submete-se também à Res. BCB 521 e à regulamentação cambial."
+        },
+        {
+          "num": "III",
+          "titulo": "Transferência de Ativos Virtuais",
+          "desc": "Envio de cripto de uma carteira para outra em nome do cliente. Inclui transferências internacionais que são reguladas como câmbio."
+        },
+        {
+          "num": "IV",
+          "titulo": "Custódia ou administração de AV",
+          "desc": "Guardar as chaves privadas dos ativos dos clientes. Exige contrato de custódia com 19 elementos mínimos (Res. BCB 520, Art. 73)."
+        },
+        {
+          "num": "V",
+          "titulo": "Serviços em oferta de tokens",
+          "desc": "Estruturação e distribuição de tokens (ICOs, IEOs, STOs). Se o token for valor mobiliário, a CVM também é competente."
+        }
+      ]
+    },
+    {
+      "id": "pld",
+      "tipo": "duplo-painel",
+      "titulo": "PSAVs são Pessoas Obrigadas (Art. 11)",
+      "norma_diz": "As PSAVs estão sujeitas às obrigações da Lei 9.613/1998 (Lei de Lavagem de Dinheiro). Devem: identificar clientes; manter registros de transações; monitorar operações; comunicar ao COAF operações suspeitas ou com valor acima dos limites regulatórios; aplicar políticas de PLD/FT compatíveis com seu porte e risco.",
+      "na_pratica": "Toda SPSAV brasileira é obrigada a manter programa de PLD/FT com: (a) política aprovada pela diretoria; (b) gerente de compliance designado; (c) monitoramento automatizado de transações; (d) comunicação de suspeitas ao COAF; (e) treinamento periódico de funcionários. A não conformidade gera multas e pode levar ao cancelamento da autorização.",
+      "atencao": "A Circular BCB 3.978/2020 detalha como implementar a política de PLD/FT para IFs e aplica-se às PSAVs conforme Art. 44 da Res. BCB 520. Inclui: KYC, UBO, PEP, listas de sanções, ABR, trilha de auditoria."
+    },
+    {
+      "id": "autoridade",
+      "tipo": "duplo-painel",
+      "titulo": "Delegação ao Poder Executivo (Arts. 7-9)",
+      "norma_diz": "O Poder Executivo designará órgão(s) da administração pública para regular e fiscalizar as PSAVs, podendo estabelecer: requisitos para funcionamento; capital mínimo; regras de governança; medidas de proteção ao consumidor; e normas de PLD/FT específicas. As PSAVs precisam de prévia autorização da autoridade competente.",
+      "na_pratica": "Com base nessa delegação, o Decreto 11.563/2023 nomeou o BCB como autoridade reguladora. O BCB então editou as Res. 519, 520 e 521 (em novembro/2025), concretizando todos os requisitos que a lei delegou. É uma pirâmide regulatória: Lei → Decreto → Resolução.",
+      "destaque": "Art. 9º da Lei: PSAVs em operação na data de publicação da regulamentação podem continuar operando pelo período de adequação. Esse é o fundamento para o prazo de 270 dias da Res. BCB 520 (Art. 88)."
+    },
+    {
+      "id": "protecao",
+      "tipo": "lista",
+      "titulo": "Proteção do Consumidor (Arts. 12-14)",
+      "intro": "A Lei 14.478 estabelece princípios básicos de proteção ao usuário de ativos virtuais:",
+      "itens": [
+        {
+          "num": "Art. 12",
+          "titulo": "Segregação patrimonial obrigatória",
+          "desc": "Os ativos dos clientes devem ser separados dos ativos da própria PSAV. Proibido usar ativos de clientes para operações próprias."
+        },
+        {
+          "num": "Art. 13",
+          "titulo": "Informações claras",
+          "desc": "PSAVs devem informar riscos, condições e características dos serviços de forma clara e acessível antes da contratação."
+        },
+        {
+          "num": "Art. 14",
+          "titulo": "Aplicação do CDC",
+          "desc": "As relações de consumo entre PSAVs e clientes pessoa física são regidas pelo Código de Defesa do Consumidor."
+        }
+      ],
+      "atencao": "A Lei criou o princípio — as Res. BCB 520 Arts. 28-31 detalham tecnicamente como implementar a segregação patrimonial (contas individualizadas, carteiras distintas, prova de reservas, auditoria bienal)."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Segundo o Art. 3º da Lei 14.478/2022, qual dos seguintes NÃO é considerado 'ativo virtual'?",
+      "opcoes": [
+        "Bitcoin (BTC)",
+        "Ether (ETH)",
+        "Moeda eletrônica do Sistema de Pagamentos Brasileiro (ex.: saldo no Pix)",
+        "Stablecoin lastreada em dólar"
+      ],
+      "correta": 2,
+      "explicacao": "A Lei 14.478/2022 exclui expressamente da definição de ativo virtual: (I) moeda nacional e estrangeiras; (II) moeda eletrônica do SPB; (III) instrumentos de acesso a produtos/serviços específicos; (IV) representações de ativos com emissores regulados pela CVM. Saldos em contas de pagamento (Pix, carteiras digitais) são moeda eletrônica — não ativos virtuais."
+    },
+    {
+      "pergunta": "Uma empresa brasileira que mantém a custódia de Bitcoin de seus clientes (guarda as chaves privadas) é classificada como:",
+      "opcoes": [
+        "Instituição financeira regulada pelo BCB (banco)",
+        "PSAV, pois executa o serviço de custódia de ativos virtuais em nome de terceiros",
+        "Apenas um prestador de serviço de TI, sem obrigações regulatórias",
+        "Valor mobiliário, sujeita à CVM"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 5º, inciso IV da Lei 14.478/2022 inclui a 'custódia ou administração de ativos virtuais' como serviço de ativo virtual. Quem presta esse serviço em nome de terceiros é uma PSAV, sujeita às normas do BCB (Res. 519/520)."
+    },
+    {
+      "pergunta": "O Art. 11 da Lei 14.478/2022 determina que as PSAVs são 'pessoas obrigadas'. Isso significa que devem:",
+      "opcoes": [
+        "Obrigatoriamente se constituir como sociedade anônima",
+        "Pagar tributo especial sobre operações com ativos virtuais",
+        "Cumprir as obrigações da Lei de Lavagem de Dinheiro (Lei 9.613/1998): identificar clientes, monitorar transações e comunicar suspeitas ao COAF",
+        "Obrigatoriamente ter conta no Banco Central do Brasil"
+      ],
+      "correta": 2,
+      "explicacao": "Ser 'pessoa obrigada' no regime PLD/FT significa estar sujeito às obrigações da Lei 9.613/1998: identificação e verificação de clientes (KYC), monitoramento contínuo de operações, registro e retenção de dados, e comunicação de operações suspeitas ao COAF."
+    },
+    {
+      "pergunta": "A pirâmide normativa para regulação de PSAVs no Brasil é:",
+      "opcoes": [
+        "GAFI → BCB → Decreto → Lei",
+        "Lei 14.478/2022 → Decreto 11.563/2023 → Res. BCB 519/520/521",
+        "CVM → BCB → RFB → COAF",
+        "Constituição Federal → CVM → BCB → Lei 14.478"
+      ],
+      "correta": 1,
+      "explicacao": "A pirâmide é: Lei 14.478/2022 (Marco Legal, emana do Congresso) → Decreto 11.563/2023 (Poder Executivo designa o BCB como regulador) → Res. BCB 519/520/521 (BCB detalha os requisitos operacionais). Cada nível emana do superior."
+    }
+  ],
+  "links": [
+    {
+      "label": "Lei 14.478/2022 — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14478.htm"
+    },
+    {
+      "label": "Lei 9.613/1998 (PLD) — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": 6,
+  "titulo": "Res. BCB 520 — Funcionamento",
+  "subtitulo": "Constituição, operação, governança, PLD e custódia das SPSAVs",
+  "norma": "Resolução BCB nº 520/2025",
+  "vigencia": "2 de fevereiro de 2026 | 92 artigos + Anexo (33 páginas)",
+  "glossario": {
+    "Prova de reservas": "Mecanismo criptográfico (geralmente árvore de Merkle) para demonstrar publicamente que a SPSAV possui os ativos virtuais que declara ter em nome dos clientes, sem revelar saldos individuais",
+    "Segregação patrimonial": "Separação legal e contábil entre os ativos da SPSAV e os ativos dos clientes — proibida a mistura ou uso de ativos de clientes para operações próprias",
+    "Staking": "Bloqueio de ativos virtuais pela SPSAV para participar da validação de transações em redes de prova de participação (Proof of Stake) — clientes recebem recompensas proporcionais",
+    "Stablecoin": "Ativo virtual referenciado em moeda fiduciária — lastreado em moeda fiduciária e títulos públicos emitidos pelos mesmos governos",
+    "Carteira fria": "Carteira de ativos virtuais desconectada da internet — mais segura para guarda de grandes volumes",
+    "Carteira quente": "Carteira constantemente conectada à internet — mais ágil para operações, mas com maior risco de ataque",
+    "Carteira morna": "Carteira com camadas de segurança adicionais, mantida conectada com proteções extras — intermediária entre fria e quente",
+    "Chave privada": "Instrumento criptográfico que controla e autentica transações com ativos virtuais — quem possui a chave, controla o ativo",
+    "Contrato inteligente": "Programa que executa automaticamente condições predefinidas em blockchain — a SPSAV deve testar vulnerabilidades em contratos inteligentes que usa",
+    "Travel Rule": "Obrigação de transmitir dados do originador e beneficiário em transfers de ativos virtuais (Art. 44 da Res. BCB 520, implementa Rec. 16 do GAFI)",
+    "UBO": "Beneficiário final (Ultimate Beneficial Owner) — pessoa natural que efetivamente controla ou se beneficia de uma entidade ou operação. Identificação obrigatória até 25% de participação",
+    "Suitability": "Avaliação do perfil de risco do cliente antes de oferecer produtos/serviços — cliente com perfil incompatível deve assinar termo de ciência de risco",
+    "Airdrop": "Distribuição gratuita de ativos virtuais para clientes, geralmente para fomento de liquidez ou estágio inicial do projeto",
+    "Formador de mercado": "Entidade que apresenta cotações de compra e venda de forma contínua no ambiente de negociação, fomentando liquidez",
+    "Provedor de liquidez": "Entidade que fornece liquidez para operações — tem como contrapartes principais investidores institucionais e PSAVs"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "A Resolução BCB 520/2025 é o coração do marco regulatório para SPSAVs. Com 92 artigos e um Anexo detalhado, ela define tudo desde as modalidades de atuação até os contratos de custódia, passando por PLD/FT, Travel Rule, segurança cibernética e proteção do consumidor. É o documento de referência obrigatório para qualquer SPSAV — equivale ao estatuto regulatório de um banco no mundo dos ativos virtuais.",
+      "normas": [
+        {
+          "texto": "Res. BCB 520/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Circ. BCB 3.978/2020 (PLD)",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Lei 14.478/2022",
+          "cor": "lei"
+        },
+        {
+          "texto": "Lei 13.810/2019 (sanções)",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "modalidades",
+      "tipo": "tabela",
+      "titulo": "As 3 Modalidades de SPSAV (Arts. 4-10)",
+      "intro": "A Res. BCB 520 classifica as SPSAVs em 3 modalidades exclusivas. Intermediárias e Custodiantes NÃO podem acumular as atividades uma da outra — a Corretora é a única que faz ambas:",
+      "colunas": [
+        "Modalidade",
+        "Objeto Social Principal",
+        "Atividades Permitidas",
+        "Vedação"
+      ],
+      "linhas": [
+        [
+          "<strong>Intermediária</strong> de Ativos Virtuais",
+          "Intermediação de AV",
+          "Subscrição de emissões; compra/venda/troca; gestão de carteiras; agente fiduciário; staking; câmbio com AV; emissão e-money; provedor de liquidez; formador de mercado; aconselhamento financeiro",
+          "Não pode acumular atividades de custódia isoladamente"
+        ],
+        [
+          "<strong>Custodiante</strong> de Ativos Virtuais",
+          "Custódia de AV",
+          "Guarda e controle de chaves privadas; posição atualizada dos ativos; atendimento de instruções; tratamento de eventos; administração de dados. Staking: somente se autorizado para todas as atividades I-IV.",
+          "Não pode acumular atividades de intermediação isoladamente"
+        ],
+        [
+          "<strong>Corretora</strong> de Ativos Virtuais",
+          "Intermediação + Custódia",
+          "Todas as atividades de intermediação E custódia (com segregação funcional interna entre as duas).",
+          "Deve manter separação clara entre unidades de intermediação e custódia (Art. 85)"
+        ]
+      ]
+    },
+    {
+      "id": "constituicao",
+      "tipo": "duplo-painel",
+      "titulo": "Constituição e Denominação (Arts. 14-17)",
+      "norma_diz": "A SPSAV deve: (I) ser constituída como sociedade empresária limitada ou anônima; (II) ter objeto social principal voltado às atividades da Resolução; (III) possuir mínimo 3 diretores com responsabilidades por: (a) condução geral; (b) PLD/FT; (c) controles internos/compliance; (d) riscos/capital/divulgação; (e) segurança cibernética. É vedada a constituição como empresa individual (unipessoal). A expressão 'Sociedade Prestadora de Serviços de Ativos Virtuais' é obrigatória no nome e privativa.",
+      "na_pratica": "Na prática: (a) você não pode abrir uma MEI ou firma individual para ser SPSAV — exige Ltda. ou S.A.; (b) se já existe com outro nome, precisa alterar para incluir 'SPSAV' antes de protocolar o pedido de autorização (Art. 15, §3º); (c) os 3 diretores podem ser a mesma pessoa para diferentes responsabilidades (a e b podem acumular, exceto quando há conflito de interesses).",
+      "atencao": "Fundos de investimento não podem ser controladores, mas SPSAVs podem captar recursos via emissão de ações (Art. 12, II). Vedado: captar recursos do público de outra forma, oferecer crédito aos clientes, ou participar do capital de outras IFs."
+    },
+    {
+      "id": "segregacao",
+      "tipo": "duplo-painel",
+      "titulo": "Segregação Patrimonial (Arts. 28-31)",
+      "norma_diz": "As PSAVs devem: (1) manter recursos financeiros próprios segregados dos dos clientes, em contas de pagamento ou depósito individualizadas em nome de cada cliente; (2) separar ativos virtuais próprios dos ativos dos clientes em carteiras distintas; (3) documentar a política de segregação; (4) realizar auditoria independente bienalmente (com resultado publicado no site); (5) implementar prova de reservas. Limite: até 5% dos ativos totais dos clientes podem ficar em carteiras dos clientes (apenas para cobrir liquidez imediata).",
+      "na_pratica": "Os ativos dos clientes NÃO pertencem à SPSAV. Se a SPSAV falir, os ativos dos clientes devem estar protegidos. A segregação técnica exige: carteiras de AV separadas para cada cliente (ou segregadas por cliente), contas bancárias individualizadas para os recursos em BRL, e registros que identifiquem com clareza quem é o titular de cada ativo.",
+      "atencao": "Vedado usar ativos de clientes para operações próprias (Art. 31). Exceção apenas para: (a) staking com anuência do cliente; (b) operações com investidores qualificados/profissionais com anuência expressa. Mesmo nesses casos, o cliente deve ser previamente informado dos riscos."
+    },
+    {
+      "id": "prova-reservas",
+      "tipo": "duplo-painel",
+      "titulo": "Prova de Reservas e Auditoria (Art. 30)",
+      "norma_diz": "A política de segregação deve incluir: (I) carteiras distintas para ativos de clientes; (II) métodos para prova de reservas; (III) auditoria independente bienal com nível de asseguração razoável, resultado publicado no site; (IV) procedimentos para transferência de ativos em caso de descontinuidade.",
+      "na_pratica": "A prova de reservas (geralmente via árvore de Merkle) permite que qualquer cliente verifique se seus ativos estão realmente custodiados, sem revelar o saldo dos outros. É uma resposta direta à crise da FTX (2022): a fraude da FTX só foi possível porque não havia transparência sobre as reservas. A auditoria bienal deve ter resultado tornado público no site da SPSAV.",
+      "destaque": "Custodiantes devem realizar auditoria ANUAL (mais frequente que a bienal geral — Art. 73, §5º). Devem também entregar ao BCB mensalmente a prova de reservas dos ativos custodiados (Art. 88, inciso III, alínea d)."
+    },
+    {
+      "id": "pld",
+      "tipo": "duplo-painel",
+      "titulo": "PLD/FT — Controle e Monitoramento (Arts. 43-47)",
+      "norma_diz": "As PSAVs devem manter 11 políticas documentadas: conduta; coleta/análise de dados; fraudes; riscos e continuidade; terceiros; chaves privadas; PLD/FT; segurança institucional; segurança cibernética; cloud; proteção de dados pessoais. Devem atender à regulamentação específica de PLD/FT (Circ. BCB 3.978/2020). Para cada transferência, devem transmitir: nome, conta, endereço e CPF/CNPJ do originador + nome e conta do beneficiário.",
+      "na_pratica": "As 11 políticas devem ser documentadas, aprovadas pela diretoria e revisadas periodicamente. Não basta ter — precisa documentar, implementar e auditar. A transmissão de dados do originador e beneficiário nas transferências (Travel Rule) é implementada em etapas: nacional até ~fev/2027, internacional até ~fev/2028. Até lá: autodeclarações dos clientes são admitidas.",
+      "atencao": "Art. 43, §5º faz referência explícita às listas do GAFI: as listas de suspeição se referem às listas de países com medidas frágeis de combate à LD/FT elaboradas pelo GAFI (lista cinza e lista negra). A PSAV deve monitorar e aplicar controles reforçados para clientes e operações dessas jurisdições."
+    },
+    {
+      "id": "travel-rule",
+      "tipo": "fluxo",
+      "titulo": "Travel Rule — Implementação Faseada (Art. 89)",
+      "passos": [
+        {
+          "titulo": "Fase Transitória (até conclusão das etapas)",
+          "desc": "As PSAVs podem usar autodeclarações dos clientes para identificar: cliente, beneficiário, ativo virtual, montante e finalidade da transação. Essas declarações devem ser documentadas e mantidas à disposição do BCB.",
+          "prazo": "Até fev/2027 (nacional) ou fev/2028 (internacional)"
+        },
+        {
+          "titulo": "Etapa I — Mercado Nacional (~fev/2027)",
+          "desc": "Estabelecer procedimentos para transmissão de informações entre PSAVs constituídas no Brasil. Inclui: nome, conta, CPF/CNPJ, endereço e carteira do originador + nome, conta e carteira do beneficiário.",
+          "prazo": "365 dias após 2/2/2026"
+        },
+        {
+          "titulo": "Etapa II — Mercado Internacional (~fev/2028)",
+          "desc": "Estender os procedimentos para operações internacionais, incluindo entidades fora do Brasil com as quais as PSAVs mantenham relações comerciais.",
+          "prazo": "365 dias após conclusão da Etapa I"
+        },
+        {
+          "titulo": "Plena Conformidade (2/2/2028)",
+          "desc": "Travel Rule obrigatória para todas as SPSAVs autorizadas a funcionar no país — tanto nacionais quanto internacionais.",
+          "prazo": "2 de fevereiro de 2028"
+        }
+      ]
+    },
+    {
+      "id": "seguranca-cyber",
+      "tipo": "lista",
+      "titulo": "Segurança Cibernética (Arts. 48-50)",
+      "intro": "A Res. BCB 520 detalha requisitos robustos de segurança, compatíveis com os de instituições financeiras:",
+      "itens": [
+        {
+          "num": "1",
+          "titulo": "Gestão de identidades e controle de acessos",
+          "desc": "Controles físicos e lógicos para prevenir acesso não autorizado a sistemas e dados sensíveis. Alçadas: concessão, criação de senhas, desativação preventiva em situações suspeitas."
+        },
+        {
+          "num": "2",
+          "titulo": "Monitoramento contínuo e resposta a incidentes",
+          "desc": "Sistema permanente de detecção de ameaças e incidentes, com plano de resposta documentado e compatível com a política de cybersecurity."
+        },
+        {
+          "num": "3",
+          "titulo": "Medidas preventivas para DeFi",
+          "desc": "Obrigação específica de adotar medidas preventivas para mitigar incidentes cibernéticos em operações com DeFi (finanças descentralizadas)."
+        },
+        {
+          "num": "4",
+          "titulo": "Guarda de chaves privadas",
+          "desc": "Política documentada para geração, custódia e gerenciamento de chaves privadas. Se segmentadas: armazenadas em locais diferentes. Módulos de segurança (HSMs), protocolos de acesso por alçadas."
+        },
+        {
+          "num": "5",
+          "titulo": "Testes de sistemas e contratos inteligentes",
+          "desc": "Análise de vulnerabilidades dos sistemas e do ambiente computacional. Revisão por analistas independentes. Testes de robustez e segurança — incluindo contratos inteligentes que a PSAV utiliza."
+        },
+        {
+          "num": "6",
+          "titulo": "Cultura de segurança",
+          "desc": "Treinamentos regulares de funcionários, certificações técnicas, qualificações externas para reforço das práticas."
+        }
+      ],
+      "atencao": "A PSAV permanece responsável mesmo quando terceiriza a segurança cibernética para fornecedores (Art. 51). A contratação de serviços de TI é considerada 'serviço relevante' sujeito às regras dos Arts. 32-42 (diligência prévia, plano de recuperação, acesso do BCB ao contratado)."
+    },
+    {
+      "id": "suitability",
+      "tipo": "duplo-painel",
+      "titulo": "Suitability — Perfil de Risco do Cliente (Arts. 58-59)",
+      "norma_diz": "As PSAVs devem conhecer o perfil do cliente quanto a: nível de familiaridade com o mercado de ativos virtuais; interesses financeiros; tolerância ao risco. Quando o cliente desejar realizar operações incompatíveis com seu perfil, a PSAV deve solicitar declaração específica ou termo de ciência de risco. A avaliação de perfil deve ser documentada e mantida à disposição do BCB.",
+      "na_pratica": "Uma SPSAV não pode simplesmente deixar qualquer cliente fazer qualquer operação. O processo de onboarding deve incluir um questionário de suitability para avaliar: experiência com cripto, objetivos de investimento, tolerância à volatilidade. Cliente sem perfil adequado para derivativos de cripto, por exemplo, deve assinar um 'termo de ciência de risco' antes de operar.",
+      "destaque": "A PSAV deve informar claramente a ausência de cobertura do FGC (Fundo Garantidor de Créditos) e do FGCoop para os ativos virtuais (Art. 68). Isso deve constar no contrato e ser apresentado no cadastro, antes da assinatura."
+    },
+    {
+      "id": "custodia",
+      "tipo": "duplo-painel",
+      "titulo": "Custódia — Os 19 Elementos do Contrato (Art. 73)",
+      "norma_diz": "O contrato de custódia de ativos virtuais deve conter no mínimo: (I) identificação das partes; (II) deveres e direitos; (III) natureza do serviço (tipos de carteiras: quente/morna/fria, coletiva/individual); (IV) riscos e mitigações; (V) método de guarda da chave privada; (VI) meios de comunicação; (VII) terceiros contratados; (VIII) tarifas; (IX) legislação aplicável; (X) controles internos e auditoria anual; (XI) staking; (XII) transferência de custódia; (XIII) somente sob instrução do titular; (XIV) prazos de atendimento; (XV) eventos; (XVI) períodos de atualização; (XVII) risco de atraso; (XVIII) fontes de precificação; (XIX) ativos e sistemas regulados.",
+      "na_pratica": "O contrato de custódia é muito mais detalhado do que um contrato de conta bancária comum. Precisa descrever tecnicamente como a SPSAV guarda as chaves (HSM? Multi-sig? Air-gapped?), quais carteiras usa (fria, morna, quente — em que percentual?), e o que acontece se ela falir. O custodiante é responsável objetivamente por perdas causadas por negligência, imperícia, imprudência ou dolo (Art. 81).",
+      "atencao": "Vedado ao custodiante usar instrumentos de controle que impeçam o atendimento imediato de ordens judiciais ou de autoridades competentes (Art. 73, §3º). Os ativos dos clientes precisam estar sempre acessíveis às autoridades legítimas."
+    },
+    {
+      "id": "elegibilidade-ativos",
+      "tipo": "duplo-painel",
+      "titulo": "Elegibilidade de Ativos — Curadoria (Arts. 64-66)",
+      "norma_diz": "A seleção de ativos virtuais ofertados deve ser baseada em critérios claros, justificados, transparentes e amplamente divulgados. A PSAV deve estabelecer políticas de oferta, listagem, suspensão e deslistagem, baseadas em decisões de comitês técnicos. O Anexo da Res. BCB 520 lista 20 requisitos mínimos para seleção, incluindo: whitepaper, mecanismo de consenso, equipe, auditoria de código, concentração de propriedade, histórico de segurança.",
+      "na_pratica": "A SPSAV não pode listar qualquer token sem análise. Deve ter um 'Comitê de Listing' com critérios documentados e públicos para: (a) inclusão; (b) revisão periódica; (c) suspensão; (d) deslistagem. Vedada a oferta de ativos que facilitem anonimato ou dificultem a identificação do titular (Art. 64, §2º, III) — isso inclui 'moedas de privacidade' como Monero.",
+      "atencao": "Stablecoins têm requisitos adicionais (Art. 65): análise da qualidade do mecanismo de estabilização, reservas, auditorias do emissor, rating do emissor/custodiante. Vedada a oferta de stablecoin cujas reservas sejam controladas por algoritmos — exige reservas em moeda fiduciária e títulos públicos."
+    },
+    {
+      "id": "vedacoes",
+      "tipo": "lista",
+      "titulo": "Vedações Críticas (Arts. 12, 31, 90, 91)",
+      "intro": "A Res. BCB 520 estabelece vedações expressas que não admitem exceção:",
+      "itens": [
+        {
+          "num": "Art. 12",
+          "titulo": "Vedado às SPSAVs:",
+          "desc": "(I) oferecer crédito a clientes; (II) captar recursos do público exceto via ações; (III) participar do capital de outras IFs autorizadas pelo BCB."
+        },
+        {
+          "num": "Art. 31",
+          "titulo": "Vedado usar ativos de clientes para operações próprias",
+          "desc": "Exceções: staking com anuência do cliente e operações com investidores qualificados com anuência expressa."
+        },
+        {
+          "num": "Art. 90, III",
+          "titulo": "Vedado mixers e embaralhadores",
+          "desc": "Proibido contratar, adotar ou usar mecanismos e procedimentos que dificultem a detecção, investigação ou processamento de crimes — especificamente mixers (misturadores) e tumblers (embaralhadores)."
+        },
+        {
+          "num": "Art. 91",
+          "titulo": "Vedado operar com não-autorizadas a partir de 30/10/2026",
+          "desc": "A partir de 30 de outubro de 2026, IFs e PSAVs não podem realizar ou viabilizar operações com entidades que prestem serviços de AV no país sem autorização ou pedido em análise no BCB."
+        }
+      ],
+      "atencao": "O Art. 91 cria um 'efeito cascata': não é só a PSAV não-autorizada que está proibida — qualquer IF (banco, corretora) também fica proibida de operar com ela. Isso cria incentivo para que o mercado completo se regularize."
+    },
+    {
+      "id": "transicao-270",
+      "tipo": "fluxo",
+      "titulo": "Transição — O que a SPSAV deve fazer desde o protocolo (Art. 88)",
+      "passos": [
+        {
+          "titulo": "Imediatamente na vigência (2/2/2026)",
+          "desc": "Começar a ajustar processos para compatibilização com a Resolução: PLD, segregação, governança.",
+          "prazo": "A partir de 2/2/2026"
+        },
+        {
+          "titulo": "Protocolar o pedido de autorização",
+          "desc": "Com a documentação da Fase 1 (prova de atividade, reputação dos controladores, capital mínimo). Apresentar comprovação de: (a) estrutura de gerenciamento de riscos; (b) política de segurança cibernética; (c) política de controles internos PLD; (d) procedimentos para sanções Lei 13.810/2019; (e) regulação contábil COSIF.",
+          "prazo": "Até 270 dias = ~30/10/2026"
+        },
+        {
+          "titulo": "A partir do protocolo: enviar ao BCB periodicamente",
+          "desc": "(a) diariamente: dados dos clientes ao CCS; (b) diariamente: saldos contábeis em favor dos clientes; (c) diariamente: total de AV custodiados por conta própria e de terceiros; (d) mensalmente: prova de reservas (por AV, quantidades e valores); (e) mensalmente: total em staking.",
+          "prazo": "Desde o protocolo até conclusão da Fase 1"
+        },
+        {
+          "titulo": "Concluída Fase 1 — plena conformidade",
+          "desc": "SPSAV passa a observar integralmente a Res. BCB 520, incluindo todos os demais requisitos ainda não exigidos durante o período de adequação.",
+          "prazo": "Após manifestação do BCB na Fase 1"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Uma Corretora de Ativos Virtuais (Art. 10 da Res. BCB 520) pode:",
+      "opcoes": [
+        "Somente fazer custódia de ativos virtuais",
+        "Somente fazer intermediação de ativos virtuais",
+        "Fazer intermediação E custódia, mas com separação funcional interna",
+        "Fazer intermediação, custódia e oferecer crédito aos clientes"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 10 define que a Corretora de Ativos Virtuais tem por objeto social a intermediação E a custódia. O Art. 85 exige separação interna entre as funções para mitigar conflitos de interesses. O Art. 12 veda a oferta de crédito a clientes para qualquer SPSAV."
+    },
+    {
+      "pergunta": "A prova de reservas (Art. 30 da Res. BCB 520) serve para:",
+      "opcoes": [
+        "Comprovar para a RFB o pagamento de impostos sobre criptoativos",
+        "Demonstrar publicamente que a SPSAV possui os ativos virtuais que declara ter em nome dos clientes",
+        "Verificar se o capital mínimo está integralizado",
+        "Aprovar a listagem de novos ativos virtuais na plataforma"
+      ],
+      "correta": 1,
+      "explicacao": "A prova de reservas é um mecanismo criptográfico (geralmente via árvore de Merkle) que permite a qualquer cliente verificar se seus ativos estão custodiados, sem revelar saldos individuais de outros clientes. Foi criada como resposta a fraudes como a da FTX, onde ativos dos clientes foram usados para operações próprias."
+    },
+    {
+      "pergunta": "A Travel Rule (Art. 44 e 89 da Res. BCB 520) exige transmissão de dados entre PSAVs. Qual é o prazo para implementação no mercado nacional?",
+      "opcoes": [
+        "2 de fevereiro de 2026 (imediatamente na vigência)",
+        "365 dias a partir da vigência (~fev/2027)",
+        "2 de fevereiro de 2028 (mesmo prazo do mercado internacional)",
+        "Sem prazo definido — a critério de cada SPSAV"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 89 da Res. BCB 520 define implementação em duas etapas: Etapa I (mercado nacional): 365 dias após 2/2/2026, i.e., aproximadamente fevereiro/2027. Etapa II (mercado internacional): mais 365 dias, i.e., fevereiro/2028. Até a conclusão, autodeclarações dos clientes são admitidas."
+    },
+    {
+      "pergunta": "Quais ativos virtuais são expressamente vedados de oferta pelas SPSAVs (Art. 64, §2º, III)?",
+      "opcoes": [
+        "Ativos com volatilidade acima de 50% ao ano",
+        "Ativos cujo preço seja inferior a R$ 1,00",
+        "Ativos que facilitem anonimato ou dificultem a identificação do titular (moedas de privacidade)",
+        "Ativos não listados em bolsas estrangeiras reguladas"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 64, §2º, inciso III da Res. BCB 520 veda a oferta de ativos virtuais que contenham características de fragilidade, insegurança ou riscos que favoreçam lavagem de dinheiro e financiamento do terrorismo 'por meio de facilitação de anonimato ou dificuldade de identificação do titular'. Isso abrange moedas de privacidade como Monero (XMR), Zcash (ZEC) e similares."
+    },
+    {
+      "pergunta": "A partir de quando as PSAVs são proibidas de operar com entidades não autorizadas (Art. 91)?",
+      "opcoes": [
+        "2 de fevereiro de 2026",
+        "4 de maio de 2026",
+        "30 de outubro de 2026",
+        "1 de janeiro de 2027"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 91 da Res. BCB 520 estabelece que, a partir de 30 de outubro de 2026, as IFs e PSAVs ficam proibidas de realizar ou viabilizar operações no mercado de ativos virtuais com entidades não autorizadas ou sem pedido em análise no BCB."
+    }
+  ],
+  "links": [
+    {
+      "label": "Res. BCB 520/2025 — Texto Oficial",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=520"
+    },
+    {
+      "label": "Circular BCB 3.978/2020 (PLD) — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Circular&numero=3978"
+    },
+    {
+      "label": "Lei 13.810/2019 (Sanções) — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13810.htm"
+    }
+  ]
+}

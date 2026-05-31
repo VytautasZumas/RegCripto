@@ -1,0 +1,263 @@
+{
+  "id": 10,
+  "titulo": "Quiz & Revisão",
+  "subtitulo": "Simulado geral — teste seus conhecimentos sobre o marco regulatório completo",
+  "norma": "Todas as normas",
+  "vigencia": "",
+  "glossario": {},
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Simulado Geral",
+      "texto": "Este módulo contém um simulado geral com questões de todos os módulos anteriores. No modo Estudo, você verá o gabarito e a explicação após cada resposta. No modo Aula, apenas acerto ou erro. Boa sorte!",
+      "normas": [
+        {
+          "texto": "GAFI | Lei 14.478 | Decreto 11.563",
+          "cor": "gafi"
+        },
+        {
+          "texto": "BCB 519 | 520 | 521 | IN 2.291",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "resumo",
+      "tipo": "tabela",
+      "titulo": "Mapa Normativo — Referência Rápida",
+      "intro": "Use esta tabela como referência rápida do marco regulatório completo das PSAVs:",
+      "colunas": [
+        "Norma",
+        "Data",
+        "Vigência",
+        "Assunto Principal"
+      ],
+      "linhas": [
+        [
+          "<strong>Lei 14.478/2022</strong>",
+          "21 dez 2022",
+          "Imediata",
+          "Marco Legal: define AV, PSAV, obrigações gerais, delega regulação"
+        ],
+        [
+          "<strong>Decreto 11.563/2023</strong>",
+          "13 jun 2023",
+          "20 jun 2023",
+          "BCB como regulador único das PSAVs"
+        ],
+        [
+          "<strong>Res. Conj. CMN/BCB 14</strong>",
+          "3 nov 2025",
+          "1 jul 2026",
+          "Capital mínimo por atividade"
+        ],
+        [
+          "<strong>Res. BCB 517/2025</strong>",
+          "3 nov 2025",
+          "1 jul 2026",
+          "Metodologia de cálculo do capital (R$10,8M–R$37,2M)"
+        ],
+        [
+          "<strong>Res. BCB 519/2025</strong>",
+          "10 nov 2025",
+          "2 fev 2026",
+          "Autorização: 10 requisitos, 9 eventos, 2 fases para empresas em operação"
+        ],
+        [
+          "<strong>Res. BCB 520/2025</strong>",
+          "10 nov 2025",
+          "2 fev 2026",
+          "Constituição, funcionamento, governança, PLD/FT, custódia, Travel Rule"
+        ],
+        [
+          "<strong>Res. BCB 521/2025</strong>",
+          "10 nov 2025",
+          "2 fev 2026 / 4 mai 2026",
+          "Câmbio com AV: 4 categorias, US$100k limite, reporte ACAM212"
+        ],
+        [
+          "<strong>IN BCB 693/2025</strong>",
+          "19 dez 2025",
+          "2 fev 2026",
+          "Complementa Res. 521 — detalha envio ACAM212 via STA/XML"
+        ],
+        [
+          "<strong>IN RFB 2.291/2025</strong>",
+          "14 nov 2025",
+          "1 jan 2026 (CARF) / 1 jul 2026",
+          "DeCripto — declaração de criptoativos; implementa CARF/OCDE"
+        ]
+      ]
+    },
+    {
+      "id": "prazos",
+      "tipo": "timeline",
+      "titulo": "Prazos Críticos — Nunca Esqueça",
+      "itens": [
+        {
+          "data": "2 fev 2026",
+          "evento": "BCB 519/520/521 entram em vigor",
+          "detalhe": "SPSAVs em operação iniciam o período de adequação de 270 dias",
+          "cor": "bcb"
+        },
+        {
+          "data": "4 mai 2026",
+          "evento": "Reporte ACAM212 obrigatório",
+          "detalhe": "1º envio mensal de dados cambiais de AV; Res. BCB 521 (Art. 82-A) e IN BCB 693",
+          "cor": "bcb"
+        },
+        {
+          "data": "1 jul 2026",
+          "evento": "DeCripto — demais obrigações",
+          "detalhe": "Declarações de PF com plataformas estrangeiras e DeFi obrigatórias",
+          "cor": "rfb"
+        },
+        {
+          "data": "30 out 2026",
+          "evento": "PRAZO FINAL para autorização + vedação de operar com não-autorizadas",
+          "detalhe": "270 dias da vigência. Após essa data: IFs proibidas de operar com PSAVs não autorizadas",
+          "cor": "bcb"
+        },
+        {
+          "data": "~fev 2027",
+          "evento": "Travel Rule — mercado nacional",
+          "detalhe": "365 dias após 2/2/2026: dados do originador/beneficiário devem ser transmitidos entre PSAVs nacionais",
+          "cor": "bcb"
+        },
+        {
+          "data": "~fev 2028",
+          "evento": "Travel Rule — mercado internacional + capital pleno",
+          "detalhe": "365 dias após Etapa I + plena conformidade com capital mínimo (Res. BCB 517)",
+          "cor": "bcb"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Qual norma define as 3 modalidades de SPSAV (intermediária, custodiante, corretora)?",
+      "opcoes": [
+        "Lei 14.478/2022",
+        "Resolução BCB 519/2025",
+        "Resolução BCB 520/2025",
+        "Decreto 11.563/2023"
+      ],
+      "correta": 2,
+      "explicacao": "A Resolução BCB 520/2025 (Arts. 4-10) define as 3 modalidades de SPSAV: intermediária, custodiante e corretora. A Lei 14.478/2022 define os tipos de serviços de ativos virtuais, e a Res. BCB 519 disciplina o processo de autorização."
+    },
+    {
+      "pergunta": "Uma SPSAV em operação em 2/2/2026 pode continuar operando durante o período de adequação? Qual é a condição?",
+      "opcoes": [
+        "Sim, pode operar por tempo indeterminado sem apresentar pedido de autorização",
+        "Sim, desde que protocole o pedido de autorização até 270 dias após 2/2/2026 (~30/10/2026)",
+        "Não — deve cessar operações imediatamente em 2/2/2026 até obter a autorização",
+        "Sim, pode operar por 1 ano sem nenhuma obrigação adicional"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 88 da Res. BCB 520 permite que SPSAVs em operação continuem funcionando durante o período de adequação, mas devem protocolar o pedido de autorização em até 270 dias (≈30/10/2026). Após esse prazo sem protocolo: devem cessar atividades em até 30 dias adicionais."
+    },
+    {
+      "pergunta": "A Recomendação 15 do GAFI, implementada no Brasil via Lei 14.478/2022 e Res. BCB 520, exige que PSAVs tenham as mesmas obrigações de PLD/FT que:",
+      "opcoes": [
+        "Startups de tecnologia financeira (fintechs)",
+        "Prestadores de serviços autônomos",
+        "Instituições financeiras bancárias",
+        "Corretoras de valores não-bancárias"
+      ],
+      "correta": 2,
+      "explicacao": "A Rec. 15 do GAFI (2019) estendeu as obrigações de PLD/FT dos VASPs ao mesmo padrão das instituições financeiras. No Brasil, isso foi implementado pela Lei 14.478/2022 (Art. 11, pessoas obrigadas) e pela Res. BCB 520 (Art. 44, referência à Circular BCB 3.978/2020)."
+    },
+    {
+      "pergunta": "Qual é o limite de transferência internacional com ativos virtuais para SPSAVs quando a contraparte não é IF autorizada a operar câmbio?",
+      "opcoes": [
+        "Sem limite",
+        "US$ 50.000",
+        "US$ 100.000",
+        "US$ 500.000"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterado pela Res. BCB 521) estabelece US$ 100.000 como limite para SPSAVs em operações com contraparte não autorizada a operar no câmbio. Corretoras de câmbio têm limite de US$ 500.000."
+    },
+    {
+      "pergunta": "Qual o principal risco de uma SPSAV que não cumpre o Travel Rule até fevereiro de 2028?",
+      "opcoes": [
+        "Apenas multa administrativa de R$500 por operação",
+        "Cancelamento automático da autorização sem processo administrativo",
+        "Não conformidade com a Rec. 16 do GAFI e com o Art. 44 da Res. BCB 520, podendo resultar em penalidades e questionamentos na supervisão do BCB",
+        "Bloqueio automático de transações pelo sistema do BCB"
+      ],
+      "correta": 2,
+      "explicacao": "O não cumprimento da Travel Rule após fevereiro de 2028 representa descumprimento da Rec. 16 do GAFI e do Art. 44 da Res. BCB 520, sujeitando a SPSAV a penalidades regulatórias, possível cancelamento de autorização e consequências internacionais na relação com outras PSAVs que exijam conformidade."
+    },
+    {
+      "pergunta": "A expressão 'Sociedade Prestadora de Serviços de Ativos Virtuais' no nome empresarial é:",
+      "opcoes": [
+        "Opcional — a empresa pode usar qualquer nome comercial",
+        "Obrigatória e privativa das SPSAVs, por determinação do Art. 15 da Res. BCB 520",
+        "Obrigatória apenas para corretoras de ativos virtuais",
+        "Recomendada, mas não exigida pela regulação"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 15, §1º da Res. BCB 520 é categórico: 'a expressão Sociedade Prestadora de Serviços de Ativos Virtuais é privativa de sociedades prestadoras de serviços de ativos virtuais'. Não apenas é obrigatória, como também é exclusiva — nenhuma outra empresa pode usar essa expressão."
+    },
+    {
+      "pergunta": "A DeCripto (IN RFB 2.291/2025) implementa qual padrão internacional?",
+      "opcoes": [
+        "Travel Rule do GAFI (Rec. 16)",
+        "CARF — Crypto-Asset Reporting Framework da OCDE",
+        "FATF Standards for Virtual Assets (2019)",
+        "Basel III — normas prudenciais para criptoativos"
+      ],
+      "correta": 1,
+      "explicacao": "A IN RFB 2.291/2025 implementa o CARF (Crypto-Asset Reporting Framework) da OCDE — padrão de troca automática de informações fiscais sobre criptoativos entre países. Não confundir com o Travel Rule (padrão GAFI, implementado pela Res. BCB 520) ou o Comitê de Basileia (padrões bancários prudenciais)."
+    },
+    {
+      "pergunta": "A Res. BCB 521/2025 altera qual(is) norma(s) do BCB?",
+      "opcoes": [
+        "Apenas a Res. BCB 277 (mercado de câmbio)",
+        "As Res. BCB 277, 278 e 279 (câmbio, capitais estrangeiros e capitais brasileiros no exterior)",
+        "As Res. BCB 519 e 520",
+        "A Circular BCB 3.978/2020 (PLD/FT)"
+      ],
+      "correta": 1,
+      "explicacao": "A Res. BCB 521/2025 altera as três normas do mercado de câmbio e capitais internacionais: Res. BCB 277 (mercado de câmbio — insere o Título VIII-A sobre AV e o Anexo II-A do ACAM212), Res. BCB 278 (capitais estrangeiros — inclui crédito externo e IED em AV) e Res. BCB 279 (capitais brasileiros no exterior — inclui operações com AV)."
+    },
+    {
+      "pergunta": "Um fundo de venture capital quer investir em uma SPSAV. Qual estrutura é permitida?",
+      "opcoes": [
+        "Participação direta de controle do fundo na SPSAV",
+        "Participação direta do fundo como controlador através de acordo de acionistas",
+        "Participação qualificada (≥15% capital votante) sem controle; para controle, o fundo deve constituir holding específica",
+        "Nenhuma forma de participação de fundos é permitida em SPSAVs"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 7º, §7º da Res. BCB 519 proíbe fundos de investimento como controladores. Mas fundos podem ter participação qualificada (≥15% do capital votante, sem controle). Para exercer controle, o fundo precisaria constituir uma holding financeira com objeto social exclusivo de participação em IFs autorizadas pelo BCB — que então controlaria a SPSAV (Art. 8º, IV da Res. BCB 519)."
+    },
+    {
+      "pergunta": "Qual é a penalidade para uma SPSAV que omite informações na DeCripto (pessoa jurídica não-Simples)?",
+      "opcoes": [
+        "R$100 por informação omitida",
+        "R$1.500 por mês de atraso",
+        "3% do valor da operação (mínimo R$100) por informação omitida",
+        "Cancelamento automático da autorização do BCB"
+      ],
+      "correta": 2,
+      "explicacao": "A IN RFB 2.291/2025 prevê duas penalidades distintas: (a) ATRASO: R$1.500/mês para PJ não-Simples; (b) OMISSÃO/INCORREÇÃO: 3% do valor da operação para PJ (mínimo R$100). Para PF: 1,5% do valor. A multa por omissão é potencialmente muito mais severa para empresas com grande volume de operações."
+    }
+  ],
+  "links": [
+    {
+      "label": "BCB — Normativos",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/ativosvirtuais"
+    },
+    {
+      "label": "Planalto — Legislação federal",
+      "url": "https://www.planalto.gov.br"
+    },
+    {
+      "label": "RFB — Receita Federal",
+      "url": "https://www.gov.br/receitafederal/pt-br"
+    }
+  ]
+}

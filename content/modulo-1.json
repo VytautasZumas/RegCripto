@@ -1,0 +1,186 @@
+{
+  "id": 1,
+  "titulo": "GAFI / FATF",
+  "subtitulo": "As recomendações internacionais que moldam a regulação brasileira de PSAVs",
+  "norma": "GAFI — Recomendações 15 e 16",
+  "vigencia": "Nota interpretativa 2019 | Atualização jun/2025",
+  "glossario": {
+    "GAFI": "Grupo de Ação Financeira Internacional (FATF em inglês) — 40 países-membros + Comissão Europeia. Emite padrões globais de PLD/FT e avalia os países em processos de revisão mútua.",
+    "VASP": "Virtual Asset Service Provider — termo do GAFI equivalente ao PSAV brasileiro",
+    "Travel Rule": "Obrigação (Rec. 16 do GAFI) de transmitir informações do originador e do beneficiário junto a cada transferência de ativos virtuais, análoga ao 'wire transfer rule' bancário",
+    "ABR": "Abordagem Baseada em Risco — os controles de PLD/FT são proporcionais ao risco identificado, não uniformes",
+    "KYC": "Know Your Customer — procedimentos de identificação e verificação da identidade dos clientes",
+    "PEP": "Pessoa Politicamente Exposta — cargo público relevante; exige due diligence reforçada",
+    "Due diligence simplificada": "Controles reduzidos aplicáveis a clientes ou operações de baixo risco, conforme critérios da Abordagem Baseada em Risco",
+    "Due diligence reforçada": "Controles ampliados para clientes ou operações de alto risco (PEPs, países de alto risco, operações atípicas)",
+    "CARF": "Crypto-Asset Reporting Framework — padrão da OCDE (não do GAFI) para troca automática de dados fiscais entre países. Adotado pelo Brasil via IN RFB 2.291/2025"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "O GAFI (Financial Action Task Force — FATF) é o principal organismo intergovernamental de combate à lavagem de dinheiro e financiamento do terrorismo. Suas 40 Recomendações são o padrão global adotado por +200 jurisdições. A Recomendação 15 (2019) foi o turning point: estendeu todas as obrigações de PLD/FT aos VASPs — equivalente ao PSAV brasileiro. O Brasil implementou integralmente esse mandato via Lei 14.478/2022 e normas do BCB.",
+      "normas": [
+        {
+          "texto": "GAFI Rec. 15 (2019)",
+          "cor": "gafi"
+        },
+        {
+          "texto": "GAFI Rec. 16 — Travel Rule",
+          "cor": "gafi"
+        },
+        {
+          "texto": "Targeted Update Jun/2025",
+          "cor": "gafi"
+        }
+      ]
+    },
+    {
+      "id": "rec15",
+      "tipo": "duplo-painel",
+      "titulo": "Recomendação 15 — Obrigações para VASPs",
+      "norma_diz": "Os países devem: (i) identificar, avaliar e compreender os riscos de LD/FT em atividades de VASP; (ii) aplicar Abordagem Baseada em Risco; (iii) exigir que VASPs sejam licenciados ou registrados; (iv) supervisionar ativamente os VASPs; (v) aplicar sanções efetivas. Os VASPs devem implementar as mesmas medidas de PLD/FT que as instituições financeiras.",
+      "na_pratica": "Uma SPSAV brasileira tem as mesmas obrigações que um banco: KYC completo de todos os clientes, monitoramento contínuo de transações, comunicação de operações suspeitas ao COAF, PEP check, listas de sanções, identificação de beneficiário final (UBO ≥25%), due diligence proporcional ao risco.",
+      "atencao": "O GAFI não trata criptoativos como uma categoria especial de baixo risco. O padrão é: mesmos controles de um banco, adaptados à tecnologia blockchain."
+    },
+    {
+      "id": "rec16",
+      "tipo": "duplo-painel",
+      "titulo": "Recomendação 16 — Travel Rule",
+      "norma_diz": "Em transferências de ativos virtuais, o VASP originador deve obter e transmitir ao VASP beneficiário as seguintes informações: (a) nome do originador; (b) número de conta (endereço de carteira); (c) endereço físico, número de documento ou data de nascimento; (d) nome do beneficiário; (e) conta do beneficiário. Isso se aplica para transferências ≥ USD 1.000 (threshold orientativo do GAFI).",
+      "na_pratica": "Se a SPSAV A envia Bitcoin para a SPSAV B em nome de um cliente, ela deve transmitir os dados do remetente e do destinatário junto com a transação, além do registro blockchain. No Brasil, o Art. 44 da Res. BCB 520 codificou essa obrigação. A implementação é faseada: nacional ≈ fev/2027, internacional ≈ fev/2028.",
+      "atencao": "O maior desafio técnico é identificar o VASP de destino e estabelecer comunicação segura. Até a conclusão das etapas, a Res. BCB 520 permite autodeclarações dos clientes como substituto temporário (Art. 89, §1º).",
+      "destaque": "Carteiras autocustodiadas (self-custody) são um ponto crítico: a PSAV deve identificar o proprietário e verificar origem/destino dos ativos (Art. 76-A, §5 da Res. BCB 521)."
+    },
+    {
+      "id": "40-rec",
+      "tipo": "tabela",
+      "titulo": "As 40 Recomendações — Impacto nas PSAVs",
+      "intro": "Dentre as 40 Recomendações do GAFI, as seguintes têm impacto direto e relevante nas PSAVs:",
+      "colunas": [
+        "Rec.",
+        "Tema",
+        "Impacto para PSAV"
+      ],
+      "linhas": [
+        [
+          "<strong>10</strong>",
+          "Due diligence do cliente (DDC)",
+          "KYC obrigatório para todos os clientes — identificação, verificação, monitoramento contínuo"
+        ],
+        [
+          "<strong>12</strong>",
+          "Pessoas Politicamente Expostas (PEPs)",
+          "Due diligence reforçada para PEPs nacionais e estrangeiros e seus familiares/associados"
+        ],
+        [
+          "<strong>13</strong>",
+          "Bancos correspondentes",
+          "Aplicável a PSAVs que prestam serviços para outras PSAVs (sub-relação)"
+        ],
+        [
+          "<strong>15</strong>",
+          "Tecnologias novas",
+          "PSAVs sujeitas a todas as medidas de PLD/FT; licenciamento e supervisão obrigatórios"
+        ],
+        [
+          "<strong>16</strong>",
+          "Transferências eletrônicas (Travel Rule)",
+          "Transmissão de dados do originador e beneficiário em cada transfer"
+        ],
+        [
+          "<strong>18</strong>",
+          "Controles internos de grupos",
+          "Grupos financeiros devem ter políticas de PLD/FT em todas as subsidiárias e países"
+        ],
+        [
+          "<strong>19</strong>",
+          "Países de alto risco",
+          "DDC reforçada para clientes de países em lista cinza ou vermelha do GAFI"
+        ],
+        [
+          "<strong>20</strong>",
+          "Comunicação de operações suspeitas",
+          "Comunicação imediata ao COAF quando identificadas operações suspeitas"
+        ]
+      ]
+    },
+    {
+      "id": "abr",
+      "tipo": "duplo-painel",
+      "titulo": "Abordagem Baseada em Risco (ABR)",
+      "norma_diz": "As medidas de PLD/FT devem ser proporcionais ao risco identificado. Clientes, produtos, canais de distribuição e países devem ser classificados por nível de risco. Controles mais intensos para riscos mais altos; simplificados para riscos mais baixos.",
+      "na_pratica": "Na prática para uma SPSAV:\n• <strong>Baixo risco</strong>: cliente PF brasileiro, pequenas transações, moedas principais → KYC simplificado, monitoramento automático básico.\n• <strong>Médio risco</strong>: padrão → KYC completo, monitoramento periódico.\n• <strong>Alto risco</strong>: PEP, país lista cinza, transações atípicas, stablecoins, DeFi → due diligence reforçada, aprovação de compliance, monitoramento intensivo.",
+      "atencao": "A Circular BCB 3.978/2020 (aplicável às PSAVs) codifica a ABR no Brasil. O Art. 44 da Res. BCB 520 exige que as PSAVs atendam a essa regulamentação específica de PLD/FT."
+    },
+    {
+      "id": "update2025",
+      "tipo": "duplo-painel",
+      "titulo": "Targeted Update do GAFI — Junho 2025",
+      "norma_diz": "O GAFI publicou em junho/2025 a 6ª atualização sobre implementação das normas para ativos virtuais. O relatório reconhece avanços, mas aponta persistentes dificuldades: identificação de VASPs offshore, controle de wallets autocustodiadas, implementação da Travel Rule, e PSAVs operando em jurisdições sem regulação.",
+      "na_pratica": "Para o Brasil: o marco regulatório publicado em novembro/2025 coloca o país em linha com as melhores práticas internacionais. Empresas brasileiras devem ter isso como diferencial: conformidade plena com padrões GAFI em um mercado global que ainda luta com a implementação.",
+      "destaque": "O GAFI mantém uma 'lista cinza' (jurisdições sob monitoramento aumentado) e uma 'lista negra' (chamadas de Alto Risco). PSAVs devem aplicar due diligence reforçada para clientes/operações provenientes dessas jurisdições (Art. 43, §5 da Res. BCB 520 faz referência explícita às listas do GAFI)."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "A Recomendação 15 do GAFI (2019) determina que os VASPs devem:",
+      "opcoes": [
+        "Ser regulados exclusivamente pelo banco central de cada país",
+        "Implementar as mesmas medidas de PLD/FT aplicáveis às instituições financeiras",
+        "Operar apenas com criptomoedas listadas em exchanges reguladas",
+        "Reportar apenas transações acima de USD 10.000 às autoridades"
+      ],
+      "correta": 1,
+      "explicacao": "A Rec. 15 do GAFI estabelece que os países devem licenciar/registrar VASPs e que esses devem implementar as mesmas obrigações de PLD/FT das instituições financeiras — KYC, monitoramento, comunicação de suspeitas, etc."
+    },
+    {
+      "pergunta": "A Travel Rule (Rec. 16 do GAFI) obriga o VASP originador a transmitir ao VASP beneficiário:",
+      "opcoes": [
+        "Apenas o endereço de carteira do remetente",
+        "Nome e conta do originador, nome e conta do beneficiário",
+        "O valor total em moeda fiduciária equivalente da transação",
+        "A hash da transação na blockchain"
+      ],
+      "correta": 1,
+      "explicacao": "A Travel Rule exige a transmissão de dados de identificação do originador (nome, conta/carteira, endereço ou documento) E do beneficiário (nome, conta/carteira). O Art. 44 da Res. BCB 520 implementa essa obrigação no Brasil."
+    },
+    {
+      "pergunta": "Na Abordagem Baseada em Risco (ABR), a due diligence reforçada é aplicada para:",
+      "opcoes": [
+        "Todos os clientes, independentemente do perfil de risco",
+        "Apenas para transações acima de R$ 100.000",
+        "Pessoas Politicamente Expostas (PEPs), clientes de países de alto risco e operações atípicas",
+        "Somente para clientes pessoas jurídicas"
+      ],
+      "correta": 2,
+      "explicacao": "Na ABR, a due diligence reforçada é aplicada a situações de alto risco identificadas: PEPs, clientes de países em lista cinza/negra do GAFI, operações atípicas, produtos de alto risco como DeFi e privacidade. O grau de controle é proporcional ao risco — não uniforme."
+    },
+    {
+      "pergunta": "Qual é o status do Brasil em relação à implementação das normas do GAFI para VASPs após novembro de 2025?",
+      "opcoes": [
+        "O Brasil ainda não tem regulação para VASPs e está na lista cinza do GAFI",
+        "O Brasil implementou o marco regulatório completo com Res. BCB 519/520/521, alinhado aos padrões GAFI",
+        "O Brasil adota apenas a Travel Rule, sem exigências de licenciamento",
+        "A regulação brasileira é de responsabilidade da CVM, não do BCB"
+      ],
+      "correta": 1,
+      "explicacao": "Com a publicação das Resoluções BCB 519, 520 e 521 em novembro/2025 (vigência fev/2026), o Brasil implementou um marco regulatório completo para PSAVs, incluindo licenciamento, requisitos de capital, PLD/FT, governança e Travel Rule — alinhado integralmente com os padrões do GAFI."
+    }
+  ],
+  "links": [
+    {
+      "label": "GAFI — Rec. 15 e Nota Interpretativa",
+      "url": "https://www.fatf-gafi.org/en/topics/virtual-assets.html"
+    },
+    {
+      "label": "GAFI — Targeted Update jun/2025",
+      "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/targeted-update-virtual-assets-vasps-2024.html"
+    },
+    {
+      "label": "As 40 Recomendações (PT-BR)",
+      "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/translations/Recommendations/FATF-40-Rec-2012-Portuguese-GAFISUD.pdf.coredownload.inline.pdf"
+    }
+  ]
+}

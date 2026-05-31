@@ -1,0 +1,385 @@
+{
+  "id": 9,
+  "titulo": "Checklist PSAV",
+  "subtitulo": "Guia prático de entrada, adequação e conformidade contínua no mercado regulado",
+  "norma": "Res. BCB 519 | 520 | 521 | IN RFB 2.291",
+  "vigencia": "Referência: 2 fev 2026",
+  "glossario": {
+    "COSIF": "Padrão Contábil das Instituições reguladas pelo BCB — as SPSAVs devem adotar as práticas contábeis do COSIF a partir da solicitação de autorização",
+    "CCS": "Cadastro de Clientes do Sistema Financeiro Nacional — as SPSAVs devem enviar dados de clientes ao CCS a partir do protocolo do pedido de autorização",
+    "PLD/FT": "Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo",
+    "UBO": "Beneficiário final — pessoa natural que efetivamente controla ou se beneficia de uma entidade. Identificação obrigatória até 25% de participação (Circ. BCB 3.978/2020)"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Como usar este Checklist",
+      "texto": "Este checklist consolida as principais obrigações regulatórias das SPSAVs em 5 categorias: Societário, Autorização, Operacional, PLD/FT e Fiscal. Use os checkboxes para acompanhar o progresso de adequação da sua empresa. O checklist pode ser impresso em PDF via o botão abaixo. Todas as referências são aos artigos das normas oficiais.",
+      "normas": [
+        {
+          "texto": "Checklist interativo",
+          "cor": "rfb"
+        },
+        {
+          "texto": "Exportável em PDF",
+          "cor": "rfb"
+        }
+      ]
+    },
+    {
+      "id": "cl-main",
+      "tipo": "checklist",
+      "titulo": "Checklist Completo",
+      "categorias": [
+        {
+          "id": "societario",
+          "icone": "🏢",
+          "titulo": "1. Estrutura Societária",
+          "itens": [
+            {
+              "texto": "Constituída como sociedade limitada (Ltda.) ou anônima (S.A.) — vedada empresa individual",
+              "ref": "Art. 14 Res. 520"
+            },
+            {
+              "texto": "Denominação social inclui a expressão 'Sociedade Prestadora de Serviços de Ativos Virtuais'",
+              "ref": "Art. 15 Res. 520"
+            },
+            {
+              "texto": "Objeto social principal é voltado às atividades de AV conforme a modalidade escolhida",
+              "ref": "Art. 14, II Res. 520"
+            },
+            {
+              "texto": "Contrato/estatuto social atualizado com as novas exigências regulatórias",
+              "ref": "Art. 24 Res. 519"
+            },
+            {
+              "texto": "Para Ltda.: contrato social prevê mandato determinado de até 4 anos para administradores",
+              "ref": "Art. 12 Res. 519"
+            },
+            {
+              "texto": "Fundos de investimento não participam do grupo de controle",
+              "ref": "Art. 7º, §7º Res. 519"
+            },
+            {
+              "texto": "Capital social integralizado em moeda corrente — integralização imediata à subscrição",
+              "ref": "Art. 18 Res. 520"
+            },
+            {
+              "texto": "Capital mínimo calculado conforme Res. Conjunta CMN/BCB 14 (R$10,8M–R$37,2M)",
+              "ref": "Res. Conj. 14 + BCB 517"
+            }
+          ]
+        },
+        {
+          "id": "administracao",
+          "icone": "👥",
+          "titulo": "2. Administração e Diretoria",
+          "itens": [
+            {
+              "texto": "Mínimo 3 diretores/administradores designados formalmente",
+              "ref": "Art. 14, III Res. 520"
+            },
+            {
+              "texto": "Diretor responsável pela condução geral das atividades designado",
+              "ref": "Art. 14, III, (a) Res. 520"
+            },
+            {
+              "texto": "Diretor responsável por PLD/FT designado",
+              "ref": "Art. 14, III, (b) Res. 520"
+            },
+            {
+              "texto": "Diretor responsável por controles internos e compliance designado",
+              "ref": "Art. 14, III, (c) Res. 520"
+            },
+            {
+              "texto": "Diretor responsável por riscos, capital e divulgação designado",
+              "ref": "Art. 14, III, (d) Res. 520"
+            },
+            {
+              "texto": "Diretor responsável pela política de segurança cibernética designado",
+              "ref": "Art. 14, III, (e) Res. 520"
+            },
+            {
+              "texto": "Todos os diretores são residentes no Brasil",
+              "ref": "Art. 11, I Res. 519"
+            },
+            {
+              "texto": "Reputação ilibada verificada para todos os administradores e controladores",
+              "ref": "Art. 9º Res. 519"
+            },
+            {
+              "texto": "Nenhum diretor condenado pelos crimes listados no Art. 11, II da Res. 519",
+              "ref": "Art. 11, II Res. 519"
+            }
+          ]
+        },
+        {
+          "id": "autorizacao",
+          "icone": "✅",
+          "titulo": "3. Processo de Autorização (BCB)",
+          "itens": [
+            {
+              "texto": "Plano de negócios elaborado e atualizado",
+              "ref": "Art. 2º, §3º Res. 519"
+            },
+            {
+              "texto": "Documentação de capacidade econômica dos controladores preparada (IRs últimos 3 anos)",
+              "ref": "Art. 3º, §2º Res. 519"
+            },
+            {
+              "texto": "Comprovação de origem lícita dos recursos do capital preparada",
+              "ref": "Art. 2º, II Res. 519"
+            },
+            {
+              "texto": "Endereço físico da sede confirmado (uso efetivo e exclusivo — sem coworking)",
+              "ref": "Art. 2º, X, §6º Res. 519"
+            },
+            {
+              "texto": "Pedido de autorização protocolado no BCB (prazo: até 30/10/2026)",
+              "ref": "Art. 88, I Res. 520"
+            },
+            {
+              "texto": "Pedido de autorização inclui solicitação para operar no mercado de câmbio (se aplicável)",
+              "ref": "Art. 29, §5º Res. BCB 277"
+            },
+            {
+              "texto": "Certificação técnica de empresa qualificada independente obtida (para IFs atuantes)",
+              "ref": "Art. 22, §2º Res. 520"
+            }
+          ]
+        },
+        {
+          "id": "operacional",
+          "icone": "⚙️",
+          "titulo": "4. Operacional e Governança",
+          "itens": [
+            {
+              "texto": "Política de governança documentada e aprovada pelo CA ou diretoria — revisão bienal prevista",
+              "ref": "Art. 16 Res. 520"
+            },
+            {
+              "texto": "Segregação patrimonial implementada: contas individualizadas por cliente para recursos em BRL",
+              "ref": "Art. 28 Res. 520"
+            },
+            {
+              "texto": "Carteiras de AV de clientes separadas das carteiras próprias da SPSAV",
+              "ref": "Art. 29-30 Res. 520"
+            },
+            {
+              "texto": "Prova de reservas implementada e testada",
+              "ref": "Art. 30, II Res. 520"
+            },
+            {
+              "texto": "Auditoria independente bienal da segregação patrimonial contratada",
+              "ref": "Art. 30, III Res. 520"
+            },
+            {
+              "texto": "Política de segurança cibernética documentada e aprovada",
+              "ref": "Art. 48 Res. 520"
+            },
+            {
+              "texto": "Plano de ação e resposta a incidentes cibernéticos elaborado",
+              "ref": "Art. 48, II Res. 520"
+            },
+            {
+              "texto": "Política de guarda e proteção de chaves privadas implementada",
+              "ref": "Art. 49 Res. 520"
+            },
+            {
+              "texto": "Chaves privadas múltiplas ou segmentadas em locais diferentes",
+              "ref": "Art. 49, §3º Res. 520"
+            },
+            {
+              "texto": "Avaliação de perfil de risco (suitability) de clientes implementada",
+              "ref": "Art. 58-59 Res. 520"
+            },
+            {
+              "texto": "Política de elegibilidade de ativos com comitê técnico constituída",
+              "ref": "Art. 64 Res. 520"
+            },
+            {
+              "texto": "Ausência de cobertura FGC/FGCoop informada nos contratos e no onboarding",
+              "ref": "Art. 68 Res. 520"
+            },
+            {
+              "texto": "Canais de atendimento com opção humana implementados",
+              "ref": "Art. 60 Res. 520"
+            },
+            {
+              "texto": "11 políticas documentadas: conduta, coleta de dados, fraudes, riscos, terceiros, chaves, PLD, seg. institucional, cibersegurança, cloud, proteção de dados pessoais",
+              "ref": "Art. 43 Res. 520"
+            }
+          ]
+        },
+        {
+          "id": "pld",
+          "icone": "🔍",
+          "titulo": "5. PLD/FT — Prevenção à Lavagem de Dinheiro",
+          "itens": [
+            {
+              "texto": "Política de PLD/FT baseada em Abordagem Baseada em Risco (ABR) documentada",
+              "ref": "Circ. BCB 3.978/2020"
+            },
+            {
+              "texto": "Diretor de PLD/FT designado e com mandato formal",
+              "ref": "Art. 14, III, (b) Res. 520"
+            },
+            {
+              "texto": "KYC completo implementado: identificação, verificação e monitoramento contínuo de clientes",
+              "ref": "Art. 47 Res. 520"
+            },
+            {
+              "texto": "Identificação de Beneficiário Final (UBO) implementada para PJ: até 25% de participação",
+              "ref": "Circ. BCB 3.978/2020"
+            },
+            {
+              "texto": "Processo de due diligence reforçada para PEPs, países de alto risco e operações atípicas",
+              "ref": "Circ. BCB 3.978/2020"
+            },
+            {
+              "texto": "Monitoramento de listas de sanções nacionais e internacionais implementado",
+              "ref": "Art. 34, III Res. 520"
+            },
+            {
+              "texto": "Processo de identificação e comunicação de operações suspeitas ao COAF",
+              "ref": "Lei 9.613/1998, Art. 11"
+            },
+            {
+              "texto": "Registros de transações mantidos por mínimo 5 anos",
+              "ref": "Art. 45, II Res. 520"
+            },
+            {
+              "texto": "Identificação de proprietário de carteiras autocustodiadas implementada",
+              "ref": "Art. 76-A, §5º Res. BCB 277"
+            },
+            {
+              "texto": "Procedimentos de Travel Rule (transferência de dados entre PSAVs) em desenvolvimento",
+              "ref": "Art. 44 e 89 Res. 520"
+            },
+            {
+              "texto": "Mixers e embaralhadores de transações não são utilizados nem contratados",
+              "ref": "Art. 90, III Res. 520"
+            },
+            {
+              "texto": "Listas GAFI (países de alto risco) monitoradas para due diligence reforçada",
+              "ref": "Art. 43, §5º Res. 520"
+            },
+            {
+              "texto": "Procedimentos para cumprimento das medidas da Lei 13.810/2019 (sanções internacionais)",
+              "ref": "Art. 88, II, (d) Res. 520"
+            }
+          ]
+        },
+        {
+          "id": "cambio",
+          "icone": "💱",
+          "titulo": "6. Câmbio com Ativos Virtuais",
+          "itens": [
+            {
+              "texto": "Pedido de autorização inclui solicitação para operar no mercado de câmbio",
+              "ref": "Art. 29, §5º Res. BCB 277"
+            },
+            {
+              "texto": "Limite de US$100k por operação para contraparte não autorizada implementado",
+              "ref": "Art. 29, IV Res. BCB 277"
+            },
+            {
+              "texto": "Processo de verificação de supervisão de PSAVs estrangeiras documentado",
+              "ref": "Art. 76-B, §2º Res. BCB 277"
+            },
+            {
+              "texto": "Código de finalidade da operação obtido do cliente (acima de US$50k: Anexo IV)",
+              "ref": "Art. 76-C Res. BCB 277"
+            },
+            {
+              "texto": "Sistema de reporte ACAM212 preparado para início em 4/5/2026",
+              "ref": "Art. 82-A Res. BCB 277 + IN BCB 693"
+            },
+            {
+              "texto": "Proibição de operações em espécie implementada",
+              "ref": "Art. 29, IV Res. BCB 277"
+            }
+          ]
+        },
+        {
+          "id": "fiscal",
+          "icone": "🧾",
+          "titulo": "7. Obrigações Fiscais (DeCripto)",
+          "itens": [
+            {
+              "texto": "Sistema de coleta de dados de operações para DeCripto implementado ou em implementação",
+              "ref": "IN RFB 2.291/2025"
+            },
+            {
+              "texto": "CARF: dados de clientes não-residentes prontos para reporte a partir de 1/1/2026",
+              "ref": "IN RFB 2.291 — CARF"
+            },
+            {
+              "texto": "Demais obrigações DeCripto prontas para 1/7/2026 (clientes com operações > R$35k/mês)",
+              "ref": "IN RFB 2.291"
+            },
+            {
+              "texto": "Documentação de operações armazenada por mínimo 5 anos",
+              "ref": "IN RFB 2.291"
+            },
+            {
+              "texto": "Processo de orientação fiscal aos clientes sobre tributação de criptoativos",
+              "ref": "Art. 43, III Res. 520"
+            }
+          ]
+        },
+        {
+          "id": "contabil",
+          "icone": "📊",
+          "titulo": "8. Contabilidade e Relatórios",
+          "itens": [
+            {
+              "texto": "Adoção do COSIF (Padrão Contábil BCB) iniciada",
+              "ref": "Art. 88, II, (e) Res. 520"
+            },
+            {
+              "texto": "Demonstrações financeiras semestrais e anuais auditadas previstas",
+              "ref": "Art. 88, §5º Res. 520"
+            },
+            {
+              "texto": "Envio diário de saldos contábeis em favor dos clientes ao BCB (após protocolo)",
+              "ref": "Art. 88, III, (b) Res. 520"
+            },
+            {
+              "texto": "Envio diário de dados de custódia (total AV por conta própria e de terceiros)",
+              "ref": "Art. 88, III, (c) Res. 520"
+            },
+            {
+              "texto": "Envio mensal de prova de reservas ao BCB (discriminada por AV)",
+              "ref": "Art. 88, III, (d) Res. 520"
+            },
+            {
+              "texto": "Envio mensal de demonstrações de staking ao BCB (se aplicável)",
+              "ref": "Art. 88, III, (e) Res. 520"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [],
+  "links": [
+    {
+      "label": "BCB — Página PSAV/SPSAV",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/ativosvirtuais"
+    },
+    {
+      "label": "Res. BCB 519/2025",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=519"
+    },
+    {
+      "label": "Res. BCB 520/2025",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=520"
+    },
+    {
+      "label": "Res. BCB 521/2025",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=521"
+    }
+  ]
+}

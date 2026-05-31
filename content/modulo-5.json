@@ -1,0 +1,299 @@
+{
+  "id": 5,
+  "titulo": "Res. BCB 519 — Autorização",
+  "subtitulo": "Processos de autorização para funcionamento das SPSAVs",
+  "norma": "Resolução BCB nº 519/2025",
+  "vigencia": "2 de fevereiro de 2026 | 28 artigos, 10 capítulos",
+  "glossario": {
+    "Autorização para funcionamento": "Ato administrativo do BCB que permite a uma SPSAV iniciar legalmente as atividades de prestação de serviços de ativos virtuais",
+    "Participação qualificada": "Participação direta ≥15% do capital votante ou ≥10% do capital total de uma SPSAV. Exige comunicação ao BCB e comprovação de requisitos.",
+    "Grupo de controle": "Conjunto de pessoas vinculadas por acordo de votos ou controle comum que assume a condição de controlador da instituição",
+    "Reputação ilibada": "Ausência de processos criminais relevantes, condenações, inadimplementos e demais situações que afetem a idoneidade do administrador ou controlador",
+    "Cadeia de controle": "Conjunto de pessoas jurídicas por meio do qual o controle da instituição é exercido",
+    "Detentor de participação qualificada": "Fundo de investimento ou pessoa natural/jurídica não-controladora que detenha ≥15% do capital votante ou ≥10% do capital total"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "A Res. BCB 519 disciplina o processo de autorização para funcionamento das SPSAVs — o 'rito de passagem' para operar legalmente no mercado regulado. Ela se aplica não apenas às SPSAVs, mas também a sociedades corretoras de câmbio, corretoras e distribuidoras de TVM que queiram atuar como PSAVs. O foco aqui é no processo de autorização e nos requisitos que o BCB vai avaliar antes de conceder a licença.",
+      "normas": [
+        {
+          "texto": "Res. BCB 519/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Lei 14.478/2022, Arts. 2-9",
+          "cor": "lei"
+        },
+        {
+          "texto": "Decreto 11.563/2023",
+          "cor": "decreto"
+        },
+        {
+          "texto": "Res. CMN 5.105/2023",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "requisitos",
+      "tipo": "lista",
+      "titulo": "Os 10 Requisitos de Autorização (Art. 2º)",
+      "intro": "O BCB avaliará o cumprimento de todos os requisitos antes de expedir a autorização. São condições cumulativas — a ausência de qualquer uma pode resultar em indeferimento:",
+      "itens": [
+        {
+          "num": "I",
+          "titulo": "Capacidade econômico-financeira dos controladores",
+          "desc": "Os controladores (individualmente ou em conjunto) devem ter patrimônio compatível com o capital necessário para estruturar e operar a SPSAV, incluindo contingências de mercado. O BCB pode exigir IRs dos últimos 3 anos e acessar sistemas de cadastro."
+        },
+        {
+          "num": "II",
+          "titulo": "Origem lícita dos recursos",
+          "desc": "O capital integralizado, o preço pago na aquisição de controle e participações qualificadas devem ser de origem comprovadamente lícita. Recursos de origem criminosa ou de paraísos fiscais sem documentação adequada inviabilizam a autorização."
+        },
+        {
+          "num": "III",
+          "titulo": "Viabilidade econômico-financeira",
+          "desc": "O plano de negócios deve demonstrar que a SPSAV é economicamente viável — não apenas no papel, mas com projeções realistas de receita, despesa e capital. O BCB pode exigir a apresentação do plano antes ou depois da expedição da autorização."
+        },
+        {
+          "num": "IV",
+          "titulo": "Infraestrutura de TI compatível",
+          "desc": "Os sistemas tecnológicos devem ser adequados à complexidade e aos riscos do negócio. O BCB pode requisitar certificação técnica de empresa qualificada independente."
+        },
+        {
+          "num": "V",
+          "titulo": "Estrutura de governança corporativa",
+          "desc": "A governança deve ser compatível com a complexidade e os riscos da operação. Isso inclui: conselho de administração (se houver), diretoria, auditoria interna, compliance."
+        },
+        {
+          "num": "VI",
+          "titulo": "Reputação ilibada",
+          "desc": "Administradores, controladores e detentores de participação qualificada (pessoas naturais) devem ter reputação ilibada: sem processos criminais, judiciais/administrativos no SFN, insolvência, inadimplementos ou outros casos que afetem a idoneidade."
+        },
+        {
+          "num": "VII",
+          "titulo": "Conhecimento do ramo do negócio",
+          "desc": "A administração deve conhecer o mercado de ativos virtuais, suas fontes de recursos, a dinâmica de mercado e o gerenciamento de riscos associados."
+        },
+        {
+          "num": "VIII",
+          "titulo": "Capacitação técnica dos administradores",
+          "desc": "Os diretores devem ter as competências técnicas necessárias para exercer suas funções. Pode ser dispensado para administradores com mandato em vigor na mesma instituição ou em conglomerado prudencial previamente aprovado."
+        },
+        {
+          "num": "IX",
+          "titulo": "Atendimento ao capital mínimo",
+          "desc": "A SPSAV deve atender ao capital mínimo calculado conforme Res. Conjunta CMN/BCB 14 e Res. BCB 517 (R$ 10,8M a R$ 37,2M dependendo das atividades)."
+        },
+        {
+          "num": "X",
+          "titulo": "Endereço físico da sede",
+          "desc": "Deve ser endereço de uso efetivo e exclusivo. Vedado indicar coworking, escritório virtual ou espaço compartilhado — exceto para empresas do mesmo conglomerado."
+        }
+      ],
+      "atencao": "O BCB pode realizar inspeção pré-operacional para avaliar se a estrutura implementada é compatível com os requisitos III-V (Art. 25). Se constatar incompatibilidade, dará prazo para correção — e se não corrigido, indeferirá o pedido."
+    },
+    {
+      "id": "eventos-autorizacao",
+      "tipo": "lista",
+      "titulo": "Os 9 Eventos que Exigem Autorização Prévia (Art. 3º)",
+      "intro": "Além da autorização inicial para funcionar, outros eventos corporativos também exigem autorização prévia do BCB:",
+      "itens": [
+        {
+          "num": "I",
+          "titulo": "Funcionamento (autorização inicial)",
+          "desc": "Condicionado a todos os 10 requisitos do Art. 2º."
+        },
+        {
+          "num": "II",
+          "titulo": "Mudança de modalidade",
+          "desc": "Ex.: de intermediária para corretora. Condicionada aos requisitos III, IV, V, VII e IX."
+        },
+        {
+          "num": "III",
+          "titulo": "Transferência ou alteração de controle societário",
+          "desc": "Condicionada aos requisitos I, II, VI e às condições de controle societário (Caps. IV e V). Dispensa: quando a transferência não altera os controladores finais."
+        },
+        {
+          "num": "IV",
+          "titulo": "Fusão, cisão ou incorporação",
+          "desc": "Condicionadas ao cumprimento dos requisitos III e IX."
+        },
+        {
+          "num": "V",
+          "titulo": "Transformação societária",
+          "desc": "Ex.: de Ltda. para S.A. Não há requisitos específicos além da observância geral."
+        },
+        {
+          "num": "VI",
+          "titulo": "Posse e exercício em cargos de administração",
+          "desc": "Condicionada à reputação ilibada (VI) e capacitação técnica (VIII). Isso inclui diretores, membros do CA."
+        },
+        {
+          "num": "VII",
+          "titulo": "Alteração do valor do capital social",
+          "desc": "Aumento: comprovação da origem lícita dos recursos (II). Redução: viabilidade (III) e capital mínimo (IX). Não se aplica a aumentos por incorporação de lucros ou reservas."
+        },
+        {
+          "num": "VIII",
+          "titulo": "Mudança de denominação social",
+          "desc": "Qualquer alteração no nome empresarial exige prévia autorização."
+        },
+        {
+          "num": "IX",
+          "titulo": "Mudança de objeto social",
+          "desc": "Se a nova atividade se enquadrar como PSAV. Condicionada aos requisitos III e IX."
+        }
+      ],
+      "atencao": "Atenção especial ao item VI: a posse de um novo diretor exige autorização prévia do BCB. Se o BCB indeferir, a empresa tem 30 dias para eleger ou nomear um substituto (Art. 13)."
+    },
+    {
+      "id": "controle",
+      "tipo": "duplo-painel",
+      "titulo": "Controle Societário — Quem Pode Controlar? (Art. 8º)",
+      "norma_diz": "A participação societária direta que implique controle somente pode ser exercida por: (I) pessoas naturais; (II) instituições autorizadas a funcionar pelo BCB; (III) instituições financeiras sediadas no exterior; (IV) pessoas jurídicas nacionais com objeto social exclusivo de participação em IFs autorizadas pelo BCB. Fundos de investimento NÃO podem ser controladores (Art. 7º, §7º).",
+      "na_pratica": "Um fundo de private equity NÃO pode diretamente controlar uma SPSAV. Mas pode ter participação qualificada (≥15% do capital votante) — apenas não pode ser controlador. A alternativa é: o fundo controla uma holding que, por sua vez, controla a SPSAV.",
+      "atencao": "Participação qualificada (sem controle) ≥15% do capital votante ou ≥10% do capital total deve ser comunicada ao BCB (Art. 22). O BCB tem 60 dias para exigir comprovação de requisitos. Se não conformes, pode determinar o desfazimento da participação.",
+      "destaque": "Para fundos de investimento com participação qualificada, o BCB pode extensível os requisitos aplicáveis às pessoas naturais/jurídicas para os cotistas que efetivamente conduzam a atuação do fundo (Art. 7º, §4º)."
+    },
+    {
+      "id": "diretores",
+      "tipo": "lista",
+      "titulo": "Condições para Diretores e Controladores (Art. 11)",
+      "intro": "Além dos requisitos de reputação e capacitação do Art. 2º, o Art. 11 estabelece condições adicionais:",
+      "itens": [
+        {
+          "num": "I",
+          "titulo": "Residência no País (obrigatória para diretores)",
+          "desc": "Todos os diretores devem ser residentes no Brasil. Não há exceção. Diretores no exterior implicam indeferimento ou cancelamento."
+        },
+        {
+          "num": "II",
+          "titulo": "Ausência de condenações criminais específicas",
+          "desc": "Crimes que desclassificam: falimentar, sonegação fiscal, prevaricação, corrupção ativa/passiva, concussão, peculato, contra a economia popular, a fé pública, a propriedade ou o SFN. Também: pena que vede acesso a cargos públicos."
+        },
+        {
+          "num": "III",
+          "titulo": "Não inabilitado ou suspenso",
+          "desc": "Não pode estar declarado inabilitado pelo BCB, CVM, SUSEP ou órgãos similares para cargo em órgãos estatutários/contratuais de IFs ou seguradoras."
+        },
+        {
+          "num": "IV",
+          "titulo": "Não declarado falido ou insolvente",
+          "desc": "Falência ou insolvência pessoal declarada desqualifica o administrador ou controlador."
+        },
+        {
+          "num": "V",
+          "titulo": "Sem indeferimento nos últimos 3 anos por declaração falsa",
+          "desc": "Se o BCB já indeferiu um pedido de autorização do mesmo interessado por declaração falsa nos últimos 3 anos, esse impedimento se mantém."
+        }
+      ],
+      "atencao": "O mandato dos administradores de SPSAVs constituídas como Ltda. deve ser por prazo determinado, com limite de 4 anos, com possibilidade de recondução (Art. 12). O mandato se estende até a posse do substituto."
+    },
+    {
+      "id": "processo-fases",
+      "tipo": "fluxo",
+      "titulo": "Processo de Autorização em 2 Fases (para empresas em operação — Art. 26)",
+      "passos": [
+        {
+          "titulo": "Fase 1 — Análise Preliminar",
+          "desc": "O BCB analisa: (a) comprovação de que a SPSAV estava em atividade em 2/2/2026; (b) reputação de controladores e detentores de participação qualificada (Req. VI e Cap. V); (c) atendimento ao capital mínimo (Req. IX). O BCB pode exigir demonstrações financeiras auditadas.",
+          "prazo": "Inicia após protocolo do pedido"
+        },
+        {
+          "titulo": "Fase 2 — Análise Completa",
+          "desc": "O BCB analisa os demais requisitos: capacidade dos controladores (I), viabilidade (III), TI (IV), governança (V), conhecimento do ramo (VII), capacitação técnica (VIII). Pode atualizar documentos das Fases 1b e 1c.",
+          "prazo": "Após manifestação do BCB na Fase 1"
+        },
+        {
+          "titulo": "Aprovação e Autorização",
+          "desc": "BCB expede a autorização para funcionamento na modalidade solicitada. A partir daí, a SPSAV opera regularmente e está sujeita à supervisão contínua.",
+          "prazo": "Sem prazo legal definido para o BCB deliberar"
+        },
+        {
+          "titulo": "Indeferimento — Consequências (Art. 18)",
+          "desc": "Se indeferido e sem recurso: a SPSAV tem 30 dias para (I) cessar a prestação de serviços de AV; (II) comunicar o encerramento; (III) devolver ativos virtuais para instituições habilitadas indicadas pelos clientes; (IV) devolver recursos financeiros para contas dos clientes.",
+          "prazo": "30 dias da notificação definitiva"
+        }
+      ]
+    },
+    {
+      "id": "cancelamento",
+      "tipo": "duplo-painel",
+      "titulo": "Cancelamento de Autorização (Arts. 19-21)",
+      "norma_diz": "O cancelamento pode ocorrer: (I) a pedido da instituição; ou (II) de ofício pelo BCB quando verificar: falta de prática habitual da atividade; não localização no endereço informado; interrupção por mais de 4 meses do envio de demonstrativos sem justificativa; descumprimento do plano de negócios de forma injustificada.",
+      "na_pratica": "Uma SPSAV não pode simplesmente abandonar suas atividades sem processo formal. Deve comunicar clientes com 30 dias de antecedência antes de pedir o cancelamento (Art. 20). O BCB, antes de cancelar de ofício, deve: (1) publicar a intenção com prazo de 30 dias para objeções; (2) notificar a instituição; (3) considerar os riscos para o mercado.",
+      "atencao": "O cancelamento em caso de fusão/incorporação não exige processo específico se a sociedade resultante for IF autorizada pelo BCB (Art. 19, §1º)."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "O Art. 2º, inciso X da Res. BCB 519 veda que a sede de uma SPSAV seja em:",
+      "opcoes": [
+        "Zona rural ou área de baixa densidade urbana",
+        "Coworking, escritório virtual ou espaço compartilhado",
+        "Imóvel alugado (exige sede própria)",
+        "Edifício compartilhado com mais de uma empresa"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 2º, §6º da Res. BCB 519 é explícito: o endereço deve ser de uso efetivo e exclusivo da instituição. É vedada a indicação de coworking, escritório virtual ou espaço compartilhado como sede — exceto para empresas do mesmo conglomerado."
+    },
+    {
+      "pergunta": "Qual das seguintes pessoas jurídicas NÃO pode exercer controle direto sobre uma SPSAV?",
+      "opcoes": [
+        "Pessoa natural (sócio controlador)",
+        "Banco múltiplo autorizado pelo BCB",
+        "Instituição financeira sediada no exterior",
+        "Fundo de investimento"
+      ],
+      "correta": 3,
+      "explicacao": "O Art. 7º, §7º da Res. BCB 519 é categórico: 'Não são admitidos fundos de investimento como controladores ou integrantes de grupo de controle das instituições'. Fundos podem ter participação qualificada (sem controle), mas não podem controlar."
+    },
+    {
+      "pergunta": "Um diretor de uma SPSAV é residente no exterior. Isso é:",
+      "opcoes": [
+        "Permitido, desde que tenha representante legal no Brasil",
+        "Permitido apenas para diretores não-executivos",
+        "Vedado pela Res. BCB 519, que exige residência no país para cargos de direção",
+        "Permitido com autorização especial do BCB"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 11, inciso I da Res. BCB 519 é imperativo: 'ser residente no país, para os cargos de direção'. Não há exceção ou autorização especial — diretores devem ser residentes no Brasil."
+    },
+    {
+      "pergunta": "Uma SPSAV tem seu pedido de autorização indeferido definitivamente. Em quanto tempo deve devolver os ativos dos clientes?",
+      "opcoes": [
+        "Imediatamente (no mesmo dia da notificação)",
+        "30 dias contados da notificação definitiva do indeferimento",
+        "60 dias contados do indeferimento",
+        "90 dias ou na data acordada com cada cliente"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 18 da Res. BCB 519 determina que, após indeferimento definitivo, a SPSAV tem 30 dias para: cessar serviços, comunicar clientes, devolver ativos virtuais para instituições habilitadas indicadas pelos clientes, e devolver recursos financeiros para contas dos clientes."
+    },
+    {
+      "pergunta": "No processo em 2 fases da Res. BCB 519, a Fase 1 analisa principalmente:",
+      "opcoes": [
+        "Todos os 10 requisitos do Art. 2º simultaneamente",
+        "Comprovação de atividade, reputação dos controladores e capital mínimo",
+        "Plano de negócios e viabilidade econômica",
+        "Infraestrutura de TI e governança corporativa"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 26, inciso I da Res. BCB 519 define a Fase 1: (a) comprovação de que a SPSAV estava em atividade na data de vigência; (b) reputação de controladores e participantes qualificados (Req. VI e Cap. V); (c) capital mínimo (Req. IX). A Fase 2 analisa os demais requisitos."
+    }
+  ],
+  "links": [
+    {
+      "label": "Res. BCB 519/2025 — Texto Oficial",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=519"
+    },
+    {
+      "label": "Res. CMN 5.105/2023 — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução CMN&numero=5105"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 4,
+  "titulo": "Capital Mínimo",
+  "subtitulo": "Res. Conjunta CMN/BCB nº 14 e Res. BCB nº 517, de 3 de novembro de 2025",
+  "norma": "Res. Conjunta 14 + BCB 517",
+  "vigencia": "Publicadas 3 nov 2025 | Cálculo vigora 1 jul 2026",
+  "glossario": {
+    "Capital mínimo": "Valor mínimo de capital social integralizado e patrimônio líquido que uma SPSAV deve manter para obter e manter autorização de funcionamento",
+    "Patrimônio de Referência": "Medida prudencial do BCB que considera o capital social mais reservas, subtraídos ativos intangíveis e ajustes regulatórios",
+    "Integralização imediata": "O capital subscrito deve ser depositado imediatamente, sem prazo para pagamento parcelado",
+    "Atividade principal": "Para fins de capital, o BCB classifica as atividades por nível de risco para determinar o capital base exigido"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "As Res. Conjunta CMN/BCB nº 14 e Res. BCB nº 517 (ambas de 3/11/2025) reformularam completamente a metodologia de capital mínimo para instituições autorizadas pelo BCB — incluindo as SPSAVs. A nova metodologia é baseada nas atividades efetivamente exercidas, não mais na categoria de licença. Para SPSAVs, o resultado é um capital mínimo entre R$ 10,8 milhões e R$ 37,2 milhões.",
+      "normas": [
+        {
+          "texto": "Res. Conjunta CMN/BCB 14/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Res. BCB 517/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Complementa Res. BCB 520/2025",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "metodologia",
+      "tipo": "duplo-painel",
+      "titulo": "Nova Metodologia: Por Atividade, Não Por Licença",
+      "norma_diz": "O capital mínimo passa a ser calculado em função das atividades efetivamente desenvolvidas por cada instituição. A estrutura tem três camadas: (1) custo base por categoria de atividade; (2) custo tecnológico (por serviços intensivos em tecnologia); (3) fator de captação (para atividades que envolvem recursos de terceiros).",
+      "na_pratica": "Antes: o capital dependia apenas do tipo de licença. Agora: depende do que você faz. Uma SPSAV que só faz custódia paga menos capital que uma que faz custódia + intermediação + câmbio. Isso torna o requisito mais justo, mas também mais complexo de calcular. O BCB disponibilizou calculadora no seu site.",
+      "atencao": "O capital deve ser realizado em moeda corrente (Reais). A subscrição deve ser integralmente integralizada de imediato — não há prazo para pagamento parcelado (Art. 18, §1º da Res. BCB 520)."
+    },
+    {
+      "id": "faixas",
+      "tipo": "info-grid",
+      "titulo": "Faixas de Capital para SPSAVs",
+      "cards": [
+        {
+          "label": "Capital Mínimo",
+          "valor": "R$ 10,8M",
+          "sub": "Atividade mais simples (ex: só custódia)"
+        },
+        {
+          "label": "Capital Máximo",
+          "valor": "R$ 37,2M",
+          "sub": "Combinação de todas as atividades"
+        },
+        {
+          "label": "Base tecnológica",
+          "valor": "R$ 2M+",
+          "sub": "Por primeiro serviço intensivo em TI"
+        },
+        {
+          "label": "Transição completa",
+          "valor": "Jan 2028",
+          "sub": "Plena conformidade com novo modelo"
+        }
+      ]
+    },
+    {
+      "id": "cronograma-capital",
+      "tipo": "timeline",
+      "titulo": "Cronograma de Implementação do Capital",
+      "itens": [
+        {
+          "data": "3 Nov 2025",
+          "evento": "Res. Conjunta 14 e BCB 517 publicadas",
+          "detalhe": "Nova metodologia aprovada"
+        },
+        {
+          "data": "2 Fev 2026",
+          "evento": "SPSAVs iniciam protocolo de autorização",
+          "detalhe": "Apresentam demonstração de capital mínimo como requisito do Art. 2º, inciso IX da Res. BCB 519"
+        },
+        {
+          "data": "30 Jun 2026",
+          "evento": "Metodologia antiga encerra",
+          "detalhe": "A partir de 1/7/2026 apenas a nova metodologia é válida"
+        },
+        {
+          "data": "1 Jul 2026 – 31 Dez 2027",
+          "evento": "Transição faseada",
+          "detalhe": "Ajuste progressivo: 25% → 50% → 75% → 100% do capital exigido pela nova metodologia",
+          "cor": "bcb"
+        },
+        {
+          "data": "1 Jan 2028",
+          "evento": "Plena conformidade",
+          "detalhe": "100% do capital mínimo calculado pela nova metodologia",
+          "cor": "bcb"
+        }
+      ]
+    },
+    {
+      "id": "origem-capital",
+      "tipo": "duplo-painel",
+      "titulo": "Origem Lícita dos Recursos (Art. 2º, II — Res. BCB 519)",
+      "norma_diz": "A origem dos recursos utilizados na integralização do capital social e na aquisição de controle e participação qualificada deve ser lícita. O BCB poderá requerer declarações de imposto de renda dos últimos 3 exercícios dos controladores, detentores de participação qualificada e administradores.",
+      "na_pratica": "Os controladores precisam demonstrar que o capital investido na SPSAV vem de atividade lícita — não de crime. O BCB pode solicitar: IR dos últimos 3 anos; demonstrações financeiras do grupo; e acesso a qualquer sistema público ou privado de cadastro. Se o controlador for entidade estrangeira, precisa apresentar documentação equivalente no país de origem.",
+      "atencao": "O BCB pode, subsidiariamente, considerar o patrimônio líquido da SPSAV já em operação (lucro recorrente dos últimos 5 anos) para comprovar a capacidade econômico-financeira dos controladores — isso facilita a adequação de empresas já consolidadas (Art. 2º, §2º da Res. BCB 519)."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Qual é o principal critério da nova metodologia de capital mínimo (Res. Conjunta 14 + BCB 517) para SPSAVs?",
+      "opcoes": [
+        "O tipo de licença obtida pelo BCB",
+        "O volume de transações no ano anterior",
+        "As atividades efetivamente exercidas pela SPSAV",
+        "O número de clientes ativos"
+      ],
+      "correta": 2,
+      "explicacao": "A nova metodologia da Res. Conjunta CMN/BCB 14 e Res. BCB 517 baseia o capital mínimo nas atividades concretas exercidas pela instituição, não mais apenas no tipo de licença. Uma SPSAV que só faz custódia tem capital menor do que uma que também faz intermediação e câmbio."
+    },
+    {
+      "pergunta": "Qual é a faixa de capital mínimo para uma SPSAV no Brasil?",
+      "opcoes": [
+        "R$ 1 milhão a R$ 5 milhões",
+        "R$ 5 milhões a R$ 20 milhões",
+        "R$ 10,8 milhões a R$ 37,2 milhões",
+        "R$ 50 milhões a R$ 100 milhões"
+      ],
+      "correta": 2,
+      "explicacao": "Conforme as Res. Conjunta CMN/BCB 14 e Res. BCB 517, o capital mínimo para SPSAVs varia de R$ 10,8 milhões (atividades mais simples) a R$ 37,2 milhões (combinação de todas as atividades permitidas). O BCB disponibiliza calculadora no seu site para o cálculo exato."
+    },
+    {
+      "pergunta": "Sobre a integralização do capital social de uma SPSAV, o Art. 18 da Res. BCB 520 determina que:",
+      "opcoes": [
+        "Pode ser integralizado em moeda estrangeira",
+        "A subscrição deve ser realizada com integralização imediata da totalidade do valor subscrito, em moeda corrente",
+        "Pode ser parcelado em até 24 meses",
+        "Pode ser integralizado com ativos virtuais"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 18, §1º da Res. BCB 520 é claro: 'a subscrição do capital em moeda corrente deve ser realizada mediante imediata integralização da totalidade do valor subscrito'. Não há prazo — o capital deve ser todo integralizado no ato da subscrição, em Reais."
+    }
+  ],
+  "links": [
+    {
+      "label": "Res. Conjunta CMN/BCB 14/2025 — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução Conjunta CMN/BCB&numero=14"
+    },
+    {
+      "label": "Res. BCB 517/2025 — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=517"
+    }
+  ]
+}

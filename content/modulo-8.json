@@ -1,0 +1,241 @@
+{
+  "id": 8,
+  "titulo": "IN RFB 2.291 — DeCripto",
+  "subtitulo": "Declaração de Criptoativos — obrigações fiscais e declaratórias",
+  "norma": "IN RFB nº 2.291/2025",
+  "vigencia": "CARF: 1 jan 2026 | Demais: 1 jul 2026",
+  "glossario": {
+    "DeCripto": "Declaração de Criptoativos — obrigação acessória criada pela IN RFB 2.291/2025, substituindo as antigas INs 1.888 e 1.899/2019",
+    "CARF": "Crypto-Asset Reporting Framework — padrão da OCDE para troca automática de informações fiscais sobre criptoativos entre países (não confundir com o Conselho Administrativo de Recursos Fiscais)",
+    "Responsável obrigado": "Pessoa física ou jurídica obrigada a enviar a DeCripto — PSAVs com presença no Brasil, pessoas que realizem operações em plataformas estrangeiras ou descentralizadas",
+    "Operações declaráveis": "Compra/venda, permuta, staking, DeFi, airdrops, pagamentos acima de US$50k, transferências entre carteiras — desde que acima do limite de R$35k mensais",
+    "Limite declaratório": "R$ 35.000 mensais — operações abaixo desse valor em cada mês não precisam ser declaradas",
+    "IN 1.888/2019": "Instrução Normativa substituída pela DeCripto — exigia reporte de operações com criptoativos, mas não implementava o CARF",
+    "IN 1.899/2019": "Instrução Normativa substituída pela DeCripto — disciplinava ganhos de capital em criptoativos",
+    "OCDE": "Organização para Cooperação e Desenvolvimento Económico — criou o CARF (padrão de reporte automático para criptoativos) adotado pelo Brasil"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "A IN RFB 2.291, publicada em 14 de novembro de 2025, criou a Declaração de Criptoativos (DeCripto) — a principal obrigação acessória fiscal do mercado cripto brasileiro. Ela substitui as antigas INs 1.888 e 1.899/2019 e implementa o Crypto-Asset Reporting Framework (CARF) da OCDE, permitindo troca automática de dados fiscais sobre criptoativos entre Brasil e outros países. A DeCripto é mais abrangente que o regime anterior: inclui DeFi, staking, airdrops e wallets descentralizadas.",
+      "normas": [
+        {
+          "texto": "IN RFB 2.291/2025",
+          "cor": "rfb"
+        },
+        {
+          "texto": "Substitui INs 1.888 e 1.899/2019",
+          "cor": "rfb"
+        },
+        {
+          "texto": "Implementa CARF/OCDE",
+          "cor": "gafi"
+        }
+      ]
+    },
+    {
+      "id": "obrigados",
+      "tipo": "lista",
+      "titulo": "Quem está Obrigado a Declarar?",
+      "intro": "A DeCripto ampliou o rol de obrigados em relação ao regime anterior. São obrigados:",
+      "itens": [
+        {
+          "num": "1",
+          "titulo": "PSAVs com presença no Brasil",
+          "desc": "Qualquer plataforma de criptoativos que: (a) seja constituída no Brasil; (b) gerencie operações brasileiras; (c) tenha presença local (domínio .br, receba valores de residentes, use PIX). Obrigação: reportar operações de TODOS os clientes."
+        },
+        {
+          "num": "2",
+          "titulo": "Pessoas físicas com transações via plataformas estrangeiras",
+          "desc": "Quem usa exchanges estrangeiras (Coinbase, Binance.us, etc.) deve declarar suas próprias operações acima de R$35k/mês."
+        },
+        {
+          "num": "3",
+          "titulo": "Pessoas físicas com transações em DeFi",
+          "desc": "Quem usa protocolos descentralizados (Uniswap, Aave, Compound etc.) sem intermediário humano deve declarar operações acima de R$35k/mês."
+        },
+        {
+          "num": "4",
+          "titulo": "Pessoas físicas e jurídicas sem intermediário (P2P)",
+          "desc": "Transações diretas entre partes, sem PSAV intermediária, também são declaráveis se acima do limite."
+        }
+      ],
+      "atencao": "O limite de R$35.000 mensais é por mês, não por operação. Se o total de operações de um contribuinte em um mês superar R$35k, TODAS as operações daquele mês devem ser declaradas — incluindo as primeiras que somadas não atingiam o limite."
+    },
+    {
+      "id": "operacoes",
+      "tipo": "tabela",
+      "titulo": "Operações Declaráveis vs. Não Declaráveis",
+      "intro": "A DeCripto amplia o escopo além das operações tradicionais de compra e venda:",
+      "colunas": [
+        "Operação",
+        "Declarável?",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "Compra ou venda de criptoativos",
+          "✅ Sim",
+          "Quando o total mensal supera R$35k"
+        ],
+        [
+          "Permuta entre criptoativos (ex: BTC ↔ ETH)",
+          "✅ Sim",
+          "Cada permuta é um evento tributável"
+        ],
+        [
+          "Staking — recompensas recebidas",
+          "✅ Sim",
+          "Rendimento sujeito a IR"
+        ],
+        [
+          "Airdrops recebidos",
+          "✅ Sim",
+          "Receita tributável no recebimento"
+        ],
+        [
+          "Participação em DeFi (fornecimento de liquidez)",
+          "✅ Sim",
+          "Rendimentos e operações acima do limite"
+        ],
+        [
+          "Pagamento em cripto por bens/serviços ≥ US$50k",
+          "✅ Sim",
+          "Obrigação especial acima de US$50k"
+        ],
+        [
+          "Transferências entre carteiras próprias",
+          "✅ Sim",
+          "Declarável para rastreabilidade"
+        ],
+        [
+          "Distribuição de stablecoins",
+          "✅ Sim",
+          "Se acima do limite"
+        ],
+        [
+          "Operações abaixo de R$35k/mês",
+          "❌ Não",
+          "Abaixo do limite declaratório"
+        ],
+        [
+          "Saldo mantido em carteira sem movimentação",
+          "❌ Não",
+          "Apenas operações, não saldo estático"
+        ],
+        [
+          "NFTs de arte sem fungibilidade",
+          "Depende",
+          "A critério da RFB — norma em evolução"
+        ]
+      ]
+    },
+    {
+      "id": "prazos-vigencia",
+      "tipo": "timeline",
+      "titulo": "Vigência Faseada da DeCripto",
+      "itens": [
+        {
+          "data": "14 Nov 2025",
+          "evento": "IN RFB 2.291/2025 publicada",
+          "detalhe": "Substitui as INs 1.888 e 1.899/2019"
+        },
+        {
+          "data": "1 Jan 2026",
+          "evento": "Vigência das obrigações CARF",
+          "detalhe": "Troca automática de dados fiscais com outros países começa. PSAVs devem reportar dados de clientes de países signatários do CARF.",
+          "cor": "rfb"
+        },
+        {
+          "data": "1 Jul 2026",
+          "evento": "Vigência das demais obrigações",
+          "detalhe": "Demais obrigações da DeCripto entram em vigor — incluindo declarações de pessoas físicas com transações em plataformas estrangeiras e DeFi.",
+          "cor": "rfb"
+        },
+        {
+          "data": "Fev 2028",
+          "evento": "Primeira troca internacional de dados",
+          "detalhe": "BCB e RFB trocam dados de criptoativos com autoridades fiscais de países signatários (prazo referenciado no marco regulatório)"
+        }
+      ]
+    },
+    {
+      "id": "penalidades",
+      "tipo": "duplo-painel",
+      "titulo": "Penalidades pelo Descumprimento",
+      "norma_diz": "Pelo atraso na entrega: (a) R$500/mês para pessoas jurídicas optantes pelo Simples Nacional; (b) R$1.500/mês para demais pessoas jurídicas; (c) R$100/mês para pessoas físicas. Por informação incorreta, incompleta ou omitida: (a) 3% do valor da operação para pessoas jurídicas, mínimo R$100; (b) 1,5% do valor da operação para pessoas físicas. Além das multas administrativas, o descumprimento pode ser comunicado ao Ministério Público caso configure indício de crime.",
+      "na_pratica": "Para uma PSAV que processa R$100 milhões/mês em operações: (a) atraso de 1 mês = R$1.500; (b) omissão de 3% sobre R$100M = R$3 MILHÕES de multa. As penalidades administrativas são relativamente baixas, mas a comunicação ao MP e os impactos reputacionais podem ser devastadores. A conformidade fiscal é não-negociável.",
+      "atencao": "A DeCripto exige manutenção de documentação por pelo menos 5 anos a partir da data de liquidação das operações. A RFB pode cruzar dados da DeCripto com as informações do BCB (Res. 520, Art. 88) e com declarações do IRPF para identificar inconsistências."
+    },
+    {
+      "id": "carf-ocde",
+      "tipo": "duplo-painel",
+      "titulo": "CARF — O Padrão Internacional (OCDE)",
+      "norma_diz": "O Crypto-Asset Reporting Framework (CARF) da OCDE é o padrão global de troca automática de informações fiscais sobre criptoativos, análogo ao CRS (Common Reporting Standard) para contas bancárias. Países signatários trocam automaticamente dados sobre clientes não-residentes que realizam operações com criptoativos em suas jurisdições.",
+      "na_pratica": "O CARF significa que: (a) uma PSAV brasileira deve reportar à RFB os dados de clientes americanos — e a RFB repassa ao IRS (EUA); (b) exchanges americanas repassa dados de clientes brasileiros ao IRS, que repassa à RFB. A evasão fiscal usando criptoativos em exchanges estrangeiras ficou muito mais difícil: os dados são trocados automaticamente, sem necessidade de requisição judicial.",
+      "destaque": "O CARF não é igual ao GAFI: CARF é padrão fiscal (OCDE), GAFI é padrão de combate à lavagem de dinheiro e financiamento do terrorismo. O Brasil adota ambos — DeCripto implementa o CARF, e as Res. BCB 519/520/521 implementam os padrões GAFI."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Uma pessoa física usa uma exchange estrangeira e realiza operações totalizando R$20.000 em um mês. Ela precisa declarar na DeCripto?",
+      "opcoes": [
+        "Sim — qualquer operação com criptoativos deve ser declarada",
+        "Não — o limite declaratório é R$35.000 mensais e o total ficou abaixo",
+        "Sim — exchanges estrangeiras sempre exigem declaração",
+        "Não — apenas PSAVs são obrigadas a declarar"
+      ],
+      "correta": 1,
+      "explicacao": "O limite declaratório da DeCripto (IN RFB 2.291/2025) é de R$35.000 mensais. Operações abaixo desse valor em um mês não precisam ser declaradas. Com R$20.000, a pessoa física está abaixo do limite e não tem obrigação de declarar naquele mês."
+    },
+    {
+      "pergunta": "Qual é a penalidade para uma pessoa jurídica (não-Simples) que entrega a DeCripto com atraso de 2 meses?",
+      "opcoes": [
+        "R$100 por mês = R$200 no total",
+        "R$500 por mês = R$1.000 no total",
+        "R$1.500 por mês = R$3.000 no total",
+        "3% do valor das operações"
+      ],
+      "correta": 2,
+      "explicacao": "Para pessoas jurídicas não-optantes pelo Simples Nacional, a multa por atraso na entrega da DeCripto é de R$1.500 por mês de atraso. Em 2 meses: 2 × R$1.500 = R$3.000. Para Simples Nacional: R$500/mês. Para PF: R$100/mês. A multa por omissão de informações é diferente: 3% do valor da operação (mínimo R$100)."
+    },
+    {
+      "pergunta": "O CARF (Crypto-Asset Reporting Framework) da OCDE implementado pela DeCripto permite:",
+      "opcoes": [
+        "Regulação de PSAVs pelo Banco Central de cada país",
+        "Troca automática de informações fiscais sobre criptoativos entre países signatários",
+        "Rastreamento de transações na blockchain pelo governo",
+        "Tributação uniforme de criptoativos em todos os países da OCDE"
+      ],
+      "correta": 1,
+      "explicacao": "O CARF é um padrão da OCDE que permite a troca automática de dados fiscais sobre criptoativos entre países signatários — análogo ao CRS para contas bancárias. Com o CARF, a RFB brasileira recebe automaticamente dados de brasileiros que operem em exchanges de países parceiros, e vice-versa, sem precisar de requisição judicial individual."
+    },
+    {
+      "pergunta": "A recepção de recompensas de staking é declarável na DeCripto?",
+      "opcoes": [
+        "Não — staking não é uma operação de compra ou venda",
+        "Somente se o valor total do mês superar R$100.000",
+        "Sim — recompensas de staking são declaráveis quando o total mensal de operações supera R$35.000",
+        "Sim — independentemente do valor"
+      ],
+      "correta": 2,
+      "explicacao": "A DeCripto inclui staking entre as operações declaráveis. Mas a obrigação de declarar está sujeita ao limite mensal de R$35.000. Se o total de operações (incluindo as recompensas de staking) no mês superar R$35.000, todas as operações daquele mês devem ser declaradas."
+    }
+  ],
+  "links": [
+    {
+      "label": "IN RFB 2.291/2025 — Normas Legais",
+      "url": "https://www.normaslegais.com.br/legislacao/instrucao-normativa-rfb-2291-2025.htm"
+    },
+    {
+      "label": "CARF — OCDE (inglês)",
+      "url": "https://www.oecd.org/en/topics/sub-issues/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.html"
+    },
+    {
+      "label": "RFB — Receita Federal",
+      "url": "https://www.gov.br/receitafederal/pt-br"
+    }
+  ]
+}

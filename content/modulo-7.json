@@ -1,0 +1,230 @@
+{
+  "id": 7,
+  "titulo": "Res. BCB 521 — Câmbio",
+  "subtitulo": "Ativos virtuais no mercado de câmbio brasileiro — alterações às Res. BCB 277, 278 e 279",
+  "norma": "Resolução BCB nº 521/2025",
+  "vigencia": "2 fev 2026 (estrutural) | 4 mai 2026 (reporte ACAM212)",
+  "glossario": {
+    "Operação cambial com AV": "Pagamento, transferência, ou troca de ativos virtuais que envolva relação entre residentes e não-residentes no Brasil",
+    "Stablecoin": "Ativo virtual referenciado em moeda fiduciária — compra, venda ou troca de stablecoins é operação cambial (Art. 76-A, IV)",
+    "Carteira autocustodiada": "Carteira cujo proprietário detém o controle da chave privada, sem necessidade de participação de PSAV (self-custody wallet)",
+    "Res. BCB 277/2022": "Resolução que regulamenta o mercado de câmbio brasileiro — alterada pela Res. BCB 521 para incluir as atividades de ativos virtuais",
+    "Res. BCB 278/2022": "Disciplina capitais estrangeiros no país — alterada para incluir crédito externo e IED em ativos virtuais",
+    "Res. BCB 279/2022": "Disciplina capitais brasileiros no exterior — alterada para incluir operações com AV",
+    "ACAM212": "Arquivo de reporte de operações de câmbio com ativos virtuais — envio mensal via STA (Sistema de Transferência de Arquivos) em formato XML",
+    "STA": "Sistema de Transferência de Arquivos — sistema do BCB para recebimento de informações das instituições supervisionadas",
+    "SCE-IED": "Sistema de Controle Externo — Investimento Estrangeiro Direto. Usado para reportar aportes de capital em AV por estrangeiros",
+    "SCE-Crédito": "Sistema de Controle Externo — Crédito. Usado para reportar empréstimos externos em stablecoins"
+  },
+  "secoes": [
+    {
+      "id": "intro",
+      "tipo": "intro",
+      "titulo": "Introdução",
+      "texto": "A Resolução BCB 521/2025 integra os ativos virtuais ao mercado de câmbio brasileiro. Ela altera as Res. BCB 277 (mercado de câmbio), 278 (capitais estrangeiros) e 279 (capitais brasileiros no exterior) para incluir as atividades das PSAVs. Complementada pela IN BCB 693/2025 (19/12/2025), que detalha o reporte técnico via ACAM212. A vigência é faseada: aspectos estruturais em 2/2/2026; reporte mensal em 4/5/2026.",
+      "normas": [
+        {
+          "texto": "Res. BCB 521/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Altera BCB 277/278/279",
+          "cor": "bcb"
+        },
+        {
+          "texto": "IN BCB 693/2025",
+          "cor": "bcb"
+        },
+        {
+          "texto": "Lei 14.286/2021 (câmbio)",
+          "cor": "lei"
+        }
+      ]
+    },
+    {
+      "id": "operacoes-cambiais",
+      "tipo": "lista",
+      "titulo": "As 4 Operações de AV Enquadradas como Câmbio (Art. 76-A)",
+      "intro": "O novo Título VIII-A inserido na Res. BCB 277 define quais atividades com ativos virtuais são operações cambiais:",
+      "itens": [
+        {
+          "num": "I",
+          "titulo": "Pagamento ou transferência internacional com ativos virtuais",
+          "desc": "Liquidação que envolva alteração de titularidade entre residente e não-residente (ou entre não-residentes). Inclui envio ou recebimento de AV do exterior pela mesma pessoa."
+        },
+        {
+          "num": "II",
+          "titulo": "Transferência de AV relacionada a cartão/pagamento eletrônico internacional",
+          "desc": "Transferência de AV de ou para cliente de PSAV para cumprir obrigação de uso internacional de cartão ou meio de pagamento eletrônico."
+        },
+        {
+          "num": "III",
+          "titulo": "Transferência de ou para carteira autocustodiada",
+          "desc": "Mesmo sem ser pagamento internacional — qualquer transferência para self-custody wallet exige identificação do proprietário da carteira."
+        },
+        {
+          "num": "IV",
+          "titulo": "Compra, venda ou troca de stablecoins",
+          "desc": "Qualquer operação com ativos virtuais referenciados em moeda fiduciária (USDT, USDC, BRL Coin etc.) é operação cambial."
+        }
+      ],
+      "atencao": "Vedado: (a) comprar ou vender AV com pagamento em moeda estrangeira (mesmo em livro de ofertas — Art. 76-A, §2º); (b) movimentar recursos de terceiros via AV no câmbio, exceto quando a PSAV presta serviço a IF autorizada que atue no interesse de seus clientes (Art. 76-A, §3º)."
+    },
+    {
+      "id": "limites",
+      "tipo": "tabela",
+      "titulo": "Limites por Tipo de Instituição (Art. 29 alterado da Res. BCB 277)",
+      "intro": "A Res. BCB 521 definiu limites diferentes para cada tipo de instituição autorizada a operar com AV no câmbio:",
+      "colunas": [
+        "Tipo de IF",
+        "Operações Permitidas com AV",
+        "Limite — Contraparte Não Autorizada"
+      ],
+      "linhas": [
+        [
+          "<strong>Bancos comerciais, de câmbio, de investimento, múltiplos e CEF</strong>",
+          "Todas as operações cambiais — AV somente para IFs que também sejam PSAVs",
+          "N/A (operações interbancárias sem limite específico)"
+        ],
+        [
+          "<strong>Corretoras e Distribuidoras de TVM</strong>",
+          "Câmbio com clientes (pronta); interbancário e arbitragens",
+          "N/A"
+        ],
+        [
+          "<strong>Corretoras de câmbio</strong>",
+          "Câmbio com clientes até US$500k; AV como PSAV",
+          "<strong>US$ 500.000</strong> por pagamento ou transferência com AV quando contraparte não autorizada"
+        ],
+        [
+          "<strong>SPSAVs</strong>",
+          "Operações de prestação de serviços de AV no câmbio. Vedado: moeda em espécie (nacional ou estrangeira)",
+          "<strong>US$ 100.000</strong> por pagamento ou transferência quando contraparte não é IF autorizada a operar câmbio"
+        ]
+      ]
+    },
+    {
+      "id": "carteira-auto",
+      "tipo": "duplo-painel",
+      "titulo": "Carteira Autocustodiada (Art. 76-A, §5º)",
+      "norma_diz": "A prestadora de serviços de ativos virtuais deve identificar o proprietário de carteira autocustodiada, implementar e ter documentados os processos para verificar a origem e o destino dos ativos virtuais nas operações que envolvam carteiras autocustodiadas.",
+      "na_pratica": "Self-custody wallets são o ponto mais difícil da regulação. Uma SPSAV não pode simplesmente aceitar uma transferência de uma carteira externa sem saber quem é o dono. Na prática: (a) o cliente declara que a carteira é dele; (b) pode ser solicitado saque para confirmar; (c) sistemas de análise de blockchain (Chainalysis, Elliptic etc.) ajudam a identificar risco. A documentação desse processo deve estar na política de PLD/FT.",
+      "atencao": "Transferências de ou para carteiras autocustodiadas precisam ser reportadas mensalmente ao BCB via ACAM212 (categoria 3 do Anexo II-A). Devem incluir: identificação do proprietário da carteira e se é origem ou destino."
+    },
+    {
+      "id": "psav-exterior",
+      "tipo": "duplo-painel",
+      "titulo": "Operações com PSAVs no Exterior (Art. 76-B, §2º)",
+      "norma_diz": "No caso de operação que envolva prestadora de serviços de ativos virtuais no exterior, a PSAV brasileira deve verificar se a entidade no exterior está sob efetiva supervisão prudencial e de conduta ou se é integrante de grupo financeiro sujeito a supervisão consolidada. Se a jurisdição da entidade estrangeira não estabelece tais requerimentos, a PSAV deve ter documentada avaliação sobre os riscos de realizar negócios com essa entidade.",
+      "na_pratica": "Antes de fechar operações com uma exchange estrangeira, a SPSAV brasileira deve verificar se essa exchange tem licença em alguma jurisdição regulada (ex: EUA, UE, Reino Unido, Japão). Se a exchange estrangeira estiver em jurisdição sem regulação ou na lista cinza/negra do GAFI, a SPSAV deve documentar a avaliação de risco e pode precisar de due diligence reforçada.",
+      "destaque": "O limite de US$100k (para SPSAVs) ou US$500k (para corretoras de câmbio) aplica-se apenas quando a contraparte NÃO é IF autorizada a operar no mercado de câmbio. PSAVs reconhecidas entre si podem ter outros limites."
+    },
+    {
+      "id": "finalidade",
+      "tipo": "duplo-painel",
+      "titulo": "Finalidade da Operação — Classificação (Art. 76-C)",
+      "norma_diz": "Para operações internacionais com AV, a SPSAV deve: (I) obter do cliente a informação sobre a finalidade do pagamento/transferência, usando os códigos dos Anexos III ou IV da Res. BCB 277 (limite US$50k para usar código simplificado); (II) prestar orientação e suporte para classificação correta; (III) obter dados do pagador/recebedor no exterior e a relação de vínculo com o cliente.",
+      "na_pratica": "Cada operação de câmbio (incluindo AV) precisa de uma classificação de finalidade no sistema do BCB. Exemplos: remessa de capitais, compra de serviços, pagamento de importação. Para operações abaixo de US$50k, o código pode ser mais genérico (Anexo III). Acima de US$50k, exige maior detalhamento (Anexo IV). A PSAV deve orientar o cliente a classificar corretamente.",
+      "atencao": "O Art. 76-C só entra em vigor em 4/5/2026 (diferente da vigência geral de 2/2/2026). As SPSAVs têm esse período extra para preparar seus sistemas de classificação de finalidade."
+    },
+    {
+      "id": "reporte",
+      "tipo": "fluxo",
+      "titulo": "Reporte Mensal — ACAM212 (Arts. 82-A + IN BCB 693/2025)",
+      "passos": [
+        {
+          "titulo": "O que deve ser reportado (4 categorias)",
+          "desc": "1) Pagamentos/transferências internacionais com AV: data, finalidade, denominação/quantidade/valor do AV, pagador/recebedor exterior, relação de vínculo. 2) Transferências para cartões internacionais: similar. 3) Carteiras autocustodiadas: data, AV, proprietário, origem/destino. 4) Total mensal de stablecoins: mês, cliente, denominação, quantidade obtida/entregue.",
+          "prazo": "Vigência: 4/5/2026"
+        },
+        {
+          "titulo": "Quando enviar",
+          "desc": "Até o 5º dia útil do mês subsequente à operação.",
+          "prazo": "Dia 5 de cada mês"
+        },
+        {
+          "titulo": "Como enviar",
+          "desc": "Via arquivo ACAM212, usando o Sistema de Transferência de Arquivos (STA) do BCB, em formato XML. Os detalhes técnicos foram detalhados pela IN BCB 693/2025 (publicada em 19/12/2025).",
+          "prazo": "Vigência da IN BCB 693: 2/2/2026"
+        },
+        {
+          "titulo": "Quem está obrigado",
+          "desc": "Todas as IFs autorizadas a operar no mercado de câmbio que realizem operações com AV, E as SPSAVs em período de adequação (Art. 29, §5º da Res. BCB 277, inserido pela 521).",
+          "prazo": "A partir de 4/5/2026"
+        }
+      ]
+    },
+    {
+      "id": "capitais",
+      "tipo": "duplo-painel",
+      "titulo": "Capitais Estrangeiros e Brasileiros no Exterior (Res. 278 e 279)",
+      "norma_diz": "Res. BCB 278 (capitais estrangeiros): crédito externo em stablecoins deve ser reportado no SCE-Crédito pelo valor equivalente na moeda fiduciária de referência. Investimento Estrangeiro Direto (IED) pode ser feito por integralização em ativos virtuais — reportado no SCE-IED. Res. BCB 279 (capitais brasileiros no exterior): operações em AV por residentes no exterior devem observar a Res. BCB 279.",
+      "na_pratica": "Antes da Res. 521, não havia clareza sobre como reportar créditos e investimentos internacionais feitos com AV. Agora: (a) se um fundo estrangeiro investir em uma startup brasileira integralizando capital em USDC — é IED reportável no SCE-IED pelo valor em USD; (b) se empresa brasileira tomar empréstimo externo em ETH — é crédito externo reportável no SCE-Crédito pelo valor em ETH convertido para USD.",
+      "destaque": "Essas mudanças nas Res. 278 e 279 entram em vigor em 4/5/2026 (mesmo prazo do reporte ACAM212), não em 2/2/2026 como as demais disposições da Res. 521."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Qual das seguintes operações com ativos virtuais é enquadrada como operação cambial pela Res. BCB 521?",
+      "opcoes": [
+        "Transferência de Bitcoin entre duas carteiras do mesmo cliente dentro do Brasil",
+        "Compra de Bitcoin com Reais em uma exchange nacional",
+        "Compra de USDT (stablecoin) em uma exchange nacional",
+        "Staking de Ethereum em plataforma nacional"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 76-A, inciso IV inserido na Res. BCB 277 enquadra 'compra, venda ou troca de ativos virtuais referenciados em moeda fiduciária (stablecoins)' como operação cambial. O USDT é uma stablecoin atrelada ao dólar, portanto sua compra ou venda é operação cambial. A compra de Bitcoin com Reais (sem stablecoin) e transferências nacionais não são cambiais."
+    },
+    {
+      "pergunta": "Qual é o limite de pagamento ou transferência internacional com ativos virtuais para uma SPSAV quando a contraparte não é IF autorizada a operar no câmbio?",
+      "opcoes": [
+        "Sem limite — livre movimentação",
+        "US$ 50.000 por operação",
+        "US$ 100.000 por operação",
+        "US$ 500.000 por operação"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterada pela 521) estabelece que SPSAVs têm limite de US$ 100.000 por pagamento ou transferência internacional quando a contraparte não é IF autorizada a operar no mercado de câmbio. Corretoras de câmbio têm limite de US$ 500.000. Bancos não têm limite específico nessas operações."
+    },
+    {
+      "pergunta": "Quando começa o reporte mensal obrigatório via ACAM212 (Art. 82-A)?",
+      "opcoes": [
+        "2 de fevereiro de 2026 (mesmo que a vigência geral da Res. 521)",
+        "4 de maio de 2026 (vigência específica do Art. 82-A)",
+        "1 de julho de 2026",
+        "1 de janeiro de 2027"
+      ],
+      "correta": 1,
+      "explicacao": "O Art. 6º, inciso I da Res. BCB 521 especifica que o Art. 82-A (reporte mensal ACAM212) entra em vigor em 4 de maio de 2026 — diferente da vigência geral de 2/2/2026. Isso deu às PSAVs 3 meses adicionais para preparar seus sistemas de reporte."
+    },
+    {
+      "pergunta": "Uma SPSAV recebe transferência de Bitcoin de uma carteira autocustodiada de um cliente. O que deve fazer?",
+      "opcoes": [
+        "Nada especial — carteiras autocustodiadas são livres de controle",
+        "Bloquear a transferência até que o cliente prove KYC completo",
+        "Identificar o proprietário da carteira, documentar o processo de verificação de origem/destino, e reportar mensalmente ao BCB via ACAM212",
+        "Comunicar ao COAF toda transferência de carteira autocustodiada"
+      ],
+      "correta": 2,
+      "explicacao": "O Art. 76-A, §5º exige que a PSAV identifique o proprietário da carteira autocustodiada e documente os processos de verificação de origem e destino. As transferências para/de carteiras autocustodiadas também devem ser reportadas mensalmente no ACAM212 (categoria 3 do Anexo II-A), incluindo identificação do proprietário."
+    }
+  ],
+  "links": [
+    {
+      "label": "Res. BCB 521/2025 — Texto Oficial",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=521"
+    },
+    {
+      "label": "Res. BCB 277/2022 (câmbio) — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolução BCB&numero=277"
+    },
+    {
+      "label": "IN BCB 693/2025 — BCB",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Instrução Normativa BCB&numero=693"
+    },
+    {
+      "label": "Lei 14.286/2021 (câmbio) — Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14286.htm"
+    }
+  ]
+}
