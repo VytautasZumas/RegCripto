@@ -666,7 +666,7 @@ function renderizarQuiz(dados) {
   const subtitulo = document.getElementById('quiz-subtitle');
 
   container.classList.remove('hidden');
-  subtitulo.textContent = `${dados.quiz.length} questões — ${estado.modo === 'estudo' ? 'gabarito e explicação disponíveis' : 'modo aula: apenas acerto/erro'}`;
+  subtitulo.textContent = `${dados.quiz.length} questões — gabarito e explicação disponíveis após cada resposta`;
 
   questoes.innerHTML = dados.quiz.map((q, qi) => {
     const qKey = `${dados.id}-${qi}`;
@@ -687,7 +687,7 @@ function renderizarQuiz(dados) {
         </button>`;
     }).join('');
 
-    const explicacaoVisivel = respondida && estado.modo === 'estudo';
+    const explicacaoVisivel = respondida;
 
     return `
       <div class="quiz-question" data-qi="${qi}">
@@ -738,11 +738,9 @@ function responderQuestao(dados, qi, oi) {
     else if (idx === oi && idx !== q.correta) btn.classList.add('wrong');
   });
 
-  // Explicação (modo estudo)
-  if (estado.modo === 'estudo') {
-    const exp = document.getElementById(`exp-${dados.id}-${qi}`);
-    if (exp) exp.classList.add('visible');
-  }
+  // Explicação (sempre visível após responder)
+  const exp = document.getElementById(`exp-${dados.id}-${qi}`);
+  if (exp) exp.classList.add('visible');
 
   // Verifica se respondeu tudo
   const total = dados.quiz.length;
