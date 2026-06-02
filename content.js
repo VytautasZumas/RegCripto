@@ -212,7 +212,7 @@ const CONTENT_DATA = [
           "Receita Federal do Brasil (RFB)"
         ],
         "correta": 1,
-        "explicacao": "O Decreto 11.563/2023 designou o BCB como regulador e supervisor das Prestadoras de Serviços de Ativos Virtuais. A CVM regula tokens com característica de valor mobiliário, não as PSAVs em geral."
+        "explicacao": "O Decreto 11.563/2023 designou o Banco Central do Brasil (BCB) como o órgão competente para regular e supervisionar as SPSAVs. A CVM (Comissão de Valores Mobiliários) mantém a regulação restrita aos tokens que se enquadrem nas características de valores mobiliários (security tokens), conforme a Lei 6.385/1976."
       },
       {
         "pergunta": "Qual é o prazo máximo para uma SPSAV já em operação protocolar seu pedido de autorização no BCB?",
@@ -223,7 +223,7 @@ const CONTENT_DATA = [
           "1 de janeiro de 2027"
         ],
         "correta": 2,
-        "explicacao": "O Art. 88 da Res. BCB 520 estabelece 270 dias a partir de 2/2/2026 para protocolar o pedido. Após 30/10/2026, instituições autorizadas são proibidas de operar com PSAVs sem autorização ou pedido em análise (Art. 91)."
+        "explicacao": "Conforme o Art. 88 da Resolução BCB nº 520, o prazo é de 270 dias contados a partir da vigência da norma (2/2/2026), o que encerra o prazo em 30/10/2026. Após essa data, as instituições autorizadas ficam proibidas de operar com entidades que não tenham um pedido formal em análise no BCB."
       },
       {
         "pergunta": "O que é a DeCripto (IN RFB 2.291/2025)?",
@@ -234,7 +234,7 @@ const CONTENT_DATA = [
           "O sistema de autorização das SPSAVs junto ao BCB"
         ],
         "correta": 2,
-        "explicacao": "A IN RFB 2.291/2025 criou a Declaração de Criptoativos (DeCripto), substituindo as antigas INs 1.888 e 1.899/2019. Ela implementa o Crypto-Asset Reporting Framework (CARF) da OCDE para troca automática de informações fiscais entre países."
+        "explicacao": "A Instrução Normativa RFB nº 2.291/2025 instituiu a DeCripto, substituindo as antigas INs 1.888/2019 e 1.899/2019. Ela implementa no Brasil o Crypto-Asset Reporting Framework (CARF) da OCDE, viabilizando a troca automática de informações fiscais internacionais."
       },
       {
         "pergunta": "Uma fintech estrangeira que opera no Brasil tem quantos dias, após 2/2/2026, para transferir suas operações e clientes para uma entidade brasileira autorizada?",
@@ -245,7 +245,7 @@ const CONTENT_DATA = [
           "365 dias"
         ],
         "correta": 2,
-        "explicacao": "O Art. 23 da Res. BCB 520 estabelece prazo de 270 dias para que entidades constituídas no exterior que já operam no Brasil transfiram suas operações e clientes para instituição elegível brasileira, garantindo continuidade, segurança, transparência e consentimento dos clientes."
+        "explicacao": "O Art. 23 da Resolução BCB nº 520 determina o prazo de 270 dias para a migração completa e transferência de operações e clientes de estruturas estrangeiras para uma pessoa jurídica devidamente constituída no Brasil e elegível à autorização."
       }
     ],
     "links": [
@@ -398,7 +398,7 @@ const CONTENT_DATA = [
           "Reportar apenas transações acima de USD 10.000 às autoridades"
         ],
         "correta": 1,
-        "explicacao": "A Rec. 15 do GAFI estabelece que os países devem licenciar/registrar VASPs e que esses devem implementar as mesmas obrigações de PLD/FT das instituições financeiras — KYC, monitoramento, comunicação de suspeitas, etc."
+        "explicacao": "A Recomendação 15 do GAFI exige que os países regulem e licenciem os VASPs (chamados no Brasil de PSAVs), obrigando-os a adotar regimes robustos de Prevenção à Lavagem de Dinheiro e Financiamento ao Terrorismo (PLD/FT), equivalentes aos do setor bancário (KYC, monitoramento e reporte)."
       },
       {
         "pergunta": "A Travel Rule (Rec. 16 do GAFI) obriga o VASP originador a transmitir ao VASP beneficiário:",
@@ -409,7 +409,7 @@ const CONTENT_DATA = [
           "A hash da transação na blockchain"
         ],
         "correta": 1,
-        "explicacao": "A Travel Rule exige a transmissão de dados de identificação do originador (nome, conta/carteira, endereço ou documento) E do beneficiário (nome, conta/carteira). O Art. 44 da Res. BCB 520 implementa essa obrigação no Brasil."
+        "explicacao": "A Recomendação 16 (Travel Rule) determina a transmissão segura e imediata dos dados de identificação do originador (nome, CPF/CNPJ ou conta) e do beneficiário entre as pontas da transação. No Brasil, essa exigência foi normatizada pelo Art. 44 da Resolução BCB nº 520."
       },
       {
         "pergunta": "Na Abordagem Baseada em Risco (ABR), a due diligence reforçada é aplicada para:",
@@ -420,7 +420,7 @@ const CONTENT_DATA = [
           "Somente para clientes pessoas jurídicas"
         ],
         "correta": 2,
-        "explicacao": "Na ABR, a due diligence reforçada é aplicada a situações de alto risco identificadas: PEPs, clientes de países em lista cinza/negra do GAFI, operações atípicas, produtos de alto risco como DeFi e privacidade. O grau de controle é proporcional ao risco — não uniforme."
+        "explicacao": "A ABR orienta que os controles regulatórios e de compliance devem ser proporcionais ao risco mensurado. Clientes classificados como Pessoas Expostas Politicamente (PEPs), jurisdições sob monitoramento intensificado do GAFI (listas cinza/negra) ou transações sem claro fundamento econômico exigem due diligence reforçada."
       },
       {
         "pergunta": "Qual é o status do Brasil em relação à implementação das normas do GAFI para VASPs após novembro de 2025?",
@@ -431,7 +431,7 @@ const CONTENT_DATA = [
           "A regulação brasileira é de responsabilidade da CVM, não do BCB"
         ],
         "correta": 1,
-        "explicacao": "Com a publicação das Resoluções BCB 519, 520 e 521 em novembro/2025 (vigência fev/2026), o Brasil implementou um marco regulatório completo para PSAVs, incluindo licenciamento, requisitos de capital, PLD/FT, governança e Travel Rule — alinhado integralmente com os padrões do GAFI."
+        "explicacao": "Com a publicação do pacote de Resoluções BCB nº 519, 520 e 521 (com vigência iniciada em fevereiro de 2026), o Brasil consolidou seu marco regulatório completo, atendendo aos rigorosos critérios de licenciamento, capital, governança corporativa e regras de PLD/FT exigidos internacionalmente pelo GAFI."
       }
     ],
     "links": [
@@ -583,7 +583,7 @@ const CONTENT_DATA = [
           "Stablecoin lastreada em dólar"
         ],
         "correta": 2,
-        "explicacao": "A Lei 14.478/2022 exclui expressamente da definição de ativo virtual: (I) moeda nacional e estrangeiras; (II) moeda eletrônica do SPB; (III) instrumentos de acesso a produtos/serviços específicos; (IV) representações de ativos com emissores regulados pela CVM. Saldos em contas de pagamento (Pix, carteiras digitais) são moeda eletrônica — não ativos virtuais."
+        "explicacao": "O Art. 3º exclui expressamente da definição de ativo virtual as moedas nacionais e estrangeiras, a moeda eletrônica (saldos em contas de pagamento reguladas pelo SPB/Pix), instrumentos que deem acesso a serviços específicos (utility tokens fechados) e ativos que representem valores mobiliários regulados pela CVM."
       },
       {
         "pergunta": "Uma empresa brasileira que mantém a custódia de Bitcoin de seus clientes (guarda as chaves privadas) é classificada como:",
@@ -594,7 +594,7 @@ const CONTENT_DATA = [
           "Valor mobiliário, sujeita à CVM"
         ],
         "correta": 1,
-        "explicacao": "O Art. 5º, inciso IV da Lei 14.478/2022 inclui a 'custódia ou administração de ativos virtuais' como serviço de ativo virtual. Quem presta esse serviço em nome de terceiros é uma PSAV, sujeita às normas do BCB (Res. 519/520)."
+        "explicacao": "Nos termos do Art. 5º, inciso IV, da Lei nº 14.478/2022, a atividade de custódia ou administração de ativos virtuais em nome de terceiros configura um serviço especializado de ativo virtual, enquadrando a empresa obrigatoriamente como PSAV e sujeitando-a à tutela do Banco Central."
       },
       {
         "pergunta": "O Art. 11 da Lei 14.478/2022 determina que as PSAVs são 'pessoas obrigadas'. Isso significa que devem:",
@@ -605,7 +605,7 @@ const CONTENT_DATA = [
           "Obrigatoriamente ter conta no Banco Central do Brasil"
         ],
         "correta": 2,
-        "explicacao": "Ser 'pessoa obrigada' no regime PLD/FT significa estar sujeito às obrigações da Lei 9.613/1998: identificação e verificação de clientes (KYC), monitoramento contínuo de operações, registro e retenção de dados, e comunicação de operações suspeitas ao COAF."
+        "explicacao": "A inclusão das PSAVs no Art. 11 da Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro) estabelece deveres regulatórios estritos de identificação de clientes, manutenção de registros cadastrais atualizados, monitoramento transacional e comunicação direta e confidencial de atividades suspeitas ao COAF."
       },
       {
         "pergunta": "A pirâmide normativa para regulação de PSAVs no Brasil é:",
@@ -616,7 +616,7 @@ const CONTENT_DATA = [
           "Constituição Federal → CVM → BCB → Lei 14.478"
         ],
         "correta": 1,
-        "explicacao": "A pirâmide é: Lei 14.478/2022 (Marco Legal, emana do Congresso) → Decreto 11.563/2023 (Poder Executivo designa o BCB como regulador) → Res. BCB 519/520/521 (BCB detalha os requisitos operacionais). Cada nível emana do superior."
+        "explicacao": "A estrutura segue a hierarquia legal brasileira: a Lei 14.478/2022 cria o marco legal; o Decreto 11.563/2023 regulamenta a lei e delega a competência ao Banco Central; e o BCB edita as Resoluções nº 519, 520 e 521 para detalhar as diretrizes operacionais, de câmbio e de autorização."
       }
     ],
     "links": [
@@ -755,7 +755,7 @@ const CONTENT_DATA = [
           "Receita Federal do Brasil (RFB)"
         ],
         "correta": 2,
-        "explicacao": "O Decreto 11.563/2023 (Art. 1º) autoriza expressamente o BCB a regulamentar e supervisionar as PSAVs, incluindo autorizar funcionamento, fiscalizar e aplicar penalidades."
+        "explicacao": "O Art. 1º do Decreto nº 11.563/2023 estabeleceu de forma definitiva e expressa que compete ao Banco Central do Brasil disciplinar o funcionamento, supervisionar e autorizar o funcionamento das Prestadoras de Serviços de Ativos Virtuais (PSAVs)."
       },
       {
         "pergunta": "Segundo o Decreto 11.563/2023, a CVM mantém competência sobre:",
@@ -766,7 +766,7 @@ const CONTENT_DATA = [
           "Nenhuma — a CVM não tem papel no mercado de ativos virtuais"
         ],
         "correta": 1,
-        "explicacao": "O Decreto preserva a competência da CVM sobre ativos virtuais que tenham característica de valor mobiliário (security tokens). A CVM e o BCB divulgaram notas conjuntas orientando como diferenciar os casos. A exclusividade do BCB é apenas para PSAVs que operem com ativos não-mobiliários."
+        "explicacao": "O Decreto preserva a competência legal da CVM sobre ativos virtuais que se qualifiquem como valores mobiliários (ex.: tokens de recebíveis ou de equity que atendam ao Teste de Howey/legislação nacional). O BCB e a CVM atuam de forma coordenada para delimitar tais fronteiras."
       },
       {
         "pergunta": "Uma PSAV em operação antes de 2 de fevereiro de 2026 pode continuar operando durante o período de adequação. Qual é o prazo para protocolar o pedido de autorização?",
@@ -777,7 +777,7 @@ const CONTENT_DATA = [
           "365 dias a partir da vigência"
         ],
         "correta": 2,
-        "explicacao": "O Art. 88, inciso I da Res. BCB 520 estabelece 270 dias contados de 2/2/2026 para protocolar o pedido de autorização — o que resulta em aproximadamente 30 de outubro de 2026. Esse prazo tem base no Art. 9º da Lei 14.478/2022."
+        "explicacao": "O Art. 88, inciso I, da Resolução BCB nº 520 garante às empresas em funcionamento regular antes de 2/2/2026 a possibilidade de continuar operando durante o período de transição, desde que formalizem o pedido de autorização no prazo improrrogável de 270 dias (até 30/10/2026)."
       }
     ],
     "links": [
@@ -912,7 +912,7 @@ const CONTENT_DATA = [
           "O número de clientes ativos"
         ],
         "correta": 2,
-        "explicacao": "A nova metodologia da Res. Conjunta CMN/BCB 14 e Res. BCB 517 baseia o capital mínimo nas atividades concretas exercidas pela instituição, não mais apenas no tipo de licença. Uma SPSAV que só faz custódia tem capital menor do que uma que também faz intermediação e câmbio."
+        "explicacao": "A regulação adota o princípio da proporcionalidade baseada no risco das atividades: o capital mínimo requerido é cumulativo e varia conforme os serviços prestados pela SPSAV (ex.: uma entidade que acumula custódia, intermediação e operações de câmbio terá uma exigência de capital superior àquela que atua puramente como intermediária)."
       },
       {
         "pergunta": "Qual é a faixa de capital mínimo para uma SPSAV no Brasil?",
@@ -923,7 +923,7 @@ const CONTENT_DATA = [
           "R$ 50 milhões a R$ 100 milhões"
         ],
         "correta": 2,
-        "explicacao": "Conforme as Res. Conjunta CMN/BCB 14 e Res. BCB 517, o capital mínimo para SPSAVs varia de R$ 10,8 milhões (atividades mais simples) a R$ 37,2 milhões (combinação de todas as atividades permitidas). O BCB disponibiliza calculadora no seu site para o cálculo exato."
+        "explicacao": "Conforme os parâmetros definidos pela Resolução Conjunta CMN/BCB nº 14/2025 e pela Resolução BCB nº 517/2025, os limites mínimos de capital variam de R$10,8 milhões a R$37,2 milhões a depender do arranjo e da combinação de serviços executados pela instituição."
       },
       {
         "pergunta": "Sobre a integralização do capital social de uma SPSAV, o Art. 18 da Res. BCB 520 determina que:",
@@ -934,7 +934,7 @@ const CONTENT_DATA = [
           "Pode ser integralizado com ativos virtuais"
         ],
         "correta": 1,
-        "explicacao": "O Art. 18, §1º da Res. BCB 520 é claro: 'a subscrição do capital em moeda corrente deve ser realizada mediante imediata integralização da totalidade do valor subscrito'. Não há prazo — o capital deve ser todo integralizado no ato da subscrição, em Reais."
+        "explicacao": "Alinhado às diretrizes de governança e liquidez corporativa do BCB, a integralização do capital social mínimo das SPSAVs deve ocorrer em moeda corrente nacional, de forma integral e sem diferimentos ou parcelamentos no ato da subscrição, não sendo permitida a integralização diretamente em ativos virtuais."
       }
     ],
     "links": [
@@ -1189,7 +1189,7 @@ const CONTENT_DATA = [
           "Edifício compartilhado com mais de uma empresa"
         ],
         "correta": 1,
-        "explicacao": "O Art. 2º, §6º da Res. BCB 519 é explícito: o endereço deve ser de uso efetivo e exclusivo da instituição. É vedada a indicação de coworking, escritório virtual ou espaço compartilhado como sede — exceto para empresas do mesmo conglomerado."
+        "explicacao": "O endereço da sede da SPSAV deve ser de uso efetivo, exclusivo e segregado, impossibilitando o uso de escritórios virtuais ou coworkings tradicionais por razões de fiscalização presencial, segurança institucional e custódia de dados. A única ressalva ocorre para empresas integrantes do mesmo conglomerado financeiro."
       },
       {
         "pergunta": "Qual das seguintes pessoas jurídicas NÃO pode exercer controle direto sobre uma SPSAV?",
@@ -1200,7 +1200,7 @@ const CONTENT_DATA = [
           "Fundo de investimento"
         ],
         "correta": 3,
-        "explicacao": "O Art. 7º, §7º da Res. BCB 519 é categórico: 'Não são admitidos fundos de investimento como controladores ou integrantes de grupo de controle das instituições'. Fundos podem ter participação qualificada (sem controle), mas não podem controlar."
+        "explicacao": "O Art. 7º, §7º da Resolução BCB nº 519 veda a participação de fundos de investimento diretamente no grupo de controle da SPSAV devido à necessidade de identificação clara, direta e de responsabilização dos controladores finais perante o regulador. Fundos podem deter participações qualificadas, mas não o controle direto."
       },
       {
         "pergunta": "Um diretor de uma SPSAV é residente no exterior. Isso é:",
@@ -1211,7 +1211,7 @@ const CONTENT_DATA = [
           "Permitido com autorização especial do BCB"
         ],
         "correta": 2,
-        "explicacao": "O Art. 11, inciso I da Res. BCB 519 é imperativo: 'ser residente no país, para os cargos de direção'. Não há exceção ou autorização especial — diretores devem ser residentes no Brasil."
+        "explicacao": "O Art. 11, inciso I, estabelece como requisito obrigatório para a investidura em cargos de direção executiva que o profissional seja residente no país, assegurando a aplicabilidade das responsabilidades civis e administrativas em território nacional."
       },
       {
         "pergunta": "Uma SPSAV tem seu pedido de autorização indeferido definitivamente. Em quanto tempo deve devolver os ativos dos clientes?",
@@ -1222,7 +1222,7 @@ const CONTENT_DATA = [
           "90 dias ou na data acordada com cada cliente"
         ],
         "correta": 1,
-        "explicacao": "O Art. 18 da Res. BCB 519 determina que, após indeferimento definitivo, a SPSAV tem 30 dias para: cessar serviços, comunicar clientes, devolver ativos virtuais para instituições habilitadas indicadas pelos clientes, e devolver recursos financeiros para contas dos clientes."
+        "explicacao": "O Art. 18 da Resolução BCB nº 519 estipula o prazo rigoroso de 30 dias após a decisão definitiva de indeferimento para que a entidade interrompa a prestação de serviços e proceda à devolução integral de todos os recursos financeiros e ativos virtuais de titularidade dos clientes."
       },
       {
         "pergunta": "No processo em 2 fases da Res. BCB 519, a Fase 1 analisa principalmente:",
@@ -1233,7 +1233,7 @@ const CONTENT_DATA = [
           "Infraestrutura de TI e governança corporativa"
         ],
         "correta": 1,
-        "explicacao": "O Art. 26, inciso I da Res. BCB 519 define a Fase 1: (a) comprovação de que a SPSAV estava em atividade na data de vigência; (b) reputação de controladores e participantes qualificados (Req. VI e Cap. V); (c) capital mínimo (Req. IX). A Fase 2 analisa os demais requisitos."
+        "explicacao": "A análise do BCB ocorre de forma faseada (Art. 26). A Fase 1 foca no 'filtro' institucional básico: a comprovação de atuação prévia (se aplicável), a idoneidade/reputação cadastral dos controladores e a integralização do capital mínimo exigido, postergando auditorias de sistemas complexos de TI para a Fase 2."
       }
     ],
     "links": [
@@ -1516,7 +1516,7 @@ const CONTENT_DATA = [
           "Fazer intermediação, custódia e oferecer crédito aos clientes"
         ],
         "correta": 2,
-        "explicacao": "O Art. 10 define que a Corretora de Ativos Virtuais tem por objeto social a intermediação E a custódia. O Art. 85 exige separação interna entre as funções para mitigar conflitos de interesses. O Art. 12 veda a oferta de crédito a clientes para qualquer SPSAV."
+        "explicacao": "De acordo com os Arts. 10 e 85 da Resolução BCB nº 520, a modalidade de Corretora pode acumular intermediação e custódia, contanto que mantenha rigorosa segregação funcional e operacional interna para mitigar conflitos de interesse. A concessão de crédito direta a clientes permanece expressamente proibida."
       },
       {
         "pergunta": "A prova de reservas (Art. 30 da Res. BCB 520) serve para:",
@@ -1527,7 +1527,7 @@ const CONTENT_DATA = [
           "Aprovar a listagem de novos ativos virtuais na plataforma"
         ],
         "correta": 1,
-        "explicacao": "A prova de reservas é um mecanismo criptográfico (geralmente via árvore de Merkle) que permite a qualquer cliente verificar se seus ativos estão custodiados, sem revelar saldos individuais de outros clientes. Foi criada como resposta a fraudes como a da FTX, onde ativos dos clientes foram usados para operações próprias."
+        "explicacao": "Regulamentada no pós-crise global de exchanges (ex.: colapso da FTX), a prova de reservas exige a demonstração matemática/criptográfica periódica (frequentemente via Árvores de Merkle) de que a SPSAV detém a custódia integral dos ativos declarados e de propriedade dos seus clientes."
       },
       {
         "pergunta": "A Travel Rule (Art. 44 e 89 da Res. BCB 520) exige transmissão de dados entre PSAVs. Qual é o prazo para implementação no mercado nacional?",
@@ -1538,7 +1538,7 @@ const CONTENT_DATA = [
           "Sem prazo definido — a critério de cada SPSAV"
         ],
         "correta": 1,
-        "explicacao": "O Art. 89 da Res. BCB 520 define implementação em duas etapas: Etapa I (mercado nacional): 365 dias após 2/2/2026, i.e., aproximadamente fevereiro/2027. Etapa II (mercado internacional): mais 365 dias, i.e., fevereiro/2028. Até a conclusão, autodeclarações dos clientes são admitidas."
+        "explicacao": "O cronograma de implementação escalonada da Travel Rule (Art. 89) prevê duas etapas: a Etapa I (transações domésticas) deve ser integralmente implementada em 365 dias contados de fev/2026 (vencendo em fev/2027); e a Etapa II (transações internacionais) em até 730 dias (fev/2028)."
       },
       {
         "pergunta": "Quais ativos virtuais são expressamente vedados de oferta pelas SPSAVs (Art. 64, §2º, III)?",
@@ -1549,7 +1549,7 @@ const CONTENT_DATA = [
           "Ativos não listados em bolsas estrangeiras reguladas"
         ],
         "correta": 2,
-        "explicacao": "O Art. 64, §2º, inciso III da Res. BCB 520 veda a oferta de ativos virtuais que contenham características de fragilidade, insegurança ou riscos que favoreçam lavagem de dinheiro e financiamento do terrorismo 'por meio de facilitação de anonimato ou dificuldade de identificação do titular'. Isso abrange moedas de privacidade como Monero (XMR), Zcash (ZEC) e similares."
+        "explicacao": "O regulador proíbe a listagem, negociação e custódia de moedas com foco estrito em privacidade (ex.: Monero, Zcash), cujas características nativas de ocultação e anonimização de transações impeçam ou inviabilizem o cumprimento das obrigações legais de PLD/FT e rastreabilidade blockchain."
       },
       {
         "pergunta": "A partir de quando as PSAVs são proibidas de operar com entidades não autorizadas (Art. 91)?",
@@ -1560,7 +1560,7 @@ const CONTENT_DATA = [
           "1 de janeiro de 2027"
         ],
         "correta": 2,
-        "explicacao": "O Art. 91 da Res. BCB 520 estabelece que, a partir de 30 de outubro de 2026, as IFs e PSAVs ficam proibidas de realizar ou viabilizar operações no mercado de ativos virtuais com entidades não autorizadas ou sem pedido em análise no BCB."
+        "explicacao": "O Art. 91 fixa um 'marco de corte' comercial. Após 30/10/2026, com o encerramento do prazo de transição para protocolos de pedidos de autorização, as instituições financeiras e SPSAVs ficam proibidas de liquidar ou viabilizar transações com entidades atuantes no Brasil que não possuam processo de autorização ativo ou concedido."
       }
     ],
     "links": [
@@ -1753,7 +1753,7 @@ const CONTENT_DATA = [
           "Staking de Ethereum em plataforma nacional"
         ],
         "correta": 2,
-        "explicacao": "O Art. 76-A, inciso IV inserido na Res. BCB 277 enquadra 'compra, venda ou troca de ativos virtuais referenciados em moeda fiduciária (stablecoins)' como operação cambial. O USDT é uma stablecoin atrelada ao dólar, portanto sua compra ou venda é operação cambial. A compra de Bitcoin com Reais (sem stablecoin) e transferências nacionais não são cambiais."
+        "explicacao": "De acordo com o Art. 76-A, inciso IV, da norma de câmbio alterada pela Resolução BCB nº 521, a compra, venda ou permuta de ativos virtuais referenciados em moedas fiduciárias estrangeiras (stablecoins como USDT, USDC) constitui operação de natureza cambial, sujeita às regras e encargos do mercado de câmbio regulado."
       },
       {
         "pergunta": "Qual é o limite de pagamento ou transferência internacional com ativos virtuais para uma SPSAV quando a contraparte não é IF autorizada a operar no câmbio?",
@@ -1764,7 +1764,7 @@ const CONTENT_DATA = [
           "US$ 500.000 por operação"
         ],
         "correta": 2,
-        "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterada pela 521) estabelece que SPSAVs têm limite de US$ 100.000 por pagamento ou transferência internacional quando a contraparte não é IF autorizada a operar no mercado de câmbio. Corretoras de câmbio têm limite de US$ 500.000. Bancos não têm limite específico nessas operações."
+        "explicacao": "O Art. 29, inciso IV da Resolução BCB nº 277 (com redação dada pela 521) estabelece limites operacionais para transferências internacionais: US$100.000 para SPSAVs, US$500.000 para corretoras de câmbio tradicionais, ficando os valores ilimitados restritos aos bancos múltiplos/comerciais autorizados."
       },
       {
         "pergunta": "Quando começa o reporte mensal obrigatório via ACAM212 (Art. 82-A)?",
@@ -1775,7 +1775,7 @@ const CONTENT_DATA = [
           "1 de janeiro de 2027"
         ],
         "correta": 1,
-        "explicacao": "O Art. 6º, inciso I da Res. BCB 521 especifica que o Art. 82-A (reporte mensal ACAM212) entra em vigor em 4 de maio de 2026 — diferente da vigência geral de 2/2/2026. Isso deu às PSAVs 3 meses adicionais para preparar seus sistemas de reporte."
+        "explicacao": "Visando conceder prazo razoável para a adaptação sistêmica e homologação de layouts tecnológicos pelas instituições, o BCB diferiu a vigência específica do reporte obrigatório via sistema ACAM212 para 4/5/2026 (3 meses após a entrada em vigor geral das normas)."
       },
       {
         "pergunta": "Uma SPSAV recebe transferência de Bitcoin de uma carteira autocustodiada de um cliente. O que deve fazer?",
@@ -1786,7 +1786,7 @@ const CONTENT_DATA = [
           "Comunicar ao COAF toda transferência de carteira autocustodiada"
         ],
         "correta": 2,
-        "explicacao": "O Art. 76-A, §5º exige que a PSAV identifique o proprietário da carteira autocustodiada e documente os processos de verificação de origem e destino. As transferências para/de carteiras autocustodiadas também devem ser reportadas mensalmente no ACAM212 (categoria 3 do Anexo II-A), incluindo identificação do proprietário."
+        "explicacao": "Interações com carteiras não-custodiais (unhosted wallets) demandam diligência adicional (Art. 76-A, §5º). A SPSAV deve identificar e vincular a propriedade da carteira externa ao seu cliente, registrar os metadados de compliance e reportar a operação mensalmente nas categorias de risco do anexo do sistema ACAM212."
       }
     ],
     "links": [
@@ -1998,7 +1998,7 @@ const CONTENT_DATA = [
           "Não — apenas PSAVs são obrigadas a declarar"
         ],
         "correta": 1,
-        "explicacao": "O limite declaratório da DeCripto (IN RFB 2.291/2025) é de R$35.000 mensais. Operações abaixo desse valor em um mês não precisam ser declaradas. Com R$20.000, a pessoa física está abaixo do limite e não tem obrigação de declarar naquele mês."
+        "explicacao": "A obrigatoriedade de reporte individual por pessoas físicas ou jurídicas residentes no Brasil que utilizem exchanges domiciliadas no exterior (ou realizem transações peer-to-peer) só é disparada se o montante total das operações mensais ultrapassar a franquia isenta de R$35.000."
       },
       {
         "pergunta": "Qual é a penalidade para uma pessoa jurídica (não-Simples) que entrega a DeCripto com atraso de 2 meses?",
@@ -2009,7 +2009,7 @@ const CONTENT_DATA = [
           "3% do valor das operações"
         ],
         "correta": 2,
-        "explicacao": "Para pessoas jurídicas não-optantes pelo Simples Nacional, a multa por atraso na entrega da DeCripto é de R$1.500 por mês de atraso. Em 2 meses: 2 × R$1.500 = R$3.000. Para Simples Nacional: R$500/mês. Para PF: R$100/mês. A multa por omissão de informações é diferente: 3% do valor da operação (mínimo R$100)."
+        "explicacao": "A multa moratória por atraso na entrega da DeCripto para pessoas jurídicas não enquadradas no Simples Nacional é fixada em R$1.500 por mês ou fração de mês de atraso. A penalidade percentual (3%) incide sobre omissões de dados ou declarações incorretas, e não sobre o mero atraso temporal."
       },
       {
         "pergunta": "O CARF (Crypto-Asset Reporting Framework) da OCDE implementado pela DeCripto permite:",
@@ -2020,7 +2020,7 @@ const CONTENT_DATA = [
           "Tributação uniforme de criptoativos em todos os países da OCDE"
         ],
         "correta": 1,
-        "explicacao": "O CARF é um padrão da OCDE que permite a troca automática de dados fiscais sobre criptoativos entre países signatários — análogo ao CRS para contas bancárias. Com o CARF, a RFB brasileira recebe automaticamente dados de brasileiros que operem em exchanges de países parceiros, e vice-versa, sem precisar de requisição judicial individual."
+        "explicacao": "O Crypto-Asset Reporting Framework (CARF) padroniza internacionalmente a coleta e o intercâmbio automatizado de informações tributárias relativas a criptoativos entre os fiscos dos países signatários, espelhando a sistemática globalmente bem-sucedida do Common Reporting Standard (CRS) voltada ao mercado financeiro tradicional."
       },
       {
         "pergunta": "A recepção de recompensas de staking é declarável na DeCripto?",
@@ -2031,7 +2031,7 @@ const CONTENT_DATA = [
           "Sim — independentemente do valor"
         ],
         "correta": 2,
-        "explicacao": "A DeCripto inclui staking entre as operações declaráveis. Mas a obrigação de declarar está sujeita ao limite mensal de R$35.000. Se o total de operações (incluindo as recompensas de staking) no mês superar R$35.000, todas as operações daquele mês devem ser declaradas."
+        "explicacao": "O recebimento de proventos, rendimentos ou recompensas decorrentes de mecanismos de consenso (como staking, mineração ou airdrops) é considerado evento declarável na DeCripto. Se o somatório de todas as operações do contribuinte no mês de referência superar R$35.000, o staking deve constar detalhadamente no relatório."
       }
     ],
     "links": [
@@ -2580,7 +2580,7 @@ const CONTENT_DATA = [
           "Decreto 11.563/2023"
         ],
         "correta": 2,
-        "explicacao": "A Resolução BCB 520/2025 (Arts. 4-10) define as 3 modalidades de SPSAV: intermediária, custodiante e corretora. A Lei 14.478/2022 define os tipos de serviços de ativos virtuais, e a Res. BCB 519 disciplina o processo de autorização."
+        "explicacao": "Enquanto a Lei define conceitualmente os 'serviços de ativos virtuais', é o detalhamento infralegal promovido pelos Arts. 4º ao 10 da Resolução BCB nº 520 que efetivamente tipifica e estrutura as três modalidades de licenças operacionais de SPSAVs vigentes no Brasil."
       },
       {
         "pergunta": "Uma SPSAV em operação em 2/2/2026 pode continuar operando durante o período de adequação? Qual é a condição?",
@@ -2591,7 +2591,7 @@ const CONTENT_DATA = [
           "Sim, pode operar por 1 ano sem nenhuma obrigação adicional"
         ],
         "correta": 1,
-        "explicacao": "O Art. 88 da Res. BCB 520 permite que SPSAVs em operação continuem funcionando durante o período de adequação, mas devem protocolar o pedido de autorização em até 270 dias (≈30/10/2026). Após esse prazo sem protocolo: devem cessar atividades em até 30 dias adicionais."
+        "explicacao": "Trata-se da regra de transição estabelecida pelo Art. 88 da Resolução BCB nº 520. A empresa ganha a prerrogativa de operação temporária condicionada estritamente ao protocolo válido do pedido de autorização dentro da janela regulatória de 270 dias."
       },
       {
         "pergunta": "A Recomendação 15 do GAFI, implementada no Brasil via Lei 14.478/2022 e Res. BCB 520, exige que PSAVs tenham as mesmas obrigações de PLD/FT que:",
@@ -2602,7 +2602,7 @@ const CONTENT_DATA = [
           "Corretoras de valores não-bancárias"
         ],
         "correta": 2,
-        "explicacao": "A Rec. 15 do GAFI (2019) estendeu as obrigações de PLD/FT dos VASPs ao mesmo padrão das instituições financeiras. No Brasil, isso foi implementado pela Lei 14.478/2022 (Art. 11, pessoas obrigadas) e pela Res. BCB 520 (Art. 44, referência à Circular BCB 3.978/2020)."
+        "explicacao": "O GAFI exige equivalência regulatória máxima para combater a assimetria regulatória: as PSAVs devem replicar os exatos padrões de KYC (conheça seu cliente), KYP (conheça seu parceiro), monitoramento e reporte aplicados aos bancos comerciais e demais instituições financeiras tradicionais."
       },
       {
         "pergunta": "Qual é o limite de transferência internacional com ativos virtuais para SPSAVs quando a contraparte não é IF autorizada a operar câmbio?",
@@ -2613,7 +2613,7 @@ const CONTENT_DATA = [
           "US$ 500.000"
         ],
         "correta": 2,
-        "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterado pela Res. BCB 521) estabelece US$ 100.000 como limite para SPSAVs em operações com contraparte não autorizada a operar no câmbio. Corretoras de câmbio têm limite de US$ 500.000."
+        "explicacao": "Em perfeita harmonia com o Módulo 7 (Q2), o teto fixado pela Resolução BCB nº 521 que altera a Resolução BCB nº 277 limita as operações internacionais das SPSAVs com contrapartes não bancárias ao valor consolidado de US$100.000 por transação."
       },
       {
         "pergunta": "Qual o principal risco de uma SPSAV que não cumpre o Travel Rule até fevereiro de 2028?",
@@ -2624,7 +2624,7 @@ const CONTENT_DATA = [
           "Bloqueio automático de transações pelo sistema do BCB"
         ],
         "correta": 2,
-        "explicacao": "O não cumprimento da Travel Rule após fevereiro de 2028 representa descumprimento da Rec. 16 do GAFI e do Art. 44 da Res. BCB 520, sujeitando a SPSAV a penalidades regulatórias, possível cancelamento de autorização e consequências internacionais na relação com outras PSAVs que exijam conformidade."
+        "explicacao": "Transcorrido o prazo final para as transações internacionais (fevereiro de 2028), o descumprimento sistemático da Travel Rule expõe a SPSAV a severos processos administrativos sancionadores por parte do Banco Central, além de isolá-la do ecossistema financeiro internacional."
       },
       {
         "pergunta": "A expressão 'Sociedade Prestadora de Serviços de Ativos Virtuais' no nome empresarial é:",
@@ -2635,7 +2635,7 @@ const CONTENT_DATA = [
           "Recomendada, mas não exigida pela regulação"
         ],
         "correta": 1,
-        "explicacao": "O Art. 15, §1º da Res. BCB 520 é categórico: 'a expressão Sociedade Prestadora de Serviços de Ativos Virtuais é privativa de sociedades prestadoras de serviços de ativos virtuais'. Não apenas é obrigatória, como também é exclusiva — nenhuma outra empresa pode usar essa expressão."
+        "explicacao": "O Art. 15, §1º da Resolução BCB nº 520 institui o princípio da exclusividade e proteção ao investidor: o termo (ou a sigla SPSAV) deve constar obrigatoriamente da denominação social e seu uso é vedado a qualquer entidade que não detenha a devida outorga do Banco Central."
       },
       {
         "pergunta": "A DeCripto (IN RFB 2.291/2025) implementa qual padrão internacional?",
@@ -2646,7 +2646,7 @@ const CONTENT_DATA = [
           "Basel III — normas prudenciais para criptoativos"
         ],
         "correta": 1,
-        "explicacao": "A IN RFB 2.291/2025 implementa o CARF (Crypto-Asset Reporting Framework) da OCDE — padrão de troca automática de informações fiscais sobre criptoativos entre países. Não confundir com o Travel Rule (padrão GAFI, implementado pela Res. BCB 520) ou o Comitê de Basileia (padrões bancários prudenciais)."
+        "explicacao": "É essencial não confundir os âmbitos de atuação: a Travel Rule do GAFI foca em PLD/FT e circula no Banco Central (Res. 520); a DeCripto é uma norma fiscal federal emitida pela Receita Federal para implementar estritamente as diretrizes do CARF da OCDE para fins de transparência tributária."
       },
       {
         "pergunta": "A Res. BCB 521/2025 altera qual(is) norma(s) do BCB?",
@@ -2657,7 +2657,7 @@ const CONTENT_DATA = [
           "A Circular BCB 3.978/2020 (PLD/FT)"
         ],
         "correta": 1,
-        "explicacao": "A Res. BCB 521/2025 altera as três normas do mercado de câmbio e capitais internacionais: Res. BCB 277 (mercado de câmbio — insere o Título VIII-A sobre AV e o Anexo II-A do ACAM212), Res. BCB 278 (capitais estrangeiros — inclui crédito externo e IED em AV) e Res. BCB 279 (capitais brasileiros no exterior — inclui operações com AV)."
+        "explicacao": "A Resolução BCB nº 521 operou uma ampla reforma cambial sistêmica: introduziu o Título VIII-A na Resolução 277 (operações cambiais de AV), além de atualizar as Resoluções 278 (registro de capitais estrangeiros/IED via ativos virtuais) e 279 (declarações de capitais brasileiros detidos em ativos virtuais no exterior)."
       },
       {
         "pergunta": "Um fundo de venture capital quer investir em uma SPSAV. Qual estrutura é permitida?",
@@ -2668,7 +2668,7 @@ const CONTENT_DATA = [
           "Nenhuma forma de participação de fundos é permitida em SPSAVs"
         ],
         "correta": 2,
-        "explicacao": "O Art. 7º, §7º da Res. BCB 519 proíbe fundos de investimento como controladores. Mas fundos podem ter participação qualificada (≥15% do capital votante, sem controle). Para exercer controle, o fundo precisaria constituir uma holding financeira com objeto social exclusivo de participação em IFs autorizadas pelo BCB — que então controlaria a SPSAV (Art. 8º, IV da Res. BCB 519)."
+        "explicacao": "Em consonância com as vedações de governança (Art. 7º, §7º da Res. 519), se o fundo de VC desejar ditar as decisões e deter o controle político efetivo da SPSAV, deverá obrigatoriamente estruturar e constituir uma holding financeira intermediária autorizada pelo Banco Central."
       },
       {
         "pergunta": "Qual é a penalidade para uma SPSAV que omite informações na DeCripto (pessoa jurídica não-Simples)?",
@@ -2679,7 +2679,7 @@ const CONTENT_DATA = [
           "Cancelamento automático da autorização do BCB"
         ],
         "correta": 2,
-        "explicacao": "A IN RFB 2.291/2025 prevê duas penalidades distintas: (a) ATRASO: R$1.500/mês para PJ não-Simples; (b) OMISSÃO/INCORREÇÃO: 3% do valor da operação para PJ (mínimo R$100). Para PF: 1,5% do valor. A multa por omissão é potencialmente muito mais severa para empresas com grande volume de operações."
+        "explicacao": "Conforme a dosimetria de penalidades fiscais da Receita Federal na IN 2.291, a punição para a pessoa jurídica que presta dados inexatos, incompletos ou omite transações é calculada de forma proporcional e severa: 3% incidentes diretamente sobre o valor financeiro da operação objeto da omissão."
       }
     ],
     "links": [

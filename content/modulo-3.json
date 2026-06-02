@@ -123,7 +123,7 @@
         "Receita Federal do Brasil (RFB)"
       ],
       "correta": 2,
-      "explicacao": "O Decreto 11.563/2023 (Art. 1º) autoriza expressamente o BCB a regulamentar e supervisionar as PSAVs, incluindo autorizar funcionamento, fiscalizar e aplicar penalidades."
+      "explicacao": "O Art. 1º do Decreto nº 11.563/2023 estabeleceu de forma definitiva e expressa que compete ao Banco Central do Brasil disciplinar o funcionamento, supervisionar e autorizar o funcionamento das Prestadoras de Serviços de Ativos Virtuais (PSAVs)."
     },
     {
       "pergunta": "Segundo o Decreto 11.563/2023, a CVM mantém competência sobre:",
@@ -134,7 +134,7 @@
         "Nenhuma — a CVM não tem papel no mercado de ativos virtuais"
       ],
       "correta": 1,
-      "explicacao": "O Decreto preserva a competência da CVM sobre ativos virtuais que tenham característica de valor mobiliário (security tokens). A CVM e o BCB divulgaram notas conjuntas orientando como diferenciar os casos. A exclusividade do BCB é apenas para PSAVs que operem com ativos não-mobiliários."
+      "explicacao": "O Decreto preserva a competência legal da CVM sobre ativos virtuais que se qualifiquem como valores mobiliários (ex.: tokens de recebíveis ou de equity que atendam ao Teste de Howey/legislação nacional). O BCB e a CVM atuam de forma coordenada para delimitar tais fronteiras."
     },
     {
       "pergunta": "Uma PSAV em operação antes de 2 de fevereiro de 2026 pode continuar operando durante o período de adequação. Qual é o prazo para protocolar o pedido de autorização?",
@@ -145,7 +145,7 @@
         "365 dias a partir da vigência"
       ],
       "correta": 2,
-      "explicacao": "O Art. 88, inciso I da Res. BCB 520 estabelece 270 dias contados de 2/2/2026 para protocolar o pedido de autorização — o que resulta em aproximadamente 30 de outubro de 2026. Esse prazo tem base no Art. 9º da Lei 14.478/2022."
+      "explicacao": "O Art. 88, inciso I, da Resolução BCB nº 520 garante às empresas em funcionamento regular antes de 2/2/2026 a possibilidade de continuar operando durante o período de transição, desde que formalizem o pedido de autorização no prazo improrrogável de 270 dias (até 30/10/2026)."
     }
   ],
   "links": [

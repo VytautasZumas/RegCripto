@@ -211,7 +211,7 @@
         "Receita Federal do Brasil (RFB)"
       ],
       "correta": 1,
-      "explicacao": "O Decreto 11.563/2023 designou o BCB como regulador e supervisor das Prestadoras de Serviços de Ativos Virtuais. A CVM regula tokens com característica de valor mobiliário, não as PSAVs em geral."
+      "explicacao": "O Decreto 11.563/2023 designou o Banco Central do Brasil (BCB) como o órgão competente para regular e supervisionar as SPSAVs. A CVM (Comissão de Valores Mobiliários) mantém a regulação restrita aos tokens que se enquadrem nas características de valores mobiliários (security tokens), conforme a Lei 6.385/1976."
     },
     {
       "pergunta": "Qual é o prazo máximo para uma SPSAV já em operação protocolar seu pedido de autorização no BCB?",
@@ -222,7 +222,7 @@
         "1 de janeiro de 2027"
       ],
       "correta": 2,
-      "explicacao": "O Art. 88 da Res. BCB 520 estabelece 270 dias a partir de 2/2/2026 para protocolar o pedido. Após 30/10/2026, instituições autorizadas são proibidas de operar com PSAVs sem autorização ou pedido em análise (Art. 91)."
+      "explicacao": "Conforme o Art. 88 da Resolução BCB nº 520, o prazo é de 270 dias contados a partir da vigência da norma (2/2/2026), o que encerra o prazo em 30/10/2026. Após essa data, as instituições autorizadas ficam proibidas de operar com entidades que não tenham um pedido formal em análise no BCB."
     },
     {
       "pergunta": "O que é a DeCripto (IN RFB 2.291/2025)?",
@@ -233,7 +233,7 @@
         "O sistema de autorização das SPSAVs junto ao BCB"
       ],
       "correta": 2,
-      "explicacao": "A IN RFB 2.291/2025 criou a Declaração de Criptoativos (DeCripto), substituindo as antigas INs 1.888 e 1.899/2019. Ela implementa o Crypto-Asset Reporting Framework (CARF) da OCDE para troca automática de informações fiscais entre países."
+      "explicacao": "A Instrução Normativa RFB nº 2.291/2025 instituiu a DeCripto, substituindo as antigas INs 1.888/2019 e 1.899/2019. Ela implementa no Brasil o Crypto-Asset Reporting Framework (CARF) da OCDE, viabilizando a troca automática de informações fiscais internacionais."
     },
     {
       "pergunta": "Uma fintech estrangeira que opera no Brasil tem quantos dias, após 2/2/2026, para transferir suas operações e clientes para uma entidade brasileira autorizada?",
@@ -244,7 +244,7 @@
         "365 dias"
       ],
       "correta": 2,
-      "explicacao": "O Art. 23 da Res. BCB 520 estabelece prazo de 270 dias para que entidades constituídas no exterior que já operam no Brasil transfiram suas operações e clientes para instituição elegível brasileira, garantindo continuidade, segurança, transparência e consentimento dos clientes."
+      "explicacao": "O Art. 23 da Resolução BCB nº 520 determina o prazo de 270 dias para a migração completa e transferência de operações e clientes de estruturas estrangeiras para uma pessoa jurídica devidamente constituída no Brasil e elegível à autorização."
     }
   ],
   "links": [

@@ -133,7 +133,7 @@
         "Reportar apenas transações acima de USD 10.000 às autoridades"
       ],
       "correta": 1,
-      "explicacao": "A Rec. 15 do GAFI estabelece que os países devem licenciar/registrar VASPs e que esses devem implementar as mesmas obrigações de PLD/FT das instituições financeiras — KYC, monitoramento, comunicação de suspeitas, etc."
+      "explicacao": "A Recomendação 15 do GAFI exige que os países regulem e licenciem os VASPs (chamados no Brasil de PSAVs), obrigando-os a adotar regimes robustos de Prevenção à Lavagem de Dinheiro e Financiamento ao Terrorismo (PLD/FT), equivalentes aos do setor bancário (KYC, monitoramento e reporte)."
     },
     {
       "pergunta": "A Travel Rule (Rec. 16 do GAFI) obriga o VASP originador a transmitir ao VASP beneficiário:",
@@ -144,7 +144,7 @@
         "A hash da transação na blockchain"
       ],
       "correta": 1,
-      "explicacao": "A Travel Rule exige a transmissão de dados de identificação do originador (nome, conta/carteira, endereço ou documento) E do beneficiário (nome, conta/carteira). O Art. 44 da Res. BCB 520 implementa essa obrigação no Brasil."
+      "explicacao": "A Recomendação 16 (Travel Rule) determina a transmissão segura e imediata dos dados de identificação do originador (nome, CPF/CNPJ ou conta) e do beneficiário entre as pontas da transação. No Brasil, essa exigência foi normatizada pelo Art. 44 da Resolução BCB nº 520."
     },
     {
       "pergunta": "Na Abordagem Baseada em Risco (ABR), a due diligence reforçada é aplicada para:",
@@ -155,7 +155,7 @@
         "Somente para clientes pessoas jurídicas"
       ],
       "correta": 2,
-      "explicacao": "Na ABR, a due diligence reforçada é aplicada a situações de alto risco identificadas: PEPs, clientes de países em lista cinza/negra do GAFI, operações atípicas, produtos de alto risco como DeFi e privacidade. O grau de controle é proporcional ao risco — não uniforme."
+      "explicacao": "A ABR orienta que os controles regulatórios e de compliance devem ser proporcionais ao risco mensurado. Clientes classificados como Pessoas Expostas Politicamente (PEPs), jurisdições sob monitoramento intensificado do GAFI (listas cinza/negra) ou transações sem claro fundamento econômico exigem due diligence reforçada."
     },
     {
       "pergunta": "Qual é o status do Brasil em relação à implementação das normas do GAFI para VASPs após novembro de 2025?",
@@ -166,7 +166,7 @@
         "A regulação brasileira é de responsabilidade da CVM, não do BCB"
       ],
       "correta": 1,
-      "explicacao": "Com a publicação das Resoluções BCB 519, 520 e 521 em novembro/2025 (vigência fev/2026), o Brasil implementou um marco regulatório completo para PSAVs, incluindo licenciamento, requisitos de capital, PLD/FT, governança e Travel Rule — alinhado integralmente com os padrões do GAFI."
+      "explicacao": "Com a publicação do pacote de Resoluções BCB nº 519, 520 e 521 (com vigência iniciada em fevereiro de 2026), o Brasil consolidou seu marco regulatório completo, atendendo aos rigorosos critérios de licenciamento, capital, governança corporativa e regras de PLD/FT exigidos internacionalmente pelo GAFI."
     }
   ],
   "links": [

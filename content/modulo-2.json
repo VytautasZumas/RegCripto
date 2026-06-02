@@ -132,7 +132,7 @@
         "Stablecoin lastreada em dólar"
       ],
       "correta": 2,
-      "explicacao": "A Lei 14.478/2022 exclui expressamente da definição de ativo virtual: (I) moeda nacional e estrangeiras; (II) moeda eletrônica do SPB; (III) instrumentos de acesso a produtos/serviços específicos; (IV) representações de ativos com emissores regulados pela CVM. Saldos em contas de pagamento (Pix, carteiras digitais) são moeda eletrônica — não ativos virtuais."
+      "explicacao": "O Art. 3º exclui expressamente da definição de ativo virtual as moedas nacionais e estrangeiras, a moeda eletrônica (saldos em contas de pagamento reguladas pelo SPB/Pix), instrumentos que deem acesso a serviços específicos (utility tokens fechados) e ativos que representem valores mobiliários regulados pela CVM."
     },
     {
       "pergunta": "Uma empresa brasileira que mantém a custódia de Bitcoin de seus clientes (guarda as chaves privadas) é classificada como:",
@@ -143,7 +143,7 @@
         "Valor mobiliário, sujeita à CVM"
       ],
       "correta": 1,
-      "explicacao": "O Art. 5º, inciso IV da Lei 14.478/2022 inclui a 'custódia ou administração de ativos virtuais' como serviço de ativo virtual. Quem presta esse serviço em nome de terceiros é uma PSAV, sujeita às normas do BCB (Res. 519/520)."
+      "explicacao": "Nos termos do Art. 5º, inciso IV, da Lei nº 14.478/2022, a atividade de custódia ou administração de ativos virtuais em nome de terceiros configura um serviço especializado de ativo virtual, enquadrando a empresa obrigatoriamente como PSAV e sujeitando-a à tutela do Banco Central."
     },
     {
       "pergunta": "O Art. 11 da Lei 14.478/2022 determina que as PSAVs são 'pessoas obrigadas'. Isso significa que devem:",
@@ -154,7 +154,7 @@
         "Obrigatoriamente ter conta no Banco Central do Brasil"
       ],
       "correta": 2,
-      "explicacao": "Ser 'pessoa obrigada' no regime PLD/FT significa estar sujeito às obrigações da Lei 9.613/1998: identificação e verificação de clientes (KYC), monitoramento contínuo de operações, registro e retenção de dados, e comunicação de operações suspeitas ao COAF."
+      "explicacao": "A inclusão das PSAVs no Art. 11 da Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro) estabelece deveres regulatórios estritos de identificação de clientes, manutenção de registros cadastrais atualizados, monitoramento transacional e comunicação direta e confidencial de atividades suspeitas ao COAF."
     },
     {
       "pergunta": "A pirâmide normativa para regulação de PSAVs no Brasil é:",
@@ -165,7 +165,7 @@
         "Constituição Federal → CVM → BCB → Lei 14.478"
       ],
       "correta": 1,
-      "explicacao": "A pirâmide é: Lei 14.478/2022 (Marco Legal, emana do Congresso) → Decreto 11.563/2023 (Poder Executivo designa o BCB como regulador) → Res. BCB 519/520/521 (BCB detalha os requisitos operacionais). Cada nível emana do superior."
+      "explicacao": "A estrutura segue a hierarquia legal brasileira: a Lei 14.478/2022 cria o marco legal; o Decreto 11.563/2023 regulamenta a lei e delega a competência ao Banco Central; e o BCB edita as Resoluções nº 519, 520 e 521 para detalhar as diretrizes operacionais, de câmbio e de autorização."
     }
   ],
   "links": [

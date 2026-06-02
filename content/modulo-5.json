@@ -239,7 +239,7 @@
         "Edifício compartilhado com mais de uma empresa"
       ],
       "correta": 1,
-      "explicacao": "O Art. 2º, §6º da Res. BCB 519 é explícito: o endereço deve ser de uso efetivo e exclusivo da instituição. É vedada a indicação de coworking, escritório virtual ou espaço compartilhado como sede — exceto para empresas do mesmo conglomerado."
+      "explicacao": "O endereço da sede da SPSAV deve ser de uso efetivo, exclusivo e segregado, impossibilitando o uso de escritórios virtuais ou coworkings tradicionais por razões de fiscalização presencial, segurança institucional e custódia de dados. A única ressalva ocorre para empresas integrantes do mesmo conglomerado financeiro."
     },
     {
       "pergunta": "Qual das seguintes pessoas jurídicas NÃO pode exercer controle direto sobre uma SPSAV?",
@@ -250,7 +250,7 @@
         "Fundo de investimento"
       ],
       "correta": 3,
-      "explicacao": "O Art. 7º, §7º da Res. BCB 519 é categórico: 'Não são admitidos fundos de investimento como controladores ou integrantes de grupo de controle das instituições'. Fundos podem ter participação qualificada (sem controle), mas não podem controlar."
+      "explicacao": "O Art. 7º, §7º da Resolução BCB nº 519 veda a participação de fundos de investimento diretamente no grupo de controle da SPSAV devido à necessidade de identificação clara, direta e de responsabilização dos controladores finais perante o regulador. Fundos podem deter participações qualificadas, mas não o controle direto."
     },
     {
       "pergunta": "Um diretor de uma SPSAV é residente no exterior. Isso é:",
@@ -261,7 +261,7 @@
         "Permitido com autorização especial do BCB"
       ],
       "correta": 2,
-      "explicacao": "O Art. 11, inciso I da Res. BCB 519 é imperativo: 'ser residente no país, para os cargos de direção'. Não há exceção ou autorização especial — diretores devem ser residentes no Brasil."
+      "explicacao": "O Art. 11, inciso I, estabelece como requisito obrigatório para a investidura em cargos de direção executiva que o profissional seja residente no país, assegurando a aplicabilidade das responsabilidades civis e administrativas em território nacional."
     },
     {
       "pergunta": "Uma SPSAV tem seu pedido de autorização indeferido definitivamente. Em quanto tempo deve devolver os ativos dos clientes?",
@@ -272,7 +272,7 @@
         "90 dias ou na data acordada com cada cliente"
       ],
       "correta": 1,
-      "explicacao": "O Art. 18 da Res. BCB 519 determina que, após indeferimento definitivo, a SPSAV tem 30 dias para: cessar serviços, comunicar clientes, devolver ativos virtuais para instituições habilitadas indicadas pelos clientes, e devolver recursos financeiros para contas dos clientes."
+      "explicacao": "O Art. 18 da Resolução BCB nº 519 estipula o prazo rigoroso de 30 dias após a decisão definitiva de indeferimento para que a entidade interrompa a prestação de serviços e proceda à devolução integral de todos os recursos financeiros e ativos virtuais de titularidade dos clientes."
     },
     {
       "pergunta": "No processo em 2 fases da Res. BCB 519, a Fase 1 analisa principalmente:",
@@ -283,7 +283,7 @@
         "Infraestrutura de TI e governança corporativa"
       ],
       "correta": 1,
-      "explicacao": "O Art. 26, inciso I da Res. BCB 519 define a Fase 1: (a) comprovação de que a SPSAV estava em atividade na data de vigência; (b) reputação de controladores e participantes qualificados (Req. VI e Cap. V); (c) capital mínimo (Req. IX). A Fase 2 analisa os demais requisitos."
+      "explicacao": "A análise do BCB ocorre de forma faseada (Art. 26). A Fase 1 foca no 'filtro' institucional básico: a comprovação de atuação prévia (se aplicável), a idoneidade/reputação cadastral dos controladores e a integralização do capital mínimo exigido, postergando auditorias de sistemas complexos de TI para a Fase 2."
     }
   ],
   "links": [

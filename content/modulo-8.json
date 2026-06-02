@@ -188,7 +188,7 @@
         "Não — apenas PSAVs são obrigadas a declarar"
       ],
       "correta": 1,
-      "explicacao": "O limite declaratório da DeCripto (IN RFB 2.291/2025) é de R$35.000 mensais. Operações abaixo desse valor em um mês não precisam ser declaradas. Com R$20.000, a pessoa física está abaixo do limite e não tem obrigação de declarar naquele mês."
+      "explicacao": "A obrigatoriedade de reporte individual por pessoas físicas ou jurídicas residentes no Brasil que utilizem exchanges domiciliadas no exterior (ou realizem transações peer-to-peer) só é disparada se o montante total das operações mensais ultrapassar a franquia isenta de R$35.000."
     },
     {
       "pergunta": "Qual é a penalidade para uma pessoa jurídica (não-Simples) que entrega a DeCripto com atraso de 2 meses?",
@@ -199,7 +199,7 @@
         "3% do valor das operações"
       ],
       "correta": 2,
-      "explicacao": "Para pessoas jurídicas não-optantes pelo Simples Nacional, a multa por atraso na entrega da DeCripto é de R$1.500 por mês de atraso. Em 2 meses: 2 × R$1.500 = R$3.000. Para Simples Nacional: R$500/mês. Para PF: R$100/mês. A multa por omissão de informações é diferente: 3% do valor da operação (mínimo R$100)."
+      "explicacao": "A multa moratória por atraso na entrega da DeCripto para pessoas jurídicas não enquadradas no Simples Nacional é fixada em R$1.500 por mês ou fração de mês de atraso. A penalidade percentual (3%) incide sobre omissões de dados ou declarações incorretas, e não sobre o mero atraso temporal."
     },
     {
       "pergunta": "O CARF (Crypto-Asset Reporting Framework) da OCDE implementado pela DeCripto permite:",
@@ -210,7 +210,7 @@
         "Tributação uniforme de criptoativos em todos os países da OCDE"
       ],
       "correta": 1,
-      "explicacao": "O CARF é um padrão da OCDE que permite a troca automática de dados fiscais sobre criptoativos entre países signatários — análogo ao CRS para contas bancárias. Com o CARF, a RFB brasileira recebe automaticamente dados de brasileiros que operem em exchanges de países parceiros, e vice-versa, sem precisar de requisição judicial individual."
+      "explicacao": "O Crypto-Asset Reporting Framework (CARF) padroniza internacionalmente a coleta e o intercâmbio automatizado de informações tributárias relativas a criptoativos entre os fiscos dos países signatários, espelhando a sistemática globalmente bem-sucedida do Common Reporting Standard (CRS) voltada ao mercado financeiro tradicional."
     },
     {
       "pergunta": "A recepção de recompensas de staking é declarável na DeCripto?",
@@ -221,7 +221,7 @@
         "Sim — independentemente do valor"
       ],
       "correta": 2,
-      "explicacao": "A DeCripto inclui staking entre as operações declaráveis. Mas a obrigação de declarar está sujeita ao limite mensal de R$35.000. Se o total de operações (incluindo as recompensas de staking) no mês superar R$35.000, todas as operações daquele mês devem ser declaradas."
+      "explicacao": "O recebimento de proventos, rendimentos ou recompensas decorrentes de mecanismos de consenso (como staking, mineração ou airdrops) é considerado evento declarável na DeCripto. Se o somatório de todas as operações do contribuinte no mês de referência superar R$35.000, o staking deve constar detalhadamente no relatório."
     }
   ],
   "links": [

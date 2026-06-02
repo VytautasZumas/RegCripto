@@ -144,7 +144,7 @@
         "Decreto 11.563/2023"
       ],
       "correta": 2,
-      "explicacao": "A Resolução BCB 520/2025 (Arts. 4-10) define as 3 modalidades de SPSAV: intermediária, custodiante e corretora. A Lei 14.478/2022 define os tipos de serviços de ativos virtuais, e a Res. BCB 519 disciplina o processo de autorização."
+      "explicacao": "Enquanto a Lei define conceitualmente os 'serviços de ativos virtuais', é o detalhamento infralegal promovido pelos Arts. 4º ao 10 da Resolução BCB nº 520 que efetivamente tipifica e estrutura as três modalidades de licenças operacionais de SPSAVs vigentes no Brasil."
     },
     {
       "pergunta": "Uma SPSAV em operação em 2/2/2026 pode continuar operando durante o período de adequação? Qual é a condição?",
@@ -155,7 +155,7 @@
         "Sim, pode operar por 1 ano sem nenhuma obrigação adicional"
       ],
       "correta": 1,
-      "explicacao": "O Art. 88 da Res. BCB 520 permite que SPSAVs em operação continuem funcionando durante o período de adequação, mas devem protocolar o pedido de autorização em até 270 dias (≈30/10/2026). Após esse prazo sem protocolo: devem cessar atividades em até 30 dias adicionais."
+      "explicacao": "Trata-se da regra de transição estabelecida pelo Art. 88 da Resolução BCB nº 520. A empresa ganha a prerrogativa de operação temporária condicionada estritamente ao protocolo válido do pedido de autorização dentro da janela regulatória de 270 dias."
     },
     {
       "pergunta": "A Recomendação 15 do GAFI, implementada no Brasil via Lei 14.478/2022 e Res. BCB 520, exige que PSAVs tenham as mesmas obrigações de PLD/FT que:",
@@ -166,7 +166,7 @@
         "Corretoras de valores não-bancárias"
       ],
       "correta": 2,
-      "explicacao": "A Rec. 15 do GAFI (2019) estendeu as obrigações de PLD/FT dos VASPs ao mesmo padrão das instituições financeiras. No Brasil, isso foi implementado pela Lei 14.478/2022 (Art. 11, pessoas obrigadas) e pela Res. BCB 520 (Art. 44, referência à Circular BCB 3.978/2020)."
+      "explicacao": "O GAFI exige equivalência regulatória máxima para combater a assimetria regulatória: as PSAVs devem replicar os exatos padrões de KYC (conheça seu cliente), KYP (conheça seu parceiro), monitoramento e reporte aplicados aos bancos comerciais e demais instituições financeiras tradicionais."
     },
     {
       "pergunta": "Qual é o limite de transferência internacional com ativos virtuais para SPSAVs quando a contraparte não é IF autorizada a operar câmbio?",
@@ -177,7 +177,7 @@
         "US$ 500.000"
       ],
       "correta": 2,
-      "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterado pela Res. BCB 521) estabelece US$ 100.000 como limite para SPSAVs em operações com contraparte não autorizada a operar no câmbio. Corretoras de câmbio têm limite de US$ 500.000."
+      "explicacao": "Em perfeita harmonia com o Módulo 7 (Q2), o teto fixado pela Resolução BCB nº 521 que altera a Resolução BCB nº 277 limita as operações internacionais das SPSAVs com contrapartes não bancárias ao valor consolidado de US$100.000 por transação."
     },
     {
       "pergunta": "Qual o principal risco de uma SPSAV que não cumpre o Travel Rule até fevereiro de 2028?",
@@ -188,7 +188,7 @@
         "Bloqueio automático de transações pelo sistema do BCB"
       ],
       "correta": 2,
-      "explicacao": "O não cumprimento da Travel Rule após fevereiro de 2028 representa descumprimento da Rec. 16 do GAFI e do Art. 44 da Res. BCB 520, sujeitando a SPSAV a penalidades regulatórias, possível cancelamento de autorização e consequências internacionais na relação com outras PSAVs que exijam conformidade."
+      "explicacao": "Transcorrido o prazo final para as transações internacionais (fevereiro de 2028), o descumprimento sistemático da Travel Rule expõe a SPSAV a severos processos administrativos sancionadores por parte do Banco Central, além de isolá-la do ecossistema financeiro internacional."
     },
     {
       "pergunta": "A expressão 'Sociedade Prestadora de Serviços de Ativos Virtuais' no nome empresarial é:",
@@ -199,7 +199,7 @@
         "Recomendada, mas não exigida pela regulação"
       ],
       "correta": 1,
-      "explicacao": "O Art. 15, §1º da Res. BCB 520 é categórico: 'a expressão Sociedade Prestadora de Serviços de Ativos Virtuais é privativa de sociedades prestadoras de serviços de ativos virtuais'. Não apenas é obrigatória, como também é exclusiva — nenhuma outra empresa pode usar essa expressão."
+      "explicacao": "O Art. 15, §1º da Resolução BCB nº 520 institui o princípio da exclusividade e proteção ao investidor: o termo (ou a sigla SPSAV) deve constar obrigatoriamente da denominação social e seu uso é vedado a qualquer entidade que não detenha a devida outorga do Banco Central."
     },
     {
       "pergunta": "A DeCripto (IN RFB 2.291/2025) implementa qual padrão internacional?",
@@ -210,7 +210,7 @@
         "Basel III — normas prudenciais para criptoativos"
       ],
       "correta": 1,
-      "explicacao": "A IN RFB 2.291/2025 implementa o CARF (Crypto-Asset Reporting Framework) da OCDE — padrão de troca automática de informações fiscais sobre criptoativos entre países. Não confundir com o Travel Rule (padrão GAFI, implementado pela Res. BCB 520) ou o Comitê de Basileia (padrões bancários prudenciais)."
+      "explicacao": "É essencial não confundir os âmbitos de atuação: a Travel Rule do GAFI foca em PLD/FT e circula no Banco Central (Res. 520); a DeCripto é uma norma fiscal federal emitida pela Receita Federal para implementar estritamente as diretrizes do CARF da OCDE para fins de transparência tributária."
     },
     {
       "pergunta": "A Res. BCB 521/2025 altera qual(is) norma(s) do BCB?",
@@ -221,7 +221,7 @@
         "A Circular BCB 3.978/2020 (PLD/FT)"
       ],
       "correta": 1,
-      "explicacao": "A Res. BCB 521/2025 altera as três normas do mercado de câmbio e capitais internacionais: Res. BCB 277 (mercado de câmbio — insere o Título VIII-A sobre AV e o Anexo II-A do ACAM212), Res. BCB 278 (capitais estrangeiros — inclui crédito externo e IED em AV) e Res. BCB 279 (capitais brasileiros no exterior — inclui operações com AV)."
+      "explicacao": "A Resolução BCB nº 521 operou uma ampla reforma cambial sistêmica: introduziu o Título VIII-A na Resolução 277 (operações cambiais de AV), além de atualizar as Resoluções 278 (registro de capitais estrangeiros/IED via ativos virtuais) e 279 (declarações de capitais brasileiros detidos em ativos virtuais no exterior)."
     },
     {
       "pergunta": "Um fundo de venture capital quer investir em uma SPSAV. Qual estrutura é permitida?",
@@ -232,7 +232,7 @@
         "Nenhuma forma de participação de fundos é permitida em SPSAVs"
       ],
       "correta": 2,
-      "explicacao": "O Art. 7º, §7º da Res. BCB 519 proíbe fundos de investimento como controladores. Mas fundos podem ter participação qualificada (≥15% do capital votante, sem controle). Para exercer controle, o fundo precisaria constituir uma holding financeira com objeto social exclusivo de participação em IFs autorizadas pelo BCB — que então controlaria a SPSAV (Art. 8º, IV da Res. BCB 519)."
+      "explicacao": "Em consonância com as vedações de governança (Art. 7º, §7º da Res. 519), se o fundo de VC desejar ditar as decisões e deter o controle político efetivo da SPSAV, deverá obrigatoriamente estruturar e constituir uma holding financeira intermediária autorizada pelo Banco Central."
     },
     {
       "pergunta": "Qual é a penalidade para uma SPSAV que omite informações na DeCripto (pessoa jurídica não-Simples)?",
@@ -243,7 +243,7 @@
         "Cancelamento automático da autorização do BCB"
       ],
       "correta": 2,
-      "explicacao": "A IN RFB 2.291/2025 prevê duas penalidades distintas: (a) ATRASO: R$1.500/mês para PJ não-Simples; (b) OMISSÃO/INCORREÇÃO: 3% do valor da operação para PJ (mínimo R$100). Para PF: 1,5% do valor. A multa por omissão é potencialmente muito mais severa para empresas com grande volume de operações."
+      "explicacao": "Conforme a dosimetria de penalidades fiscais da Receita Federal na IN 2.291, a punição para a pessoa jurídica que presta dados inexatos, incompletos ou omite transações é calculada de forma proporcional e severa: 3% incidentes diretamente sobre o valor financeiro da operação objeto da omissão."
     }
   ],
   "links": [

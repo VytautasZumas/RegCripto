@@ -173,7 +173,7 @@
         "Staking de Ethereum em plataforma nacional"
       ],
       "correta": 2,
-      "explicacao": "O Art. 76-A, inciso IV inserido na Res. BCB 277 enquadra 'compra, venda ou troca de ativos virtuais referenciados em moeda fiduciária (stablecoins)' como operação cambial. O USDT é uma stablecoin atrelada ao dólar, portanto sua compra ou venda é operação cambial. A compra de Bitcoin com Reais (sem stablecoin) e transferências nacionais não são cambiais."
+      "explicacao": "De acordo com o Art. 76-A, inciso IV, da norma de câmbio alterada pela Resolução BCB nº 521, a compra, venda ou permuta de ativos virtuais referenciados em moedas fiduciárias estrangeiras (stablecoins como USDT, USDC) constitui operação de natureza cambial, sujeita às regras e encargos do mercado de câmbio regulado."
     },
     {
       "pergunta": "Qual é o limite de pagamento ou transferência internacional com ativos virtuais para uma SPSAV quando a contraparte não é IF autorizada a operar no câmbio?",
@@ -184,7 +184,7 @@
         "US$ 500.000 por operação"
       ],
       "correta": 2,
-      "explicacao": "O Art. 29, inciso IV da Res. BCB 277 (alterada pela 521) estabelece que SPSAVs têm limite de US$ 100.000 por pagamento ou transferência internacional quando a contraparte não é IF autorizada a operar no mercado de câmbio. Corretoras de câmbio têm limite de US$ 500.000. Bancos não têm limite específico nessas operações."
+      "explicacao": "O Art. 29, inciso IV da Resolução BCB nº 277 (com redação dada pela 521) estabelece limites operacionais para transferências internacionais: US$100.000 para SPSAVs, US$500.000 para corretoras de câmbio tradicionais, ficando os valores ilimitados restritos aos bancos múltiplos/comerciais autorizados."
     },
     {
       "pergunta": "Quando começa o reporte mensal obrigatório via ACAM212 (Art. 82-A)?",
@@ -195,7 +195,7 @@
         "1 de janeiro de 2027"
       ],
       "correta": 1,
-      "explicacao": "O Art. 6º, inciso I da Res. BCB 521 especifica que o Art. 82-A (reporte mensal ACAM212) entra em vigor em 4 de maio de 2026 — diferente da vigência geral de 2/2/2026. Isso deu às PSAVs 3 meses adicionais para preparar seus sistemas de reporte."
+      "explicacao": "Visando conceder prazo razoável para a adaptação sistêmica e homologação de layouts tecnológicos pelas instituições, o BCB diferiu a vigência específica do reporte obrigatório via sistema ACAM212 para 4/5/2026 (3 meses após a entrada em vigor geral das normas)."
     },
     {
       "pergunta": "Uma SPSAV recebe transferência de Bitcoin de uma carteira autocustodiada de um cliente. O que deve fazer?",
@@ -206,7 +206,7 @@
         "Comunicar ao COAF toda transferência de carteira autocustodiada"
       ],
       "correta": 2,
-      "explicacao": "O Art. 76-A, §5º exige que a PSAV identifique o proprietário da carteira autocustodiada e documente os processos de verificação de origem e destino. As transferências para/de carteiras autocustodiadas também devem ser reportadas mensalmente no ACAM212 (categoria 3 do Anexo II-A), incluindo identificação do proprietário."
+      "explicacao": "Interações com carteiras não-custodiais (unhosted wallets) demandam diligência adicional (Art. 76-A, §5º). A SPSAV deve identificar e vincular a propriedade da carteira externa ao seu cliente, registrar os metadados de compliance e reportar a operação mensalmente nas categorias de risco do anexo do sistema ACAM212."
     }
   ],
   "links": [

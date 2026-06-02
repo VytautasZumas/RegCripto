@@ -119,7 +119,7 @@
         "O número de clientes ativos"
       ],
       "correta": 2,
-      "explicacao": "A nova metodologia da Res. Conjunta CMN/BCB 14 e Res. BCB 517 baseia o capital mínimo nas atividades concretas exercidas pela instituição, não mais apenas no tipo de licença. Uma SPSAV que só faz custódia tem capital menor do que uma que também faz intermediação e câmbio."
+      "explicacao": "A regulação adota o princípio da proporcionalidade baseada no risco das atividades: o capital mínimo requerido é cumulativo e varia conforme os serviços prestados pela SPSAV (ex.: uma entidade que acumula custódia, intermediação e operações de câmbio terá uma exigência de capital superior àquela que atua puramente como intermediária)."
     },
     {
       "pergunta": "Qual é a faixa de capital mínimo para uma SPSAV no Brasil?",
@@ -130,7 +130,7 @@
         "R$ 50 milhões a R$ 100 milhões"
       ],
       "correta": 2,
-      "explicacao": "Conforme as Res. Conjunta CMN/BCB 14 e Res. BCB 517, o capital mínimo para SPSAVs varia de R$ 10,8 milhões (atividades mais simples) a R$ 37,2 milhões (combinação de todas as atividades permitidas). O BCB disponibiliza calculadora no seu site para o cálculo exato."
+      "explicacao": "Conforme os parâmetros definidos pela Resolução Conjunta CMN/BCB nº 14/2025 e pela Resolução BCB nº 517/2025, os limites mínimos de capital variam de R$10,8 milhões a R$37,2 milhões a depender do arranjo e da combinação de serviços executados pela instituição."
     },
     {
       "pergunta": "Sobre a integralização do capital social de uma SPSAV, o Art. 18 da Res. BCB 520 determina que:",
@@ -141,7 +141,7 @@
         "Pode ser integralizado com ativos virtuais"
       ],
       "correta": 1,
-      "explicacao": "O Art. 18, §1º da Res. BCB 520 é claro: 'a subscrição do capital em moeda corrente deve ser realizada mediante imediata integralização da totalidade do valor subscrito'. Não há prazo — o capital deve ser todo integralizado no ato da subscrição, em Reais."
+      "explicacao": "Alinhado às diretrizes de governança e liquidez corporativa do BCB, a integralização do capital social mínimo das SPSAVs deve ocorrer em moeda corrente nacional, de forma integral e sem diferimentos ou parcelamentos no ato da subscrição, não sendo permitida a integralização diretamente em ativos virtuais."
     }
   ],
   "links": [

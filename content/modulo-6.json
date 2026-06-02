@@ -267,7 +267,7 @@
         "Fazer intermediação, custódia e oferecer crédito aos clientes"
       ],
       "correta": 2,
-      "explicacao": "O Art. 10 define que a Corretora de Ativos Virtuais tem por objeto social a intermediação E a custódia. O Art. 85 exige separação interna entre as funções para mitigar conflitos de interesses. O Art. 12 veda a oferta de crédito a clientes para qualquer SPSAV."
+      "explicacao": "De acordo com os Arts. 10 e 85 da Resolução BCB nº 520, a modalidade de Corretora pode acumular intermediação e custódia, contanto que mantenha rigorosa segregação funcional e operacional interna para mitigar conflitos de interesse. A concessão de crédito direta a clientes permanece expressamente proibida."
     },
     {
       "pergunta": "A prova de reservas (Art. 30 da Res. BCB 520) serve para:",
@@ -278,7 +278,7 @@
         "Aprovar a listagem de novos ativos virtuais na plataforma"
       ],
       "correta": 1,
-      "explicacao": "A prova de reservas é um mecanismo criptográfico (geralmente via árvore de Merkle) que permite a qualquer cliente verificar se seus ativos estão custodiados, sem revelar saldos individuais de outros clientes. Foi criada como resposta a fraudes como a da FTX, onde ativos dos clientes foram usados para operações próprias."
+      "explicacao": "Regulamentada no pós-crise global de exchanges (ex.: colapso da FTX), a prova de reservas exige a demonstração matemática/criptográfica periódica (frequentemente via Árvores de Merkle) de que a SPSAV detém a custódia integral dos ativos declarados e de propriedade dos seus clientes."
     },
     {
       "pergunta": "A Travel Rule (Art. 44 e 89 da Res. BCB 520) exige transmissão de dados entre PSAVs. Qual é o prazo para implementação no mercado nacional?",
@@ -289,7 +289,7 @@
         "Sem prazo definido — a critério de cada SPSAV"
       ],
       "correta": 1,
-      "explicacao": "O Art. 89 da Res. BCB 520 define implementação em duas etapas: Etapa I (mercado nacional): 365 dias após 2/2/2026, i.e., aproximadamente fevereiro/2027. Etapa II (mercado internacional): mais 365 dias, i.e., fevereiro/2028. Até a conclusão, autodeclarações dos clientes são admitidas."
+      "explicacao": "O cronograma de implementação escalonada da Travel Rule (Art. 89) prevê duas etapas: a Etapa I (transações domésticas) deve ser integralmente implementada em 365 dias contados de fev/2026 (vencendo em fev/2027); e a Etapa II (transações internacionais) em até 730 dias (fev/2028)."
     },
     {
       "pergunta": "Quais ativos virtuais são expressamente vedados de oferta pelas SPSAVs (Art. 64, §2º, III)?",
@@ -300,7 +300,7 @@
         "Ativos não listados em bolsas estrangeiras reguladas"
       ],
       "correta": 2,
-      "explicacao": "O Art. 64, §2º, inciso III da Res. BCB 520 veda a oferta de ativos virtuais que contenham características de fragilidade, insegurança ou riscos que favoreçam lavagem de dinheiro e financiamento do terrorismo 'por meio de facilitação de anonimato ou dificuldade de identificação do titular'. Isso abrange moedas de privacidade como Monero (XMR), Zcash (ZEC) e similares."
+      "explicacao": "O regulador proíbe a listagem, negociação e custódia de moedas com foco estrito em privacidade (ex.: Monero, Zcash), cujas características nativas de ocultação e anonimização de transações impeçam ou inviabilizem o cumprimento das obrigações legais de PLD/FT e rastreabilidade blockchain."
     },
     {
       "pergunta": "A partir de quando as PSAVs são proibidas de operar com entidades não autorizadas (Art. 91)?",
@@ -311,7 +311,7 @@
         "1 de janeiro de 2027"
       ],
       "correta": 2,
-      "explicacao": "O Art. 91 da Res. BCB 520 estabelece que, a partir de 30 de outubro de 2026, as IFs e PSAVs ficam proibidas de realizar ou viabilizar operações no mercado de ativos virtuais com entidades não autorizadas ou sem pedido em análise no BCB."
+      "explicacao": "O Art. 91 fixa um 'marco de corte' comercial. Após 30/10/2026, com o encerramento do prazo de transição para protocolos de pedidos de autorização, as instituições financeiras e SPSAVs ficam proibidas de liquidar ou viabilizar transações com entidades atuantes no Brasil que não possuam processo de autorização ativo ou concedido."
     }
   ],
   "links": [
